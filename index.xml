@@ -6,8 +6,18 @@
     <description>Recent content on Dora&#39;s world</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2016. All rights reserved.</copyright>
-    <lastBuildDate>Mon, 12 Sep 2016 18:50:05 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 12 Sep 2016 20:19:44 +0530</lastBuildDate>
     <atom:link href="https://shubhamjain0594.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Contact Me</title>
+      <link>https://shubhamjain0594.github.io/contact/</link>
+      <pubDate>Mon, 12 Sep 2016 20:19:44 +0530</pubDate>
+      
+      <guid>https://shubhamjain0594.github.io/contact/</guid>
+      <description>&lt;p&gt;To contact me, you can email me at shubhamjain0594[at]gmail[dot]com.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Good deep learning posts</title>
