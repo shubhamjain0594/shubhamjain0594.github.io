@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dora&#39;s world</title>
+    <link>https://shubhamjain0594.github.io/</link>
+    <description>Recent content on Dora&#39;s world</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2016. All rights reserved.</copyright>
+    <lastBuildDate>Mon, 12 Sep 2016 18:50:05 +0530</lastBuildDate>
+    <atom:link href="https://shubhamjain0594.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Good deep learning posts</title>
+      <link>https://shubhamjain0594.github.io/post/good-deep-learning-blog-posts/</link>
+      <pubDate>Mon, 12 Sep 2016 18:50:05 +0530</pubDate>
+      
+      <guid>https://shubhamjain0594.github.io/post/good-deep-learning-blog-posts/</guid>
+      <description>
+
+&lt;p&gt;I am an avid reader and spend a lot of time commuting between home and work. I use this time to read blogs, news and papers. In this article I present some cool blog posts that I found and a very short summary. I will add more links as time permits. I have divided blog posts based on the audience it caters to, beginners and intermediate. I believe experts would dive directly into reading papers and won&amp;rsquo;t spend much time reading blogs. Also, are some really good non-technical articles as deserts and some random posts relating to AI as side dishes.&lt;/p&gt;
+
+&lt;h2 id=&#34;starters&#34;&gt;Starters&lt;/h2&gt;
+
+&lt;h3 id=&#34;a-brief-overview-of-deep-learning-ilya-sutskever&#34;&gt;A brief overview of deep learning - Ilya Sutskever&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://yyue.blogspot.in/2015/01/a-brief-overview-of-deep-learning.html&#34;&gt;This&lt;/a&gt; blog post by &lt;a href=&#34;http://www.cs.toronto.edu/~ilya/&#34;&gt;Ilya Sutskever&lt;/a&gt;, also a research director at &lt;a href=&#34;https://openai.com&#34;&gt;OpenAI&lt;/a&gt; is one of the must read posts for any one diving into deep learning for practical applications. It gives you an insight into why it works, some things you must keep in mind for practical purposes and if you love it, you can just dive into comments section for some cool conversation between &lt;a href=&#34;http://www.iro.umontreal.ca/~bengioy/yoshua_en/index.html&#34;&gt;Bengio&lt;/a&gt; and Ilya.&lt;/p&gt;
+
+&lt;h2 id=&#34;main-course&#34;&gt;Main Course&lt;/h2&gt;
+
+&lt;h2 id=&#34;desserts&#34;&gt;Desserts&lt;/h2&gt;
+
+&lt;h2 id=&#34;side-dishes&#34;&gt;Side dishes&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://shubhamjain0594.github.io/about/</link>
+      <pubDate>Mon, 12 Sep 2016 16:15:55 +0530</pubDate>
+      
+      <guid>https://shubhamjain0594.github.io/about/</guid>
+      <description>&lt;p&gt;I am Shubham Jain, working as a Deep Learning Scientist at &lt;a href=&#34;http://qure.ai&#34;&gt;Qure.ai&lt;/a&gt;. I graduated in Computer Science from &lt;a href=&#34;http://www.iitb.ac.in/&#34;&gt;IIT Bombay&lt;/a&gt; in 2016. This blog is to record and share my learnings, some good blog posts I come across and my experiences. I like reading, traveling and watching sports. You can get in touch with me through &lt;a href=&#34;https://twitter.com/shubhamjain0594&#34;&gt;twitter&lt;/a&gt; or &lt;a href=&#34;https://github.com/shubhamjain0594&#34;&gt;github&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
