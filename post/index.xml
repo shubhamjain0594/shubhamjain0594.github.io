@@ -30,6 +30,10 @@
 &lt;h2 id=&#34;desserts&#34;&gt;Desserts&lt;/h2&gt;
 
 &lt;h2 id=&#34;side-dishes&#34;&gt;Side dishes&lt;/h2&gt;
+
+&lt;h3 id=&#34;the-extraordinary-link-between-deep-neural-networks-and-the-nature-of-the-universe-henry-lin-harvard-and-max-tegmark-mit-https-www-technologyreview-com-s-602344-the-extraordinary-link-between-deep-neural-networks-and-the-nature-of-the-universe&#34;&gt;&lt;a href=&#34;https://www.technologyreview.com/s/602344/the-extraordinary-link-between-deep-neural-networks-and-the-nature-of-the-universe/&#34;&gt;The extraordinary link between deep neural networks and the nature of the universe - Henry Lin (Harvard) and Max Tegmark (MIT) &lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&amp;ldquo;Why deep learning works?&amp;rdquo; - This is one of the most intriguing questions for all involved in deep learning. We try to convince ourselves giving various answers for the question, similarity with the eye structure, universal approximator, etc. Our friends from MIT and Harvard have come up with a much better, mathematical but still a bit vague explanation for the success of deep learning, by comparing the laws used to predict physical phenomenons and how we can derive complete physics using few rules and parameters, thus explaining the whole world around us. For similar reasons, all visual information can be explained/derived from small parameters. The blog gives a beautiful insight into this relation and for more mathematical treatment one can look into the &lt;a href=&#34;http://arxiv.org/abs/1608.08225&#34;&gt;paper&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
