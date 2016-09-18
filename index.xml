@@ -6,8 +6,28 @@
     <description>Recent content on Dora&#39;s world</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2016. All rights reserved.</copyright>
-    <lastBuildDate>Mon, 12 Sep 2016 20:19:44 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 18 Sep 2016 14:54:14 +0530</lastBuildDate>
     <atom:link href="https://shubhamjain0594.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Cool NN and DL applications</title>
+      <link>https://shubhamjain0594.github.io/post/cool-nn-dl-applications/</link>
+      <pubDate>Sun, 18 Sep 2016 14:54:14 +0530</pubDate>
+      
+      <guid>https://shubhamjain0594.github.io/post/cool-nn-dl-applications/</guid>
+      <description>
+
+&lt;p&gt;Deep learning and Neural Networks have some really cool applications (ideas), and here are a few I have come across and are really tangential to mainstream applications.&lt;/p&gt;
+
+&lt;h2 id=&#34;defeating-image-obfuscation-with-deep-learning&#34;&gt;Defeating Image Obfuscation with Deep Learning&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1609.00408v2.pdf&#34;&gt;This&lt;/a&gt; paper from Cornell and University of Texas at Austin uses DL to reconstruct the images which are pixelated, blurred or encrypted using privacy-preserving photo (P3) algorithm. These techniques are many times used to hide the identities in some sensitive videos and photos in various media. These techniques are as well used in cryptography and hence current DL methods will push cryptographes to discover methods to ensure privacy of media can be maintained.&lt;/p&gt;
+
+&lt;h2 id=&#34;detecting-the-programming-language-of-source-code-snippets-using-machine-learning-and-neural-networks&#34;&gt;Detecting the Programming Language of Source Code Snippets using Machine Learning and Neural Networks&lt;/h2&gt;
+
+&lt;p&gt;I came across &lt;a href=&#34;http://danielheres.space/jekyll/update/2016/07/18/detecting-the-programming-language-of-source-code-snippets-using-machine-learning-and-neural-networks.html&#34;&gt;this&lt;/a&gt; blog post while searching for something related to compilation. I found this idea very appreciative and that can be implemented by multiple code engines like &lt;a href=&#34;codechef.com&#34;&gt;codechef&lt;/a&gt;, &lt;a href=&#34;hackerrank.com&#34;&gt;hackerrank&lt;/a&gt;, etc. It is a well thought and built approach and does not even use deep neural nets for the purpose. They have also hosted a &lt;a href=&#34;http://petiteprogrammer.com/&#34;&gt;trial platform&lt;/a&gt; where you can test their model.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Contact Me</title>
