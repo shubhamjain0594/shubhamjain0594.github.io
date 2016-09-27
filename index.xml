@@ -59,6 +59,10 @@
 
 &lt;h2 id=&#34;desserts&#34;&gt;Desserts&lt;/h2&gt;
 
+&lt;h3 id=&#34;hyperparameter-optimization-by-efficient-configuration-evaluation-http-www-argmin-net-2016-06-23-hyperband&#34;&gt;&lt;a href=&#34;http://www.argmin.net/2016/06/23/hyperband/&#34;&gt;Hyperparameter optimization by efficient configuration evaluation&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;One of the major challenges in deep learning is how you select the hyper-parameters for your training or for post processing in some cases. There are numerous techniques for hyper-parameter search, &lt;a href=&#34;http://www.jmlr.org/papers/volume13/bergstra12a/bergstra12a.pdf&#34;&gt;random-search optimization&lt;/a&gt; by Bergstra et.al&amp;rsquo;12 is one of the heavily used techniques. &lt;a href=&#34;https://papers.nips.cc/paper/4443-algorithms-for-hyper-parameter-optimization.pdf&#34;&gt;This&lt;/a&gt; paper by Bergstra, Bengio highlights some of the algorithms used. In this blog, author introduces a new algorithm known as Hyperband which uses random search algorithm and uses simple technique of divide and rule to optimize. The results by the optimization are promising and is a very simple algorithm to understand and implement. One can find the complete paper &lt;a href=&#34;https://people.eecs.berkeley.edu/~kjamieson/hyperband.html&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
 &lt;h2 id=&#34;side-dishes&#34;&gt;Side dishes&lt;/h2&gt;
 
 &lt;h3 id=&#34;the-extraordinary-link-between-deep-neural-networks-and-the-nature-of-the-universe-henry-lin-harvard-and-max-tegmark-mit-https-www-technologyreview-com-s-602344-the-extraordinary-link-between-deep-neural-networks-and-the-nature-of-the-universe&#34;&gt;&lt;a href=&#34;https://www.technologyreview.com/s/602344/the-extraordinary-link-between-deep-neural-networks-and-the-nature-of-the-universe/&#34;&gt;The extraordinary link between deep neural networks and the nature of the universe - Henry Lin (Harvard) and Max Tegmark (MIT) &lt;/a&gt;&lt;/h3&gt;
