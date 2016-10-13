@@ -26,6 +26,10 @@
 &lt;h2 id=&#34;detecting-the-programming-language-of-source-code-snippets-using-machine-learning-and-neural-networks&#34;&gt;Detecting the Programming Language of Source Code Snippets using Machine Learning and Neural Networks&lt;/h2&gt;
 
 &lt;p&gt;I came across &lt;a href=&#34;http://danielheres.space/jekyll/update/2016/07/18/detecting-the-programming-language-of-source-code-snippets-using-machine-learning-and-neural-networks.html&#34;&gt;this&lt;/a&gt; blog post while searching for something related to compilation. I found this idea very appreciative and that can be implemented by multiple code engines like &lt;a href=&#34;codechef.com&#34;&gt;codechef&lt;/a&gt;, &lt;a href=&#34;hackerrank.com&#34;&gt;hackerrank&lt;/a&gt;, etc. It is a well thought and built approach and does not even use deep neural nets for the purpose. They have also hosted a &lt;a href=&#34;http://petiteprogrammer.com/&#34;&gt;trial platform&lt;/a&gt; where you can test their model.&lt;/p&gt;
+
+&lt;h2 id=&#34;deep-gold&#34;&gt;Deep Gold&lt;/h2&gt;
+
+&lt;p&gt;Deep learning on images has been around for sometime right now and we have seen some really impressive results. Similarly for finding locations that may have minerals or oil, satellite images are used, they are judged by geologists, who give a conclusion. The author &lt;a href=&#34;https://hackernoon.com/deep-gold-using-convolution-networks-to-find-minerals-aafdb37355df#.bzdqahgbh&#34;&gt;here&lt;/a&gt; has developed a convolutional net that when trained, tells you the possible locations of a goldmine field. Though the results are not really impressive, but it has shown what more we can expect from DL in next few years. DL to find Oil is coming soon.&lt;/p&gt;
 </description>
     </item>
     
@@ -56,6 +60,10 @@
 &lt;p&gt;This blog post by &lt;a href=&#34;http://www.cs.toronto.edu/~ilya/&#34;&gt;Ilya Sutskever&lt;/a&gt;, also a research director at &lt;a href=&#34;https://openai.com&#34;&gt;OpenAI&lt;/a&gt; is one of the must read posts for any one diving into deep learning for practical applications. It gives you an insight into why it works, some things you must keep in mind for practical purposes and if you love it, you can just dive into comments section for some cool conversation between &lt;a href=&#34;http://www.iro.umontreal.ca/~bengioy/yoshua_en/index.html&#34;&gt;Bengio&lt;/a&gt; and Ilya.&lt;/p&gt;
 
 &lt;h2 id=&#34;main-course&#34;&gt;Main Course&lt;/h2&gt;
+
+&lt;h3 id=&#34;an-overview-of-gradient-descent-optimization-algorithms-http-sebastianruder-com-optimizing-gradient-descent&#34;&gt;&lt;a href=&#34;http://sebastianruder.com/optimizing-gradient-descent/&#34;&gt;An overview of gradient descent optimization algorithms&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;If you have just started deep learning and have run a model over MNIST, then this is a must read post. Last few years have seen number of optimization algorithms for learning weights of a neural net. From Gradient Descent to Adaboost, we are left with many choices. This post lists down all the optimization algorithms, some mathematics and intuition behind it and the default parameters you may like to play with. A very comprehensize survey, it is again a must read article if you are doing applied deep learning for something serious.&lt;/p&gt;
 
 &lt;h2 id=&#34;desserts&#34;&gt;Desserts&lt;/h2&gt;
 
