@@ -1,99 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Dora&#39;s world</title>
-    <link>https://shubhamjain0594.github.io/</link>
-    <description>Recent content on Dora&#39;s world</description>
+    <title>Experiences on Dora&#39;s world</title>
+    <link>https://shubhamjain0594.github.io/tags/experiences/</link>
+    <description>Recent content in Experiences on Dora&#39;s world</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2016. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 18 Sep 2016 14:54:14 +0530</lastBuildDate>
-    <atom:link href="https://shubhamjain0594.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Cool NN and DL applications</title>
-      <link>https://shubhamjain0594.github.io/post/cool-nn-dl-applications/</link>
-      <pubDate>Sun, 18 Sep 2016 14:54:14 +0530</pubDate>
-      
-      <guid>https://shubhamjain0594.github.io/post/cool-nn-dl-applications/</guid>
-      <description>
-
-&lt;p&gt;Deep learning and Neural Networks have some really cool applications (ideas), and here are a few I have come across and are really tangential to mainstream applications.&lt;/p&gt;
-
-&lt;h2 id=&#34;defeating-image-obfuscation-with-deep-learning-https-arxiv-org-pdf-1609-00408v2-pdf&#34;&gt;&lt;a href=&#34;https://arxiv.org/pdf/1609.00408v2.pdf&#34;&gt;Defeating Image Obfuscation with Deep Learning&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1609.00408v2.pdf&#34;&gt;This&lt;/a&gt; paper from Cornell and University of Texas at Austin uses DL to reconstruct the images which are pixelated, blurred or encrypted using privacy-preserving photo (P3) algorithm. These techniques are many times used to hide the identities in some sensitive videos and photos in various media. These techniques are as well used in cryptography and hence current DL methods will push cryptographes to discover methods to ensure privacy of media can be maintained.&lt;/p&gt;
-
-&lt;h2 id=&#34;detecting-the-programming-language-of-source-code-snippets-using-machine-learning-and-neural-networks-http-danielheres-space-jekyll-update-2016-07-18-detecting-the-programming-language-of-source-code-snippets-using-machine-learning-and-neural-networks-html&#34;&gt;&lt;a href=&#34;(http://danielheres.space/jekyll/update/2016/07/18/detecting-the-programming-language-of-source-code-snippets-using-machine-learning-and-neural-networks.html)&#34;&gt;Detecting the Programming Language of Source Code Snippets using Machine Learning and Neural Networks&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;I came across &lt;a href=&#34;http://danielheres.space/jekyll/update/2016/07/18/detecting-the-programming-language-of-source-code-snippets-using-machine-learning-and-neural-networks.html&#34;&gt;this&lt;/a&gt; blog post while searching for something related to compilation. I found this idea very appreciative and that can be implemented by multiple code engines like &lt;a href=&#34;codechef.com&#34;&gt;codechef&lt;/a&gt;, &lt;a href=&#34;hackerrank.com&#34;&gt;hackerrank&lt;/a&gt;, etc. It is a well thought and built approach and does not even use deep neural nets for the purpose. They have also hosted a &lt;a href=&#34;http://petiteprogrammer.com/&#34;&gt;trial platform&lt;/a&gt; where you can test their model.&lt;/p&gt;
-
-&lt;h2 id=&#34;deep-gold-https-hackernoon-com-deep-gold-using-convolution-networks-to-find-minerals-aafdb37355df-bzdqahgbh&#34;&gt;&lt;a href=&#34;https://hackernoon.com/deep-gold-using-convolution-networks-to-find-minerals-aafdb37355df#.bzdqahgbh&#34;&gt;Deep Gold&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;Deep learning on images has been around for sometime right now and we have seen some really impressive results. Similarly for finding locations that may have minerals or oil, satellite images are used, they are judged by geologists, who give a conclusion. The author &lt;a href=&#34;https://hackernoon.com/deep-gold-using-convolution-networks-to-find-minerals-aafdb37355df#.bzdqahgbh&#34;&gt;here&lt;/a&gt; has developed a convolutional net that when trained, tells you the possible locations of a goldmine field. Though the results are not really impressive, but it has shown what more we can expect from DL in next few years. DL to find Oil is coming soon.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Contact Me</title>
-      <link>https://shubhamjain0594.github.io/contact/</link>
-      <pubDate>Mon, 12 Sep 2016 20:19:44 +0530</pubDate>
-      
-      <guid>https://shubhamjain0594.github.io/contact/</guid>
-      <description>&lt;p&gt;To contact me, you can email me at shubhamjain0594[at]gmail[dot]com.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Good deep learning posts</title>
-      <link>https://shubhamjain0594.github.io/post/good-deep-learning-blog-posts/</link>
-      <pubDate>Mon, 12 Sep 2016 18:50:05 +0530</pubDate>
-      
-      <guid>https://shubhamjain0594.github.io/post/good-deep-learning-blog-posts/</guid>
-      <description>
-
-&lt;p&gt;I am an avid reader and spend a lot of time commuting between home and work. I use this time to read blogs, news and papers. In this article I present some cool blog posts that I found and a very short summary. I will add more links as time permits. I have divided blog posts based on the audience it caters to, beginners and intermediate. I believe experts would dive directly into reading papers and won&amp;rsquo;t spend much time reading blogs. Also, are some really good non-technical articles as deserts and some random posts relating to AI as side dishes.&lt;/p&gt;
-
-&lt;h2 id=&#34;starters&#34;&gt;Starters&lt;/h2&gt;
-
-&lt;h3 id=&#34;a-brief-overview-of-deep-learning-ilya-sutskever-http-yyue-blogspot-in-2015-01-a-brief-overview-of-deep-learning-html&#34;&gt;&lt;a href=&#34;http://yyue.blogspot.in/2015/01/a-brief-overview-of-deep-learning.html&#34;&gt;A brief overview of deep learning - Ilya Sutskever&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;This blog post by &lt;a href=&#34;http://www.cs.toronto.edu/~ilya/&#34;&gt;Ilya Sutskever&lt;/a&gt;, also a research director at &lt;a href=&#34;https://openai.com&#34;&gt;OpenAI&lt;/a&gt; is one of the must read posts for any one diving into deep learning for practical applications. It gives you an insight into why it works, some things you must keep in mind for practical purposes and if you love it, you can just dive into comments section for some cool conversation between &lt;a href=&#34;http://www.iro.umontreal.ca/~bengioy/yoshua_en/index.html&#34;&gt;Bengio&lt;/a&gt; and Ilya.&lt;/p&gt;
-
-&lt;h2 id=&#34;main-course&#34;&gt;Main Course&lt;/h2&gt;
-
-&lt;h3 id=&#34;an-overview-of-gradient-descent-optimization-algorithms-http-sebastianruder-com-optimizing-gradient-descent&#34;&gt;&lt;a href=&#34;http://sebastianruder.com/optimizing-gradient-descent/&#34;&gt;An overview of gradient descent optimization algorithms&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;If you have just started deep learning and have run a model over MNIST, then this is a must read post. Last few years have seen number of optimization algorithms for learning weights of a neural net. From Gradient Descent to Adaboost, we are left with many choices. This post lists down all the optimization algorithms, some mathematics and intuition behind it and the default parameters you may like to play with. A very comprehensize survey, it is again a must read article if you are doing applied deep learning for something serious.&lt;/p&gt;
-
-&lt;h2 id=&#34;desserts&#34;&gt;Desserts&lt;/h2&gt;
-
-&lt;h3 id=&#34;hyperparameter-optimization-by-efficient-configuration-evaluation-http-www-argmin-net-2016-06-23-hyperband&#34;&gt;&lt;a href=&#34;http://www.argmin.net/2016/06/23/hyperband/&#34;&gt;Hyperparameter optimization by efficient configuration evaluation&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;One of the major challenges in deep learning is how you select the hyper-parameters for your training or for post processing in some cases. There are numerous techniques for hyper-parameter search, &lt;a href=&#34;http://www.jmlr.org/papers/volume13/bergstra12a/bergstra12a.pdf&#34;&gt;random-search optimization&lt;/a&gt; by Bergstra et.al&amp;rsquo;12 is one of the heavily used techniques. &lt;a href=&#34;https://papers.nips.cc/paper/4443-algorithms-for-hyper-parameter-optimization.pdf&#34;&gt;This&lt;/a&gt; paper by Bergstra, Bengio highlights some of the algorithms used. In this blog, author introduces a new algorithm known as Hyperband which uses random search algorithm and uses simple technique of divide and rule to optimize. The results by the optimization are promising and is a very simple algorithm to understand and implement. One can find the complete paper &lt;a href=&#34;https://people.eecs.berkeley.edu/~kjamieson/hyperband.html&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;side-dishes&#34;&gt;Side dishes&lt;/h2&gt;
-
-&lt;h3 id=&#34;the-extraordinary-link-between-deep-neural-networks-and-the-nature-of-the-universe-henry-lin-harvard-and-max-tegmark-mit-https-www-technologyreview-com-s-602344-the-extraordinary-link-between-deep-neural-networks-and-the-nature-of-the-universe&#34;&gt;&lt;a href=&#34;https://www.technologyreview.com/s/602344/the-extraordinary-link-between-deep-neural-networks-and-the-nature-of-the-universe/&#34;&gt;The extraordinary link between deep neural networks and the nature of the universe - Henry Lin (Harvard) and Max Tegmark (MIT) &lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;&amp;ldquo;Why deep learning works?&amp;rdquo; - This is one of the most intriguing questions for all involved in deep learning. We try to convince ourselves giving various answers for the question, similarity with the eye structure, universal approximator, etc. Our friends from MIT and Harvard have come up with a much better, mathematical but still a bit vague explanation for the success of deep learning, by comparing the laws used to predict physical phenomenons and how we can derive complete physics using few rules and parameters, thus explaining the whole world around us. For similar reasons, all visual information can be explained/derived from small parameters. The blog gives a beautiful insight into this relation and for more mathematical treatment one can look into the &lt;a href=&#34;http://arxiv.org/abs/1608.08225&#34;&gt;paper&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;lists-to-refer&#34;&gt;Lists to refer&lt;/h2&gt;
-
-&lt;h3 id=&#34;deep-learning-papers-reading-roadmap-https-github-com-songrotek-deep-learning-papers-reading-roadmap&#34;&gt;&lt;a href=&#34;https://github.com/songrotek/Deep-Learning-Papers-Reading-Roadmap&#34;&gt;Deep Learning Papers Reading Roadmap&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;If you are starting into deep learning then this might be a great place to look at.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://shubhamjain0594.github.io/about/</link>
-      <pubDate>Mon, 12 Sep 2016 16:15:55 +0530</pubDate>
-      
-      <guid>https://shubhamjain0594.github.io/about/</guid>
-      <description>&lt;p&gt;I am Shubham Jain, working as a Deep Learning Scientist at &lt;a href=&#34;http://qure.ai&#34;&gt;Qure.ai&lt;/a&gt;. I graduated in Computer Science from &lt;a href=&#34;http://www.iitb.ac.in/&#34;&gt;IIT Bombay&lt;/a&gt; in 2016. This blog is to record and share my learnings, some good blog posts I come across and my experiences. I like reading, traveling and watching sports. You can get in touch with me through &lt;a href=&#34;https://twitter.com/shubhamjain0594&#34;&gt;twitter&lt;/a&gt; or &lt;a href=&#34;https://github.com/shubhamjain0594&#34;&gt;github&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
+    <lastBuildDate>Thu, 14 May 2015 15:48:11 +0530</lastBuildDate>
+    <atom:link href="https://shubhamjain0594.github.io/tags/experiences/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Growing up - A journey of life</title>
