@@ -6,8 +6,18 @@
     <description>Recent content on Dora&#39;s world</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2016. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 12 Nov 2016 18:13:08 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 13 Nov 2016 17:28:22 +0530</lastBuildDate>
     <atom:link href="https://shubhamjain0594.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The End of Deconvolutions</title>
+      <link>https://shubhamjain0594.github.io/post/the-end-of-deconv/</link>
+      <pubDate>Sun, 13 Nov 2016 17:28:22 +0530</pubDate>
+      
+      <guid>https://shubhamjain0594.github.io/post/the-end-of-deconv/</guid>
+      <description>&lt;p&gt;Deconvolutions were introduced in 2014 in &lt;a href=&#34;https://arxiv.org/abs/1411.4038&#34;&gt;&amp;ldquo;Fully Convolutional Networks for Semantic Segmentation&amp;rdquo;&lt;/a&gt; and has been extensively used in Semantic Segmentation and Generative Adversarial Networks. But its saturated now and the problems involved with it including checkerboard effects play a huge role in the error it produces. &lt;a href=&#34;http://distill.pub/2016/deconv-checkerboard/&#34;&gt;This&lt;/a&gt; blog post goes down the journey of deconvolutions and problems associated with it. It also suggests some solutions and how it can be replaced by better alternatives such as &lt;a href=&#34;https://arxiv.org/abs/1609.05158&#34;&gt;subpixel-cnn&lt;/a&gt;. If you are doing segmentation or working with generative networks, its time to move away from deconv.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Hugo Larochelle TEDx</title>
