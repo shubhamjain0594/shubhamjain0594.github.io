@@ -6,8 +6,28 @@
     <description>Recent content in Posts on Dora&#39;s world</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2016. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 13 Nov 2016 17:28:22 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 23 Nov 2016 17:38:15 +0530</lastBuildDate>
     <atom:link href="https://shubhamjain0594.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Deep Learning and AI videos</title>
+      <link>https://shubhamjain0594.github.io/post/deep-learning-ai-videos/</link>
+      <pubDate>Wed, 23 Nov 2016 17:38:15 +0530</pubDate>
+      
+      <guid>https://shubhamjain0594.github.io/post/deep-learning-ai-videos/</guid>
+      <description>
+
+&lt;p&gt;I like to hear things in my background while I am working. Music seems pleasure but sometimes also a distraction. At such points I play some good random videos in background. These help me in gaining new knowledge but at the same time does not distract me from work. I have compiled a small list of such videos in deep learning that I have heard so far and loved them. Will go on adding more.&lt;/p&gt;
+
+&lt;h3 id=&#34;plenary-panel-is-deep-learning-the-new-42-https-www-youtube-com-watch-v-furfdqtdavc&#34;&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=furfdqtdAvc&#34;&gt;Plenary Panel: Is Deep Learning the New 42?&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;This video is the best panel discussion in Deep learning I have come so far. The best points I loved about it were the discussion on &lt;a href=&#34;https://arxiv.org/abs/1606.08813&#34;&gt;reforms&lt;/a&gt; introduced in European Union on algorithmic decision making and right to explanation. Another thing is when they talk about how biological, psychological and other studies have influenced Computer Science. And apparently conv nets which are leading structures in deep learning and vision are inspired by the study in 1970s. So the study of brains, vision, psychology, etc. will be the major influencers of future technology. The panel also puts light into what should a PhD student starting in DL now must do and what not, some really hot research topics that needs attention.&lt;/p&gt;
+
+&lt;h3 id=&#34;artificial-intelligence-and-the-future-demis-hassabis-rsa-replay-https-www-youtube-com-watch-v-i3leg6argm8&#34;&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=i3lEG6aRGm8&#34;&gt;Artificial Intelligence and the Future | Demis Hassabis | RSA Replay&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Demis Hassabis takes on stage to explain AI and more specifically Artificial General Intelligence. 2016 has been the year of Alpha-Go and Hassabis explains what it is, and intuition into why does it work. I loved the part where he explains the special moves played by Alpha-Go that were out of the box, and more amazingly the author also points out the move by Lee Sedol (the opponent) in 4th game that made him the winner. A good watch if you want to know more about AGI and what future will look like.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>The End of Deconvolutions</title>
