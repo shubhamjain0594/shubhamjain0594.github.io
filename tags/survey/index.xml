@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Survey on Dora&#39;s world</title>
+    <link>https://shubhamjain0594.github.io/tags/survey/</link>
+    <description>Recent content in Survey on Dora&#39;s world</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2016. All rights reserved.</copyright>
+    <lastBuildDate>Sat, 10 Dec 2016 19:10:29 +0530</lastBuildDate>
+    <atom:link href="https://shubhamjain0594.github.io/tags/survey/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Tutorials in NIPS 2016</title>
+      <link>https://shubhamjain0594.github.io/post/nips-2016/</link>
+      <pubDate>Sat, 10 Dec 2016 19:10:29 +0530</pubDate>
+      
+      <guid>https://shubhamjain0594.github.io/post/nips-2016/</guid>
+      <description>
+
+&lt;p&gt;This is a collection of all material I was able to find for various tutorials of NIPS 2016 for people who were not able to attend it and are really excited to know whats going on and can&amp;rsquo;t wait for official videos and slides.&lt;/p&gt;
+
+&lt;h3 id=&#34;tutorial-crowdsourcing-beyond-label-generation&#34;&gt;Tutorial - Crowdsourcing: Beyond Label Generation&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.jennwv.com/projects/crowdtutorial.html&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;tutorial-variational-inference-foundations-and-modern-methods&#34;&gt;Tutorial - Variational Inference: Foundations and Modern Methods&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.cs.columbia.edu/~blei/talks/2016_NIPS_VI_tutorial.pdf&#34;&gt;Slides&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;tutorial-deep-reinforcement-learning-through-policy-optimization&#34;&gt;Tutorial - Deep Reinforcement Learning Through Policy Optimization&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://people.eecs.berkeley.edu/~pabbeel/nips-tutorial-policy-optimization-Schulman-Abbeel.pdf&#34;&gt;Slides&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;tutorial-nuts-and-bolts-of-building-applications-using-deep-learning-andrew-ng&#34;&gt;Tutorial - Nuts and Bolts of Building Applications using Deep Learning : Andrew Ng&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.dropbox.com/s/dyjdq1prjbs8pmc/NIPS2016%20-%20Pages%202-6%20(1).pdf&#34;&gt;Slides&lt;/a&gt;
+Video from talk by Andrew Ng on same talk but somewhere else is &lt;a href=&#34;https://www.youtube.com/watch?v=F1ka6a13S9I&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;tutorial-theory-and-algorithms-for-forecasting-non-stationary-time-series&#34;&gt;Tutorial - Theory and Algorithms for Forecasting Non-Stationary Time Series&lt;/h3&gt;
+
+&lt;h3 id=&#34;tutorial-natural-language-processing-for-computational-social-science&#34;&gt;Tutorial - Natural Language Processing for Computational Social Science&lt;/h3&gt;
+
+&lt;h3 id=&#34;tutorial-large-scale-optimization-beyond-stochastic-gradient-descent-and-convexity&#34;&gt;Tutorial - Large-Scale Optimization: Beyond Stochastic Gradient Descent and Convexity&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://suvrit.de/papers/vr_nips16_bach.pdf&#34;&gt;Slides - I&lt;/a&gt;
+&lt;a href=&#34;http://suvrit.de/papers/vr_nips16_sra.pdf&#34;&gt;Slides - II&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;tutorial-generative-adversarial-networks-ian-goodfellow&#34;&gt;Tutorial - Generative Adversarial Networks - Ian Goodfellow&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.iangoodfellow.com/slides/2016-12-04-NIPS.pdf&#34;&gt;Slides&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;tutorial-ml-foundations-and-methods-for-precision-medicine-and-healthcare&#34;&gt;Tutorial - ML Foundations and Methods for Precision Medicine and Healthcare&lt;/h3&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
