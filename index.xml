@@ -6,8 +6,78 @@
     <description>Recent content on Dora&#39;s world</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2016. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 07 May 2017 13:40:33 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 26 May 2017 00:14:56 +0530</lastBuildDate>
     <atom:link href="https://shubhamjain0594.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Glimpses of Re-Work Deep Learning Summit - Singapore, 2017</title>
+      <link>https://shubhamjain0594.github.io/post/glimpses-of-rework-deep-learning-2017/</link>
+      <pubDate>Fri, 26 May 2017 00:14:56 +0530</pubDate>
+      
+      <guid>https://shubhamjain0594.github.io/post/glimpses-of-rework-deep-learning-2017/</guid>
+      <description>&lt;p&gt;Last week of April 2017, I was attending &lt;a href=&#34;https://re-work.co/events/deep-learning-summit-singapore-april-2017&#34;&gt;Re-work Deep Learning Summit&lt;/a&gt; in Singapore. I was representing Qure.ai and speaking about some of the work we have been doing in this field. The conference had speakers from &lt;a href=&#34;https://deepmind.com&#34;&gt;Google Deepmind&lt;/a&gt;, &lt;a href=&#34;http://research.baidu.com/silicon-valley-ai-lab/&#34;&gt;Baidu Silicon Valley AI Lab&lt;/a&gt;, &lt;a href=&#34;http://facebook.com&#34;&gt;Facebook&lt;/a&gt;; startups such as &lt;a href=&#34;http://www.kata.ai&#34;&gt;Kata.ai&lt;/a&gt;, &lt;a href=&#34;http://www.smartcow.ai&#34;&gt;SmartCow.ai&lt;/a&gt;; investor firms such as &lt;a href=&#34;https://www.zeroth.ai&#34;&gt;Zeroth.ai&lt;/a&gt;, etc. In this post, I will introduce to you about all the impressive ideas I learned about in the conference.&lt;/p&gt;
+
+&lt;p&gt;In a talk demonstrating use-case of &lt;a href=&#34;https://intl.aliyun.com&#34;&gt;PAI - Platform for AI&lt;/a&gt; via AliMe, two ideas that caught me up where:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Lazy Multiplication for Communication Optimization in Cloud&lt;/li&gt;
+&lt;li&gt;Beam Search Decoders for Seq2Seq models&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In another talk by &lt;a href=&#34;https://www.linkedin.com/in/crischenli/&#34;&gt;Li Chen&lt;/a&gt; on Datacenter-Scale Deep Learning, I learned that&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Tensorflow uses gRPC which is quite slow for tensor communication across the network. This &lt;a href=&#34;https://github.com/tensorflow/tensorflow/issues/6116&#34;&gt;issue&lt;/a&gt; highlights the problem&lt;/li&gt;
+&lt;li&gt;This can be solved by augmenting tensorflow with &lt;a href=&#34;https://www.microsoft.com/en-us/research/wp-content/uploads/2016/11/rdma_sigcomm2016.pdf&#34;&gt;RDMA transport layer protocol over RoCE&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This insight was useful to understand that open-sourced tensorflow might have a lot of suboptimal code pieces. Small changes like mentioned, can lead to speed up of more than 6x. Also, it might be the case that internally Google uses a different version of tensorflow than what is open sourced.&lt;/p&gt;
+
+&lt;p&gt;One of the reassuring ideas I encountered is of unsupervised pre-training. Initializing the weights of the network using unsupervised learning. This for further emphasized by &lt;a href=&#34;https://www.linkedin.com/in/vikramanksingh&#34;&gt;Vikramank Singh&lt;/a&gt; from Facebook in his talk on NLP in Deep Learning. &lt;a href=&#34;http://www.socher.org/index.php/Main/SemanticCompositionalityThroughRecursiveMatrix-VectorSpaces&#34;&gt;Semantic Compositionality through recursive matrix-vector spaces&lt;/a&gt; mentioned by Vikramank was pretty impressive, as it goes beyond word vectors towards word matrices.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/in/yardstick17/&#34;&gt;Amit Kushwaha&lt;/a&gt;, Zomato explained about their work in assessment of image aesthetics using &lt;a href=&#34;https://arxiv.org/abs/1406.4729&#34;&gt;Spatial Pyramid Pooling&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/in/anuroopsriram/&#34;&gt;Anuroop Sriram&lt;/a&gt;, Baidu SVAIL gave some pretty interesting ideas on End-to-End Speech Recognition. Some interesting concepts introduced included&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;SortaGrad Layer&lt;/li&gt;
+&lt;li&gt;CTC or Connectionist Temporal Classification Loss&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The details about it can be found in &lt;a href=&#34;https://arxiv.org/pdf/1512.02595.pdf&#34;&gt;this&lt;/a&gt; paper. Another idea he mentioned is of &lt;a href=&#34;https://arxiv.org/pdf/1607.05666.pdf&#34;&gt;per-channel energy normalization&lt;/a&gt; to improve robustness to loudness variation.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.ritchieng.com&#34;&gt;Ritchie Ng&lt;/a&gt; introduced us to the idea of Hyperparameter Optimization using LSTMs. It is a work his team is going to publish in coming months. It can help us get rid of scheduling LR, momentum, etc. without compromising on accuracy or speed of convergence.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/in/brian-cheung-79480779/&#34;&gt;Brian Cheung&lt;/a&gt;, Ph.D. student at UC Berkeley presented his work in relation to adversarial component analysis&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Adversarial Independent Component Analysis to improve training of autoencoders&lt;/li&gt;
+&lt;li&gt;Domain adaptation as adversarial problem&lt;/li&gt;
+&lt;li&gt;Overfitting as adversarial problem&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This work will be published soon. Another &lt;a href=&#34;https://arxiv.org/abs/1611.09430&#34;&gt;work&lt;/a&gt; Brian has published is an architecture for attention models which works very similar to fovea in our eyes for image sampling.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/in/jeffreydf/&#34;&gt;Jeffrey De Fauw&lt;/a&gt;, Research Engineer at Deepmind gave us a peek into their work via &lt;a href=&#34;https://www.kaggle.com/c/diabetic-retinopathy-detection&#34;&gt;Diabetic Retinopathy challenge&lt;/a&gt; hosted on Kaggle in 2016. Few interesting things I noticed from his presentation regarding Deepmind and his project in particular:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;They spend a good time analyzing the data, cases where model fails and preprocessing. I believe this is the key take away - rather than trying newer models and fancier architectures, more time must be spent on data and error analytics.&lt;/li&gt;
+&lt;li&gt;Oversampling is not same as loss weights&lt;/li&gt;
+&lt;li&gt;One of the really cool findings of data analytics was, the camera used for taking photos of an eye can itself produce some artifacts. But these artifacts will be at the same position for both left and right eye. So training the net with an input as a six-channel image (3-channels per eye) will lead to better accuracy.&lt;/li&gt;
+&lt;li&gt;Using &lt;a href=&#34;https://arxiv.org/abs/1608.04802&#34;&gt;non-decomposable objective&lt;/a&gt; functions for measuring loss&lt;/li&gt;
+&lt;li&gt;Log-max ensembling rather than simply majority vote&lt;/li&gt;
+&lt;li&gt;Using dropouts during test, inspiration from &lt;a href=&#34;http://biorxiv.org/content/early/2016/10/28/084210&#34;&gt;this&lt;/a&gt; paper&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://papernot.fr&#34;&gt;Nicolas Papernot&lt;/a&gt;, Google Ph.D. Fellow in Security presented his work in Security and Privacy in Machine Learning. &lt;a href=&#34;http://www.cleverhans.io/about/&#34;&gt;Cleverhans&lt;/a&gt; is an open-source library for benchmarking the vulnerability of machine learning models to adversarial examples. Its created by &lt;a href=&#34;http://www.iangoodfellow.com&#34;&gt;Ian Goodfellow&lt;/a&gt;, Research Scientist at OpenAI and Nicolas.&lt;/p&gt;
+
+&lt;p&gt;My talk was on how important is to build trust with doctors for deep learning models in medical imaging. And few approaches we are trying at &lt;a href=&#34;www.qure.ai&#34;&gt;Qure.ai&lt;/a&gt;, results we have obtained and the future directions. Another idea my friend &lt;a href=&#34;https://www.linkedin.com/in/yapjiaqing/&#34;&gt;Jia Qing Yap&lt;/a&gt;, Executive Lead and Deep Learning Engineer at OpenSourceSDC was of &lt;a href=&#34;https://arxiv.org/abs/1704.05776&#34;&gt;recurrent rolling convolutions&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;It was a great experience, thanks to Re-work team for inviting me. You must checkout &lt;a href=&#34;https://re-work.co/events/deep-learning-summit-montreal-canada-track1-2017&#34;&gt;Re-Work DL Summit Montreal&lt;/a&gt;. The lineup is super awesome.&lt;/p&gt;
+
+&lt;p&gt;For any comments, suggestions or appreciations tweet &lt;a href=&#34;https://twitter.com/shubhamjain0594&#34;&gt;@shubhamjain0594&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Memories and Learnings from my 1st year in IIT</title>
