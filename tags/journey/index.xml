@@ -7,7 +7,9 @@
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2016. All rights reserved.</copyright>
     <lastBuildDate>Sat, 12 Nov 2016 18:13:08 +0530</lastBuildDate>
-    <atom:link href="https://shubhamjain0594.github.io/tags/journey/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://shubhamjain0594.github.io/tags/journey/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Hugo Larochelle TEDx</title>
@@ -15,13 +17,7 @@
       <pubDate>Sat, 12 Nov 2016 18:13:08 +0530</pubDate>
       
       <guid>https://shubhamjain0594.github.io/post/hugo-larochelle-ted/</guid>
-      <description>&lt;p&gt;This TED talk takes you through the journey of Deep Learning in last ten years and its amazing to see how it has evolved from a time when neural nets were not trusted and there were just a few countable people working, to today when there are so many people that you can find 4 research groups working on a similar idea at the end of the day. Pretty insightful and interesting and in a way it shows how a new technology comes into play and we should keep looking for small kicks, they maybe the thing of the future.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.dmi.usherb.ca/~larocheh/index_en.html&#34;&gt;Hugo Larochelle&lt;/a&gt; is a Research Scientist at Twitter and an Assistant Professor at the Université de Sherbrooke (UdeS). Before 2011, he spent two years in the machine learning group at the University of Toronto, as a postdoctoral fellow under the supervision of Geoffrey Hinton. He obtained his Ph.D. at Université de Montréal, under the supervision of Yoshua Bengio. He is the recipient of two Google Faculty Awards. His professional involvement includes associate editor for the IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), member of the editorial board of the Journal of Artificial Intelligence Research (JAIR) and program chair for the International Conference on Learning Representations (ICLR) of 2015, 2016 and 2017.&lt;/p&gt;
-
-&lt;p&gt;Source: &lt;a href=&#34;https://www.youtube.com/watch?v=dz_jeuWx3j0&#34;&gt;Youtube&lt;/a&gt;
-Video Link: &lt;a href=&#34;https://www.youtube.com/watch?v=dz_jeuWx3j0&#34;&gt;https://www.youtube.com/watch?v=dz_jeuWx3j0&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>This TED talk takes you through the journey of Deep Learning in last ten years and its amazing to see how it has evolved from a time when neural nets were not trusted and there were just a few countable people working, to today when there are so many people that you can find 4 research groups working on a similar idea at the end of the day. Pretty insightful and interesting and in a way it shows how a new technology comes into play and we should keep looking for small kicks, they maybe the thing of the future.</description>
     </item>
     
   </channel>

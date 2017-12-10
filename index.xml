@@ -7,7 +7,9 @@
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2016. All rights reserved.</copyright>
     <lastBuildDate>Wed, 15 Nov 2017 12:00:00 +0530</lastBuildDate>
-    <atom:link href="https://shubhamjain0594.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://shubhamjain0594.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Contributions so far</title>
@@ -15,41 +17,7 @@
       <pubDate>Wed, 15 Nov 2017 12:00:00 +0530</pubDate>
       
       <guid>https://shubhamjain0594.github.io/work/</guid>
-      <description>
-
-&lt;h2 id=&#34;real-time-air-quality-monitoring-network-2015-16-iit-bombay:ed2ee6169ef11d4bbd8f2de71eba9b2c&#34;&gt;Real-Time Air Quality Monitoring Network, 2015-16, IIT Bombay&lt;/h2&gt;
-
-
-&lt;div class=&#34;pure-u-1&#34;&gt;
-  &lt;img class=&#34;pure-img&#34; src=&#34;https://shubhamjain0594.github.io/img/work/20150914_233922.jpg&#34; alt=&#34;Building Real-Time Air Quality Monitors&#34;&gt;
-&lt;/div&gt;
-
-
-&lt;p&gt;I developed a low-cost air quality monitoring network of sensors during my undergraduate thesis. This project was funded by &lt;a href=&#34;http://dil.berkeley.edu/technology-portfolio/dil-explore/&#34;&gt;Development Impact Lab, UC Berkeley&lt;/a&gt; and was done under the guidance of &lt;a href=&#34;http://www.cse.iitb.ac.in/silmaril/br/doku.php&#34;&gt;Prof. Bhaskaran Raman&lt;/a&gt;, CSE Dept., IIT Bombay. I collaborated with &lt;a href=&#34;http://bets.cs.berkeley.edu/&#34;&gt;Ph.D. students in UC Berkeley&lt;/a&gt; and Professors in &lt;a href=&#34;http://www.cese.iitb.ac.in/people/facinfo.php?id=vsethi&#34;&gt;Environmental Science&lt;/a&gt; and &lt;a href=&#34;https://www.linkedin.com/in/jitendra-shah-07b2094/&#34;&gt;Geographic Information Systems&lt;/a&gt; at IIT Bombay across different phases of the project. During the course of the project, we built hardware and drivers to measure and transmit data, backend server exposing secured APIs to record and serve data, applications built over these APIs for consuming the generated data and lastly, we designed validation experiments to compare our sensors alongside the standard monitors used by the government agencies.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.dylosproducts.com/ornodcproair.html&#34;&gt;Dylos Sensors&lt;/a&gt; were used with &lt;a href=&#34;https://www.raspberrypi.org/products/raspberry-pi-1-model-b/&#34;&gt;Raspberry Pi&lt;/a&gt; and &lt;a href=&#34;http://www.rhydolabz.com/wireless-gsm-gprs-c-130_185/sim-900-gsmgprs-module-p-969.html&#34;&gt;GPRS board&lt;/a&gt;. The drivers on the raspberry pi were built over python and &lt;a href=&#34;https://github.com/SoftwareDefinedBuildings/smap&#34;&gt;sMAP&lt;/a&gt;, implementation can be found &lt;a href=&#34;https://github.com/dhruti96shah/AirQualityMonitoring&#34;&gt;here&lt;/a&gt;. The backend APIs were built using &lt;a href=&#34;https://www.djangoproject.com/&#34;&gt;Django&lt;/a&gt; over &lt;a href=&#34;https://github.com/BTrDB&#34;&gt;Berkeley Tree Database&lt;/a&gt; and &lt;a href=&#34;https://github.com/gtfierro/giles2&#34;&gt;Giles&lt;/a&gt;. The implementation of the backend can be found &lt;a href=&#34;https://github.com/shankari/Real-Time-Air-Quality-Sensoring-Network&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The project was presented to then Hon. Minister of Environment, Mr. Prakash Javadekar via &lt;a href=&#34;http://iitbaa-gbf.com/&#34;&gt;IIT Bombay Global Business Forum 2015&lt;/a&gt;. Presentations, Reports and Articles published in relation to the project are listed below:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://amplab.cs.berkeley.edu/enabling-air-quality-analysis-using-berkeley-software/&#34;&gt;Enabling air quality analysis using Berkeley software&lt;/a&gt; - By K. Shankari, Amplab, UC Berkeley&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://amplab.cs.berkeley.edu/bras-update-air-quality-graphs-and-twitter-feed/&#34;&gt;BRAS update: Air quality graphs and twitter feed&lt;/a&gt; - By K. Shankari, Amplab, UC Berkeley&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://twitter.com/raqmniitb&#34;&gt;RAQMN Twitter Channel&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://drive.google.com/open?id=0BwIYmc6VHuwhOEo1UDNPQnpNd1V6b0RZUGRFZlVxNERScmZF&#34;&gt;Project Report&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://drive.google.com/open?id=1zSG9ACQcN4D22vZkyvSwRhY164-5ST1xqobdeEiR2xY&#34;&gt;IITBAA GBF 2015 Presentation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://drive.google.com/open?id=1PXKFrf1XnFhm0Qxv92xDreDl6p8PyXAMN4vsAkWURi4&#34;&gt;Project Presentation&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;comparison-of-evolutionary-strategies-for-othello-iit-bombay:ed2ee6169ef11d4bbd8f2de71eba9b2c&#34;&gt;Comparison of Evolutionary Strategies for Othello, IIT Bombay&lt;/h2&gt;
-
-&lt;h2 id=&#34;kaggle-ultrasound-nerve-segmentation-challenge-qure-ai:ed2ee6169ef11d4bbd8f2de71eba9b2c&#34;&gt;Kaggle Ultrasound Nerve Segmentation Challenge, Qure.ai&lt;/h2&gt;
-
-&lt;h2 id=&#34;interpreting-neural-networks-qure-ai:ed2ee6169ef11d4bbd8f2de71eba9b2c&#34;&gt;Interpreting Neural Networks, Qure.ai&lt;/h2&gt;
-
-&lt;h2 id=&#34;open-source-chest-x-ray-diagnostic-solution-self-project:ed2ee6169ef11d4bbd8f2de71eba9b2c&#34;&gt;Open Source Chest X-Ray Diagnostic Solution, Self Project&lt;/h2&gt;
-
-&lt;h2 id=&#34;halite-and-hack-man-self-project:ed2ee6169ef11d4bbd8f2de71eba9b2c&#34;&gt;Halite and Hack-man, Self Project&lt;/h2&gt;
-</description>
+      <description>Interpreting Neural Networks, Qure.ai  Interpretability of neural networks is a major challenge and is as well an integral component of the Chest X-Rays diagnostic solution at Qure.ai. I developed an internal library implementing various papers on interpretability to generate heatmaps and ensuring that these algorithms are compatible with all the models being developed. Our paper, in regards to this work, was presented in RSNA 2017 which is the largest radiology conference in the world with 50k+ attendees.</description>
     </item>
     
     <item>
@@ -58,74 +26,7 @@
       <pubDate>Fri, 26 May 2017 00:14:56 +0530</pubDate>
       
       <guid>https://shubhamjain0594.github.io/post/glimpses-of-rework-deep-learning-2017/</guid>
-      <description>&lt;p&gt;Last week of April 2017, I was attending &lt;a href=&#34;https://re-work.co/events/deep-learning-summit-singapore-april-2017&#34;&gt;Re-work Deep Learning Summit&lt;/a&gt; in Singapore. I was representing Qure.ai and speaking about some of the work we have been doing in this field. The conference had speakers from &lt;a href=&#34;https://deepmind.com&#34;&gt;Google Deepmind&lt;/a&gt;, &lt;a href=&#34;http://research.baidu.com/silicon-valley-ai-lab/&#34;&gt;Baidu Silicon Valley AI Lab&lt;/a&gt;, &lt;a href=&#34;http://facebook.com&#34;&gt;Facebook&lt;/a&gt;; startups such as &lt;a href=&#34;http://www.kata.ai&#34;&gt;Kata.ai&lt;/a&gt;, &lt;a href=&#34;http://www.smartcow.ai&#34;&gt;SmartCow.ai&lt;/a&gt;; investor firms such as &lt;a href=&#34;https://www.zeroth.ai&#34;&gt;Zeroth.ai&lt;/a&gt;, etc. In this post, I will introduce to you about all the impressive ideas I learned about in the conference.&lt;/p&gt;
-
-
-&lt;div class=&#34;pure-u-1&#34;&gt;
-  &lt;img class=&#34;pure-img&#34; src=&#34;https://shubhamjain0594.github.io/img/re-work.jpg&#34; alt=&#34;Building Models you can Trust&#34;&gt;
-&lt;/div&gt;
-
-
-&lt;p&gt;In a talk demonstrating use-case of &lt;a href=&#34;https://intl.aliyun.com&#34;&gt;PAI - Platform for AI&lt;/a&gt; via AliMe, two ideas that caught me up where:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Lazy Multiplication for Communication Optimization in Cloud&lt;/li&gt;
-&lt;li&gt;Beam Search Decoders for Seq2Seq models&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;In another talk by &lt;a href=&#34;https://www.linkedin.com/in/crischenli/&#34;&gt;Li Chen&lt;/a&gt; on Datacenter-Scale Deep Learning, I learned that&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Tensorflow uses gRPC which is quite slow for tensor communication across the network. This &lt;a href=&#34;https://github.com/tensorflow/tensorflow/issues/6116&#34;&gt;issue&lt;/a&gt; highlights the problem&lt;/li&gt;
-&lt;li&gt;This can be solved by augmenting tensorflow with &lt;a href=&#34;https://www.microsoft.com/en-us/research/wp-content/uploads/2016/11/rdma_sigcomm2016.pdf&#34;&gt;RDMA transport layer protocol over RoCE&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This insight was useful to understand that open-sourced tensorflow might have a lot of suboptimal code pieces. Small changes like mentioned, can lead to speed up of more than 6x. Also, it might be the case that internally Google uses a different version of tensorflow than what is open sourced.&lt;/p&gt;
-
-&lt;p&gt;One of the reassuring ideas I encountered is of unsupervised pre-training. Initializing the weights of the network using unsupervised learning. This for further emphasized by &lt;a href=&#34;https://www.linkedin.com/in/vikramanksingh&#34;&gt;Vikramank Singh&lt;/a&gt; from Facebook in his talk on NLP in Deep Learning. &lt;a href=&#34;http://www.socher.org/index.php/Main/SemanticCompositionalityThroughRecursiveMatrix-VectorSpaces&#34;&gt;Semantic Compositionality through recursive matrix-vector spaces&lt;/a&gt; mentioned by Vikramank was pretty impressive, as it goes beyond word vectors towards word matrices.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/in/yardstick17/&#34;&gt;Amit Kushwaha&lt;/a&gt;, Zomato explained about their work in assessment of image aesthetics using &lt;a href=&#34;https://arxiv.org/abs/1406.4729&#34;&gt;Spatial Pyramid Pooling&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/in/anuroopsriram/&#34;&gt;Anuroop Sriram&lt;/a&gt;, Baidu SVAIL gave some pretty interesting ideas on End-to-End Speech Recognition. Some interesting concepts introduced included&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;SortaGrad Layer&lt;/li&gt;
-&lt;li&gt;CTC or Connectionist Temporal Classification Loss&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The details about it can be found in &lt;a href=&#34;https://arxiv.org/pdf/1512.02595.pdf&#34;&gt;this&lt;/a&gt; paper. Another idea he mentioned is of &lt;a href=&#34;https://arxiv.org/pdf/1607.05666.pdf&#34;&gt;per-channel energy normalization&lt;/a&gt; to improve robustness to loudness variation.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.ritchieng.com&#34;&gt;Ritchie Ng&lt;/a&gt; introduced us to the idea of Hyperparameter Optimization using LSTMs. It is a work his team is going to publish in coming months. It can help us get rid of scheduling LR, momentum, etc. without compromising on accuracy or speed of convergence.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/in/brian-cheung-79480779/&#34;&gt;Brian Cheung&lt;/a&gt;, Ph.D. student at UC Berkeley presented his work in relation to adversarial component analysis&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Adversarial Independent Component Analysis to improve training of autoencoders&lt;/li&gt;
-&lt;li&gt;Domain adaptation as adversarial problem&lt;/li&gt;
-&lt;li&gt;Overfitting as adversarial problem&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This work will be published soon. Another &lt;a href=&#34;https://arxiv.org/abs/1611.09430&#34;&gt;work&lt;/a&gt; Brian has published is an architecture for attention models which works very similar to fovea in our eyes for image sampling.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/in/jeffreydf/&#34;&gt;Jeffrey De Fauw&lt;/a&gt;, Research Engineer at Deepmind gave us a peek into their work via &lt;a href=&#34;https://www.kaggle.com/c/diabetic-retinopathy-detection&#34;&gt;Diabetic Retinopathy challenge&lt;/a&gt; hosted on Kaggle in 2016. Few interesting things I noticed from his presentation regarding Deepmind and his project in particular:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;They spend a good time analyzing the data, cases where model fails and preprocessing. I believe this is the key take away - rather than trying newer models and fancier architectures, more time must be spent on data and error analytics.&lt;/li&gt;
-&lt;li&gt;Oversampling is not same as loss weights&lt;/li&gt;
-&lt;li&gt;One of the really cool findings of data analytics was, the camera used for taking photos of an eye can itself produce some artifacts. But these artifacts will be at the same position for both left and right eye. So training the net with an input as a six-channel image (3-channels per eye) will lead to better accuracy.&lt;/li&gt;
-&lt;li&gt;Using &lt;a href=&#34;https://arxiv.org/abs/1608.04802&#34;&gt;non-decomposable objective&lt;/a&gt; functions for measuring loss&lt;/li&gt;
-&lt;li&gt;Log-max ensembling rather than simply majority vote&lt;/li&gt;
-&lt;li&gt;Using dropouts during test, inspiration from &lt;a href=&#34;http://biorxiv.org/content/early/2016/10/28/084210&#34;&gt;this&lt;/a&gt; paper&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://papernot.fr&#34;&gt;Nicolas Papernot&lt;/a&gt;, Google Ph.D. Fellow in Security presented his work in Security and Privacy in Machine Learning. &lt;a href=&#34;http://www.cleverhans.io/about/&#34;&gt;Cleverhans&lt;/a&gt; is an open-source library for benchmarking the vulnerability of machine learning models to adversarial examples. Its created by &lt;a href=&#34;http://www.iangoodfellow.com&#34;&gt;Ian Goodfellow&lt;/a&gt;, Research Scientist at OpenAI and Nicolas.&lt;/p&gt;
-
-&lt;p&gt;My talk was on how important is to build trust with doctors for deep learning models in medical imaging. And few approaches we are trying at &lt;a href=&#34;www.qure.ai&#34;&gt;Qure.ai&lt;/a&gt;, results we have obtained and the future directions. Another idea my friend &lt;a href=&#34;https://www.linkedin.com/in/yapjiaqing/&#34;&gt;Jia Qing Yap&lt;/a&gt;, Executive Lead and Deep Learning Engineer at OpenSourceSDC was of &lt;a href=&#34;https://arxiv.org/abs/1704.05776&#34;&gt;recurrent rolling convolutions&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;It was a great experience, thanks to Re-work team for inviting me. You must checkout &lt;a href=&#34;https://re-work.co/events/deep-learning-summit-montreal-canada-track1-2017&#34;&gt;Re-Work DL Summit Montreal&lt;/a&gt;. The lineup is super awesome.&lt;/p&gt;
-
-&lt;p&gt;For any comments, suggestions or appreciations tweet &lt;a href=&#34;https://twitter.com/shubhamjain0594&#34;&gt;@shubhamjain0594&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>Last week of April 2017, I was attending Re-work Deep Learning Summit in Singapore. I was representing Qure.ai and speaking about some of the work we have been doing in this field. The conference had speakers from Google Deepmind, Baidu Silicon Valley AI Lab, Facebook; startups such as Kata.ai, SmartCow.ai; investor firms such as Zeroth.ai, etc. In this post, I will introduce to you about all the impressive ideas I learned about in the conference.</description>
     </item>
     
     <item>
@@ -134,38 +35,9 @@
       <pubDate>Sun, 07 May 2017 13:40:33 +0530</pubDate>
       
       <guid>https://shubhamjain0594.github.io/post/memories-and-learnings-from-first-year/</guid>
-      <description>&lt;p&gt;This is a letter, I wrote in my senior year to one of the juniors describing my first year and what I learned from it.&lt;/p&gt;
-
-&lt;p&gt;These are my views. I want you to comment and us to discuss, it would enrich both of us. You know most of the things about my freshie year. So I won’t go into things which you already know. Fill it with your memory.&lt;/p&gt;
-
-&lt;p&gt;When I came into IIT, I was a completely ignorant child with just one thing in mind that &lt;code&gt;IITians God hote hai&lt;/code&gt;. I had never lived or played with an IITian in my lifetime. So when I came here, it felt great but at the same time, I felt the pressure that I would be competing with such smart guys. I feared my roomie, I googled him out came to know that he is a topper in various olympiads and a pure scholar. I felt like I am nothing in front of all. But I knew one thing that I need to explore and to come to par with everyone. I need to put some extra efforts from the beginning. When others start from 0 and you are at -1. You need to start adding 1 at a faster rate compared to others so that at some time you both are at same level. I was and I think I am still a hardworking guy.&lt;/p&gt;
-
-&lt;p&gt;I never feared anyone, except my mom then. So in class, I went all guns blazing. I wasn’t the first bencher, but I used to sit in middle rows, giving answers confidently and sometimes they were correct too. I used to ask silliest doubts and I asked the prof to repeat and explain concept again if I didn’t get anything. Many used to make fun of me at times, calling me maggu and stuff but I knew that I am gaining a hell lot knowledge with this. When I asked doubts profs started knowing me. So that after class whenever I went to ask doubts they entertained my doubts and sometimes even went a little further in telling me how things we are learning are being used in their research. I came to know about the technology being used in latest Intel Chips from the prof., he was discussing with me for over 30 45 mins after the class about various things and sometimes they even give you guidance on what to do and what not to do, not academics but life.&lt;/p&gt;
-
-&lt;p&gt;One thing I constantly strive for is taking knowledge, let it be knowledge in design, aero - any department, any field. I hear what others say eagerly and I like it. Even if you tell me some civil engineering I won’t stop you. I would love to hear that because that would be new knowledge for me. That’s something that helps you in thinking how - what you are learning at one hand be related to things others are learning. And if you start comparing how the things they are learning and you are learning are related, you will realize that there is a similarity in both of them at some abstract level.&lt;/p&gt;
-
-&lt;p&gt;Get involved in discussions in groups of varied interests. That’s the most awesome thing. You get to be known by others, you know others and you get a lot of knowledge. If you get stuck down with one person you get a person for life, someone who will understand you and you will understand but just a single perspective. But you will miss out on others, different perspectives of life. Never ever create a perspective from beginning. And even if you create don’t be stingy about anything. I used to be awake almost 95% of times in the class and used to write my own notes. That really helps. Though during exams, I never read them. But my wingies did ( a thing you should not do, don’t be so generous a donor).&lt;/p&gt;
-
-&lt;p&gt;In my freshie year, I got involved in robotics club, dramatics, debating, quizzing, SARC, MI, robowars and I don’t remember if there were any more. This actually gave me different perspectives of every field + networking. But different groups of friends, discussions while walking, in mess during night time. All these things actually brought out a different perspective in me. Live every moment, and live with friends.&lt;/p&gt;
-
-&lt;p&gt;The wingies are best things IIT has given me. GF can leave you, everyone else will leave you but they won’t. They are not so great at times, but they are ones I go to for any advice. If I fear to do something alone, I take one with me. And wingies relations are built in the first year, from the second year everyone gets involved in their own stuff. You don’t get so much time together.&lt;/p&gt;
-
-&lt;p&gt;Manage your time. When you study, only study (the thing I did wrong, I tried to multitask). Serial unitasking is better than multitasking. And at times say no to things.&lt;/p&gt;
-
-&lt;p&gt;Never ever be satisfied with anything at least for this 4 years. And if you think you are doing something wrong, rectify it. A mistake is a mistake if done once, twice. More than twice its a habit. No bad habit is good. And academics matter a lot. Even if you know good designing, might be good in a lot of things. But if you are not good in academics, you will miss out on a bunch of things. Do not measure goodness by CPI, CPI is fake. Measure it through the knowledge of subjects. Understanding of the subjects. And don’t make any presumptions of future from the first year. You don’t have any knowledge about anything. You love something, but you have just seen it from one side and it’s one perspective. And to keep all doors open, you have to be good at all doors. Not best but good.&lt;/p&gt;
-
-&lt;p&gt;Always remember -&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;Life is very simple, we make it complicated.&amp;rdquo;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;A similar quote in Hindi -&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;“Halki Fulki si hai Zindagi, Bojh toh sirf Khwaishon ka hai.”&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
+      <description>This is a letter, I wrote in my senior year to one of the juniors describing my first year and what I learned from it.
+These are my views. I want you to comment and us to discuss, it would enrich both of us. You know most of the things about my freshie year. So I won’t go into things which you already know. Fill it with your memory.
+When I came into IIT, I was a completely ignorant child with just one thing in mind that IITians God hote hai.</description>
     </item>
     
     <item>
@@ -174,42 +46,11 @@
       <pubDate>Sat, 10 Dec 2016 19:10:29 +0530</pubDate>
       
       <guid>https://shubhamjain0594.github.io/post/nips-2016/</guid>
-      <description>
-
-&lt;p&gt;This is a collection of all material I was able to find for various tutorials of NIPS 2016 for people who were not able to attend it and are really excited to know whats going on and can&amp;rsquo;t wait for official videos and slides.&lt;/p&gt;
-
-&lt;h3 id=&#34;crowdsourcing-beyond-label-generation-https-nips-cc-conferences-2016-schedule-showevent-6205:065277de764551c2c78eb3e37bacd170&#34;&gt;&lt;a href=&#34;https://nips.cc/Conferences/2016/Schedule?showEvent=6205&#34;&gt;Crowdsourcing: Beyond Label Generation&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.jennwv.com/projects/crowdtutorial.html&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;variational-inference-foundations-and-modern-methods-https-nips-cc-conferences-2016-schedule-showevent-6199:065277de764551c2c78eb3e37bacd170&#34;&gt;&lt;a href=&#34;https://nips.cc/Conferences/2016/Schedule?showEvent=6199&#34;&gt;Variational Inference: Foundations and Modern Methods&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.cs.columbia.edu/~blei/talks/2016_NIPS_VI_tutorial.pdf&#34;&gt;Slides&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;deep-reinforcement-learning-through-policy-optimization-https-nips-cc-conferences-2016-schedule-showevent-6198:065277de764551c2c78eb3e37bacd170&#34;&gt;&lt;a href=&#34;https://nips.cc/Conferences/2016/Schedule?showEvent=6198&#34;&gt;Deep Reinforcement Learning Through Policy Optimization&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://people.eecs.berkeley.edu/~pabbeel/nips-tutorial-policy-optimization-Schulman-Abbeel.pdf&#34;&gt;Slides&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;nuts-and-bolts-of-building-applications-using-deep-learning-andrew-ng-https-nips-cc-conferences-2016-schedule-showevent-6203:065277de764551c2c78eb3e37bacd170&#34;&gt;&lt;a href=&#34;https://nips.cc/Conferences/2016/Schedule?showEvent=6203&#34;&gt;Nuts and Bolts of Building Applications using Deep Learning - Andrew Ng&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.dropbox.com/s/dyjdq1prjbs8pmc/NIPS2016%20-%20Pages%202-6%20(1&#34;&gt;Slides&lt;/a&gt;.pdf)
-Video from talk by Andrew Ng on same talk but somewhere else is &lt;a href=&#34;https://www.youtube.com/watch?v=F1ka6a13S9I&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;theory-and-algorithms-for-forecasting-non-stationary-time-series-https-nips-cc-conferences-2016-schedule-showevent-6206:065277de764551c2c78eb3e37bacd170&#34;&gt;&lt;a href=&#34;https://nips.cc/Conferences/2016/Schedule?showEvent=6206&#34;&gt;Theory and Algorithms for Forecasting Non-Stationary Time Series&lt;/a&gt;&lt;/h3&gt;
-
-&lt;h3 id=&#34;natural-language-processing-for-computational-social-science-https-nips-cc-conferences-2016-schedule-showevent-6201:065277de764551c2c78eb3e37bacd170&#34;&gt;&lt;a href=&#34;https://nips.cc/Conferences/2016/Schedule?showEvent=6201&#34;&gt;Natural Language Processing for Computational Social Science&lt;/a&gt;&lt;/h3&gt;
-
-&lt;h3 id=&#34;large-scale-optimization-beyond-stochastic-gradient-descent-and-convexity-https-nips-cc-conferences-2016-schedule-showevent-6200:065277de764551c2c78eb3e37bacd170&#34;&gt;&lt;a href=&#34;https://nips.cc/Conferences/2016/Schedule?showEvent=6200&#34;&gt;Large-Scale Optimization: Beyond Stochastic Gradient Descent and Convexity&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://suvrit.de/papers/vr_nips16_bach.pdf&#34;&gt;Slides - I&lt;/a&gt;
-&lt;a href=&#34;http://suvrit.de/papers/vr_nips16_sra.pdf&#34;&gt;Slides - II&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;generative-adversarial-networks-ian-goodfellow-https-nips-cc-conferences-2016-schedule-showevent-6202:065277de764551c2c78eb3e37bacd170&#34;&gt;&lt;a href=&#34;https://nips.cc/Conferences/2016/Schedule?showEvent=6202&#34;&gt;Generative Adversarial Networks - Ian Goodfellow&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.iangoodfellow.com/slides/2016-12-04-NIPS.pdf&#34;&gt;Slides&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;ml-foundations-and-methods-for-precision-medicine-and-healthcare-https-nips-cc-conferences-2016-schedule-showevent-6204:065277de764551c2c78eb3e37bacd170&#34;&gt;&lt;a href=&#34;https://nips.cc/Conferences/2016/Schedule?showEvent=6204&#34;&gt;ML Foundations and Methods for Precision Medicine and Healthcare&lt;/a&gt;&lt;/h3&gt;
-</description>
+      <description>This is a collection of all material I was able to find for various tutorials of NIPS 2016 for people who were not able to attend it and are really excited to know whats going on and can&amp;rsquo;t wait for official videos and slides.
+Crowdsourcing: Beyond Label Generation Link
+Variational Inference: Foundations and Modern Methods Slides
+Deep Reinforcement Learning Through Policy Optimization Slides
+Nuts and Bolts of Building Applications using Deep Learning - Andrew Ng Slides Video from talk by Andrew Ng on same talk but somewhere else is here</description>
     </item>
     
     <item>
@@ -218,18 +59,7 @@ Video from talk by Andrew Ng on same talk but somewhere else is &lt;a href=&#34;
       <pubDate>Wed, 23 Nov 2016 17:38:15 +0530</pubDate>
       
       <guid>https://shubhamjain0594.github.io/post/deep-learning-ai-videos/</guid>
-      <description>
-
-&lt;p&gt;I like to hear things in my background while I am working. Music seems pleasure but sometimes also a distraction. At such points I play some good random videos in background. These help me in gaining new knowledge but at the same time does not distract me from work. I have compiled a small list of such videos in deep learning that I have heard so far and loved them. Will go on adding more.&lt;/p&gt;
-
-&lt;h3 id=&#34;plenary-panel-is-deep-learning-the-new-42-https-www-youtube-com-watch-v-furfdqtdavc:8c49bc2e9e82d87329848c3019c7898d&#34;&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=furfdqtdAvc&#34;&gt;Plenary Panel: Is Deep Learning the New 42?&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;This video is the best panel discussion in Deep learning I have come so far. The best points I loved about it were the discussion on &lt;a href=&#34;https://arxiv.org/abs/1606.08813&#34;&gt;reforms&lt;/a&gt; introduced in European Union on algorithmic decision making and right to explanation. Another thing is when they talk about how biological, psychological and other studies have influenced Computer Science. And apparently conv nets which are leading structures in deep learning and vision are inspired by the study in 1970s. So the study of brains, vision, psychology, etc. will be the major influencers of future technology. The panel also puts light into what should a PhD student starting in DL now must do and what not, some really hot research topics that needs attention.&lt;/p&gt;
-
-&lt;h3 id=&#34;artificial-intelligence-and-the-future-demis-hassabis-rsa-replay-https-www-youtube-com-watch-v-i3leg6argm8:8c49bc2e9e82d87329848c3019c7898d&#34;&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=i3lEG6aRGm8&#34;&gt;Artificial Intelligence and the Future | Demis Hassabis | RSA Replay&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;Demis Hassabis takes on stage to explain AI and more specifically Artificial General Intelligence. 2016 has been the year of Alpha-Go and Hassabis explains what it is, and intuition into why does it work. I loved the part where he explains the special moves played by Alpha-Go that were out of the box, and more amazingly the author also points out the move by Lee Sedol (the opponent) in 4th game that made him the winner. A good watch if you want to know more about AGI and what future will look like.&lt;/p&gt;
-</description>
+      <description>I like to hear things in my background while I am working. Music seems pleasure but sometimes also a distraction. At such points I play some good random videos in background. These help me in gaining new knowledge but at the same time does not distract me from work. I have compiled a small list of such videos in deep learning that I have heard so far and loved them.</description>
     </item>
     
     <item>
@@ -238,8 +68,7 @@ Video from talk by Andrew Ng on same talk but somewhere else is &lt;a href=&#34;
       <pubDate>Sun, 13 Nov 2016 17:28:22 +0530</pubDate>
       
       <guid>https://shubhamjain0594.github.io/post/the-end-of-deconv/</guid>
-      <description>&lt;p&gt;Deconvolutions were introduced in 2014 in &lt;a href=&#34;https://arxiv.org/abs/1411.4038&#34;&gt;&amp;ldquo;Fully Convolutional Networks for Semantic Segmentation&amp;rdquo;&lt;/a&gt; and has been extensively used in Semantic Segmentation and Generative Adversarial Networks. But its saturated now and the problems involved with it including checkerboard effects play a huge role in the error it produces. &lt;a href=&#34;http://distill.pub/2016/deconv-checkerboard/&#34;&gt;This&lt;/a&gt; blog post goes down the journey of deconvolutions and problems associated with it. It also suggests some solutions and how it can be replaced by better alternatives such as &lt;a href=&#34;https://arxiv.org/abs/1609.05158&#34;&gt;subpixel-cnn&lt;/a&gt;. If you are doing segmentation or working with generative networks, its time to move away from deconv.&lt;/p&gt;
-</description>
+      <description>Deconvolutions were introduced in 2014 in &amp;ldquo;Fully Convolutional Networks for Semantic Segmentation&amp;rdquo; and has been extensively used in Semantic Segmentation and Generative Adversarial Networks. But its saturated now and the problems involved with it including checkerboard effects play a huge role in the error it produces. This blog post goes down the journey of deconvolutions and problems associated with it. It also suggests some solutions and how it can be replaced by better alternatives such as subpixel-cnn.</description>
     </item>
     
     <item>
@@ -248,13 +77,7 @@ Video from talk by Andrew Ng on same talk but somewhere else is &lt;a href=&#34;
       <pubDate>Sat, 12 Nov 2016 18:13:08 +0530</pubDate>
       
       <guid>https://shubhamjain0594.github.io/post/hugo-larochelle-ted/</guid>
-      <description>&lt;p&gt;This TED talk takes you through the journey of Deep Learning in last ten years and its amazing to see how it has evolved from a time when neural nets were not trusted and there were just a few countable people working, to today when there are so many people that you can find 4 research groups working on a similar idea at the end of the day. Pretty insightful and interesting and in a way it shows how a new technology comes into play and we should keep looking for small kicks, they maybe the thing of the future.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.dmi.usherb.ca/~larocheh/index_en.html&#34;&gt;Hugo Larochelle&lt;/a&gt; is a Research Scientist at Twitter and an Assistant Professor at the Université de Sherbrooke (UdeS). Before 2011, he spent two years in the machine learning group at the University of Toronto, as a postdoctoral fellow under the supervision of Geoffrey Hinton. He obtained his Ph.D. at Université de Montréal, under the supervision of Yoshua Bengio. He is the recipient of two Google Faculty Awards. His professional involvement includes associate editor for the IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), member of the editorial board of the Journal of Artificial Intelligence Research (JAIR) and program chair for the International Conference on Learning Representations (ICLR) of 2015, 2016 and 2017.&lt;/p&gt;
-
-&lt;p&gt;Source: &lt;a href=&#34;https://www.youtube.com/watch?v=dz_jeuWx3j0&#34;&gt;Youtube&lt;/a&gt;
-Video Link: &lt;a href=&#34;https://www.youtube.com/watch?v=dz_jeuWx3j0&#34;&gt;https://www.youtube.com/watch?v=dz_jeuWx3j0&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>This TED talk takes you through the journey of Deep Learning in last ten years and its amazing to see how it has evolved from a time when neural nets were not trusted and there were just a few countable people working, to today when there are so many people that you can find 4 research groups working on a similar idea at the end of the day. Pretty insightful and interesting and in a way it shows how a new technology comes into play and we should keep looking for small kicks, they maybe the thing of the future.</description>
     </item>
     
     <item>
@@ -263,22 +86,8 @@ Video Link: &lt;a href=&#34;https://www.youtube.com/watch?v=dz_jeuWx3j0&#34;&gt;
       <pubDate>Sun, 18 Sep 2016 14:54:14 +0530</pubDate>
       
       <guid>https://shubhamjain0594.github.io/post/cool-nn-dl-applications/</guid>
-      <description>
-
-&lt;p&gt;Deep learning and Neural Networks have some really cool applications (ideas), and here are a few I have come across and are really tangential to mainstream applications.&lt;/p&gt;
-
-&lt;h2 id=&#34;defeating-image-obfuscation-with-deep-learning-https-arxiv-org-pdf-1609-00408v2-pdf:caec105687d48ec0eda904b9d93fa8ba&#34;&gt;&lt;a href=&#34;https://arxiv.org/pdf/1609.00408v2.pdf&#34;&gt;Defeating Image Obfuscation with Deep Learning&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1609.00408v2.pdf&#34;&gt;This&lt;/a&gt; paper from Cornell and University of Texas at Austin uses DL to reconstruct the images which are pixelated, blurred or encrypted using privacy-preserving photo (P3) algorithm. These techniques are many times used to hide the identities in some sensitive videos and photos in various media. These techniques are as well used in cryptography and hence current DL methods will push cryptographes to discover methods to ensure privacy of media can be maintained.&lt;/p&gt;
-
-&lt;h2 id=&#34;detecting-the-programming-language-of-source-code-snippets-using-machine-learning-and-neural-networks-http-danielheres-space-jekyll-update-2016-07-18-detecting-the-programming-language-of-source-code-snippets-using-machine-learning-and-neural-networks-html:caec105687d48ec0eda904b9d93fa8ba&#34;&gt;&lt;a href=&#34;(http://danielheres.space/jekyll/update/2016/07/18/detecting-the-programming-language-of-source-code-snippets-using-machine-learning-and-neural-networks.html&#34;&gt;Detecting the Programming Language of Source Code Snippets using Machine Learning and Neural Networks&lt;/a&gt;)&lt;/h2&gt;
-
-&lt;p&gt;I came across &lt;a href=&#34;http://danielheres.space/jekyll/update/2016/07/18/detecting-the-programming-language-of-source-code-snippets-using-machine-learning-and-neural-networks.html&#34;&gt;this&lt;/a&gt; blog post while searching for something related to compilation. I found this idea very appreciative and that can be implemented by multiple code engines like &lt;a href=&#34;codechef.com&#34;&gt;codechef&lt;/a&gt;, &lt;a href=&#34;hackerrank.com&#34;&gt;hackerrank&lt;/a&gt;, etc. It is a well thought and built approach and does not even use deep neural nets for the purpose. They have also hosted a &lt;a href=&#34;http://petiteprogrammer.com/&#34;&gt;trial platform&lt;/a&gt; where you can test their model.&lt;/p&gt;
-
-&lt;h2 id=&#34;deep-gold-https-hackernoon-com-deep-gold-using-convolution-networks-to-find-minerals-aafdb37355df-bzdqahgbh:caec105687d48ec0eda904b9d93fa8ba&#34;&gt;&lt;a href=&#34;https://hackernoon.com/deep-gold-using-convolution-networks-to-find-minerals-aafdb37355df#.bzdqahgbh&#34;&gt;Deep Gold&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;Deep learning on images has been around for sometime right now and we have seen some really impressive results. Similarly for finding locations that may have minerals or oil, satellite images are used, they are judged by geologists, who give a conclusion. The author &lt;a href=&#34;https://hackernoon.com/deep-gold-using-convolution-networks-to-find-minerals-aafdb37355df#.bzdqahgbh&#34;&gt;here&lt;/a&gt; has developed a convolutional net that when trained, tells you the possible locations of a goldmine field. Though the results are not really impressive, but it has shown what more we can expect from DL in next few years. DL to find Oil is coming soon.&lt;/p&gt;
-</description>
+      <description>Deep learning and Neural Networks have some really cool applications (ideas), and here are a few I have come across and are really tangential to mainstream applications.
+Defeating Image Obfuscation with Deep Learning This paper from Cornell and University of Texas at Austin uses DL to reconstruct the images which are pixelated, blurred or encrypted using privacy-preserving photo (P3) algorithm. These techniques are many times used to hide the identities in some sensitive videos and photos in various media.</description>
     </item>
     
     <item>
@@ -287,8 +96,7 @@ Video Link: &lt;a href=&#34;https://www.youtube.com/watch?v=dz_jeuWx3j0&#34;&gt;
       <pubDate>Mon, 12 Sep 2016 20:19:44 +0530</pubDate>
       
       <guid>https://shubhamjain0594.github.io/contact/</guid>
-      <description>&lt;p&gt;To contact me, you can email me at shubhamjain0594[at]gmail[dot]com.&lt;/p&gt;
-</description>
+      <description>To contact me, you can email me at shubhamjain0594[at]gmail[dot]com.</description>
     </item>
     
     <item>
@@ -297,40 +105,7 @@ Video Link: &lt;a href=&#34;https://www.youtube.com/watch?v=dz_jeuWx3j0&#34;&gt;
       <pubDate>Mon, 12 Sep 2016 18:50:05 +0530</pubDate>
       
       <guid>https://shubhamjain0594.github.io/post/good-deep-learning-blog-posts/</guid>
-      <description>
-
-&lt;p&gt;I am an avid reader and spend a lot of time commuting between home and work. I use this time to read blogs, news and papers. In this article I present some cool blog posts that I found and a very short summary. I will add more links as time permits. I have divided blog posts based on the audience it caters to, beginners and intermediate. I believe experts would dive directly into reading papers and won&amp;rsquo;t spend much time reading blogs. Also, are some really good non-technical articles as deserts and some random posts relating to AI as side dishes.&lt;/p&gt;
-
-&lt;h2 id=&#34;starters:999f5661fc57d372263d581f7f2207b2&#34;&gt;Starters&lt;/h2&gt;
-
-&lt;h3 id=&#34;a-brief-overview-of-deep-learning-ilya-sutskever-http-yyue-blogspot-in-2015-01-a-brief-overview-of-deep-learning-html:999f5661fc57d372263d581f7f2207b2&#34;&gt;&lt;a href=&#34;http://yyue.blogspot.in/2015/01/a-brief-overview-of-deep-learning.html&#34;&gt;A brief overview of deep learning - Ilya Sutskever&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;This blog post by &lt;a href=&#34;http://www.cs.toronto.edu/~ilya/&#34;&gt;Ilya Sutskever&lt;/a&gt;, also a research director at &lt;a href=&#34;https://openai.com&#34;&gt;OpenAI&lt;/a&gt; is one of the must read posts for any one diving into deep learning for practical applications. It gives you an insight into why it works, some things you must keep in mind for practical purposes and if you love it, you can just dive into comments section for some cool conversation between &lt;a href=&#34;http://www.iro.umontreal.ca/~bengioy/yoshua_en/index.html&#34;&gt;Bengio&lt;/a&gt; and Ilya.&lt;/p&gt;
-
-&lt;h2 id=&#34;main-course:999f5661fc57d372263d581f7f2207b2&#34;&gt;Main Course&lt;/h2&gt;
-
-&lt;h3 id=&#34;an-overview-of-gradient-descent-optimization-algorithms-http-sebastianruder-com-optimizing-gradient-descent:999f5661fc57d372263d581f7f2207b2&#34;&gt;&lt;a href=&#34;http://sebastianruder.com/optimizing-gradient-descent/&#34;&gt;An overview of gradient descent optimization algorithms&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;If you have just started deep learning and have run a model over MNIST, then this is a must read post. Last few years have seen number of optimization algorithms for learning weights of a neural net. From Gradient Descent to Adaboost, we are left with many choices. This post lists down all the optimization algorithms, some mathematics and intuition behind it and the default parameters you may like to play with. A very comprehensize survey, it is again a must read article if you are doing applied deep learning for something serious.&lt;/p&gt;
-
-&lt;h2 id=&#34;desserts:999f5661fc57d372263d581f7f2207b2&#34;&gt;Desserts&lt;/h2&gt;
-
-&lt;h3 id=&#34;hyperparameter-optimization-by-efficient-configuration-evaluation-http-www-argmin-net-2016-06-23-hyperband:999f5661fc57d372263d581f7f2207b2&#34;&gt;&lt;a href=&#34;http://www.argmin.net/2016/06/23/hyperband/&#34;&gt;Hyperparameter optimization by efficient configuration evaluation&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;One of the major challenges in deep learning is how you select the hyper-parameters for your training or for post processing in some cases. There are numerous techniques for hyper-parameter search, &lt;a href=&#34;http://www.jmlr.org/papers/volume13/bergstra12a/bergstra12a.pdf&#34;&gt;random-search optimization&lt;/a&gt; by Bergstra et.al&amp;rsquo;12 is one of the heavily used techniques. &lt;a href=&#34;https://papers.nips.cc/paper/4443-algorithms-for-hyper-parameter-optimization.pdf&#34;&gt;This&lt;/a&gt; paper by Bergstra, Bengio highlights some of the algorithms used. In this blog, author introduces a new algorithm known as Hyperband which uses random search algorithm and uses simple technique of divide and rule to optimize. The results by the optimization are promising and is a very simple algorithm to understand and implement. One can find the complete paper &lt;a href=&#34;https://people.eecs.berkeley.edu/~kjamieson/hyperband.html&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;side-dishes:999f5661fc57d372263d581f7f2207b2&#34;&gt;Side dishes&lt;/h2&gt;
-
-&lt;h3 id=&#34;the-extraordinary-link-between-deep-neural-networks-and-the-nature-of-the-universe-henry-lin-harvard-and-max-tegmark-mit-https-www-technologyreview-com-s-602344-the-extraordinary-link-between-deep-neural-networks-and-the-nature-of-the-universe:999f5661fc57d372263d581f7f2207b2&#34;&gt;&lt;a href=&#34;https://www.technologyreview.com/s/602344/the-extraordinary-link-between-deep-neural-networks-and-the-nature-of-the-universe/&#34;&gt;The extraordinary link between deep neural networks and the nature of the universe - Henry Lin (Harvard) and Max Tegmark (MIT) &lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;&amp;ldquo;Why deep learning works?&amp;rdquo; - This is one of the most intriguing questions for all involved in deep learning. We try to convince ourselves giving various answers for the question, similarity with the eye structure, universal approximator, etc. Our friends from MIT and Harvard have come up with a much better, mathematical but still a bit vague explanation for the success of deep learning, by comparing the laws used to predict physical phenomenons and how we can derive complete physics using few rules and parameters, thus explaining the whole world around us. For similar reasons, all visual information can be explained/derived from small parameters. The blog gives a beautiful insight into this relation and for more mathematical treatment one can look into the &lt;a href=&#34;http://arxiv.org/abs/1608.08225&#34;&gt;paper&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;lists-to-refer:999f5661fc57d372263d581f7f2207b2&#34;&gt;Lists to refer&lt;/h2&gt;
-
-&lt;h3 id=&#34;deep-learning-papers-reading-roadmap-https-github-com-songrotek-deep-learning-papers-reading-roadmap:999f5661fc57d372263d581f7f2207b2&#34;&gt;&lt;a href=&#34;https://github.com/songrotek/Deep-Learning-Papers-Reading-Roadmap&#34;&gt;Deep Learning Papers Reading Roadmap&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;If you are starting into deep learning then this might be a great place to look at.&lt;/p&gt;
-</description>
+      <description>I am an avid reader and spend a lot of time commuting between home and work. I use this time to read blogs, news and papers. In this article I present some cool blog posts that I found and a very short summary. I will add more links as time permits. I have divided blog posts based on the audience it caters to, beginners and intermediate. I believe experts would dive directly into reading papers and won&amp;rsquo;t spend much time reading blogs.</description>
     </item>
     
     <item>
@@ -339,8 +114,7 @@ Video Link: &lt;a href=&#34;https://www.youtube.com/watch?v=dz_jeuWx3j0&#34;&gt;
       <pubDate>Mon, 12 Sep 2016 16:15:55 +0530</pubDate>
       
       <guid>https://shubhamjain0594.github.io/about/</guid>
-      <description>&lt;p&gt;I am Shubham Jain, working as a Deep Learning Scientist at &lt;a href=&#34;http://qure.ai&#34;&gt;Qure.ai&lt;/a&gt;. I graduated in Computer Science from &lt;a href=&#34;http://www.iitb.ac.in/&#34;&gt;IIT Bombay&lt;/a&gt; in 2016. This blog is to record and share my learnings, some good blog posts I come across and my experiences. I like reading, traveling and watching sports. You can get in touch with me through &lt;a href=&#34;https://twitter.com/shubhamjain0594&#34;&gt;twitter&lt;/a&gt; or &lt;a href=&#34;https://github.com/shubhamjain0594&#34;&gt;github&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>I am Shubham Jain, working as a Deep Learning Scientist at Qure.ai. I graduated in Computer Science from IIT Bombay in 2016. This blog is to record and share my learnings, some good blog posts I come across and my experiences. I like reading, traveling and watching sports. You can get in touch with me through twitter or github.</description>
     </item>
     
     <item>
@@ -349,27 +123,7 @@ Video Link: &lt;a href=&#34;https://www.youtube.com/watch?v=dz_jeuWx3j0&#34;&gt;
       <pubDate>Thu, 14 May 2015 15:48:11 +0530</pubDate>
       
       <guid>https://shubhamjain0594.github.io/post/growing-up-a-journey-of-life/</guid>
-      <description>&lt;p&gt;Last 2 years have been the turning points of my life. I rewind back this time and here I am, a happy-go-lucky guy, laughing all time, playing around and no seriousness at any moment of time. Most of us are like this at this time I suppose. I am 20 now, sitting in Korea, here for an internship with Samsung electronics, and in this period, I have lost things very valuable to me but gained a lot of experience at the same time. I have had bad relationships and I have some really good friendships. I am still a happy-go-lucky guy, but I have matured over the years in dealing with situations as they come. So what does this growing up mean? When I was a kid, I used to fear growing up. Everyone used to say childhood are best times, they never come back, my parents used to say “You can’t be a kid forever”. I used to see elders fighting over petty issues, lot of bad habits around and as a normal human does we are usually better at criticism rather than appreciation.&lt;/p&gt;
-
-&lt;p&gt;But as it’s the rule of time, I had to grow up. And last two years taught me what growing up means, especially the last month. My grandfather (maternal) expired last month and it was a huge setback for me as well as my family. He was quite close to me and I can say that whatever I am today, is because of him and my mother’s brothers (none of whom are amongst us). I came from days where even 2 time food was difficult to this day where I ain’t having dinner because I had a lot for a day. All because of these people in my life, but none of them are with me to share this success, so is this what growing up means? To achieve success at the cost of something else. I don’t think so.&lt;/p&gt;
-
-&lt;p&gt;In the beginning of this month, I had a chance to go to Hinganghat, Nagpur in my grandmother’s family. I would say it’s a pretty huge family. I had the best family time there. I got to know my grandfather more but through the eyes of others. There is a religious place for Jain’s nearby by name Bhadravati. My grandpa used to visit it regularly once a year since last 60 years. But this year the cycle broke. And instead I went there. It was truly serene. The air and peace around, and being there after the most hectic semester of engineering was truly awesome. Then this thought came into my mind, as we grow up our things are bounded to limited amount of things compared to our teen years. And it’s not just the normal people but also the elite. So why the difference, why are they elite and we normal? Did they grow up differently? I don’t think so most had similar education and opportunities as we have. They had much worse that time. The difference came in choosing how to grow up.&lt;/p&gt;
-
-&lt;p&gt;As we grow up we choose certain things that we must do in our routine. We go from a rolling stone to a stable stone who remains at a single place throughout his lifetime. Take the concept of marriage. In our 20s,lot of us get into relationships, many fail, sometimes all fail, and at end one remains. The one we have to live with. Spend our lifetime with. Our partner becomes the part of our routine. Finally we settle into something. Similarly my grandpa chose to go to Bhadravati each year because he wanted sometime away from everything, all problems and all shit that goes around the year. He wanted peace. Isn’t this a good habit? This is growing up. Choosing habits for yourself. We need to experience everything to make an informed and the best choice for ourselves. When people say you lose your childhood as you grow up, they are wrong. You leave your childhood behind. You make that choice. You can be childish now too, it’s not wrong. It’s your choice. But at same time we must take care of our people, our family and friends. If they get hurt by the choice we make, then you must know that hurting them too was a part of your choice. So finally growing up isn’t so bad. It’s all about making choices. Choosing what you think is correct comparing all sides. You want to be a traveler, you have to leave family at home. You want to be an entrepreneur (the successful one), then you have to dedicate a lot of your time to your work. You want to be a social animal, you need to give up on being workaholic and thinking that you can do everything. You can’t do everything. You have to choose, experience as we call, this is the key to making to making choices, and this is growing up. Life is pretty simple, we make it complicated.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-text&#34;&gt;It’s time to begin, isn’t it?
-I get a little bit bigger but then I’ll admit
-I’m just the same as I was
-Now don’t you understand
-That I’m never-changing who I am
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Note: Just my thoughts from the backyard. Do revert back with comments on the article.&lt;/p&gt;
-</description>
+      <description>Last 2 years have been the turning points of my life. I rewind back this time and here I am, a happy-go-lucky guy, laughing all time, playing around and no seriousness at any moment of time. Most of us are like this at this time I suppose. I am 20 now, sitting in Korea, here for an internship with Samsung electronics, and in this period, I have lost things very valuable to me but gained a lot of experience at the same time.</description>
     </item>
     
     <item>
@@ -378,26 +132,7 @@ That I’m never-changing who I am
       <pubDate>Thu, 15 May 2014 15:40:12 +0530</pubDate>
       
       <guid>https://shubhamjain0594.github.io/post/from-an-unknown-to-someone/</guid>
-      <description>&lt;p&gt;Yo Junta, this is Shubham Jain a student at IIT Bombay. Being an IITian, I always encounter someone who wants some advice, guidance on how to go for JEE, is he capable and all. So I thought why not just write down my experience and share with world. I know there are already many blogs on this and my blog isn’t any different apart from fact its my personal experience which for me is very different than others.&lt;/p&gt;
-
-&lt;p&gt;So lets go back to an era of 2000’s when tuitions were rarity in my family. I had never been to any classes till my 6th class, but then a day arrived when my family encountered an essay written by me in marathi and realised that this guy needs some serious help here. That was first time I had been to some “Tuitions”. It was my first experience and unexpectedly I was loving it. It wasn’t a formal ones, a mam, mother of a student from same school used to take it. And results were great, my marathi improved, not in talking or actual usage though. After then, I had various experiences , for NTSE tuition, Scholarship classes, Sanskrit Classes and finally 10th Classes.&lt;/p&gt;
-
-&lt;p&gt;In my school life, I was a bright student but also someone who used to do all other things too. In 7th I went to Kho-Kho district tournament, in 8th I changed to Badminton and 9th was about Handball. Apart from these when I saw my academics, they were pretty decent too with me getting 7th Std Scholarship and also NTSE. But then that was it. No more achievements. I felt my achievements were stupendous, until in 10th while giving exams for various classes I came to know that there exists students who have gone to olympiads and many other exams which are not as trivial as NTSE .&lt;/p&gt;
-
-&lt;p&gt;So when I joined Resonance, Thane (it was initially just because they gave me maximum scholarship) I was very very worried. Whether I will be able to do it? I am competing with someone who is much brighter than me. I am so dumb. I felt that way. But I knew one things, my parents have dreams, I have dreams and quoting from Pursuit of Happiness :”If you have dreams, you have to protect it.” I knew from day 1, I have to fight hard from now on but at the same time I have to enjoy my fight. I chose my own path, this is the biggest positive for me. I am and had always been self-motivated.&lt;/p&gt;
-
-&lt;p&gt;Though I need some pushes at times, but then even best tubelights sometime flicker. First test I gave in Resonance, and by amazement I came 2nd in my center and 3rd in Mumbai. I thought it was by chance, just lucky. Second test was all india test and critical for scholarship and by mistake I topped All India that time. I still dont know how that happened, by sheer luck or a little hardwork.&lt;/p&gt;
-
-&lt;p&gt;But from then on it was just one thing, I can do it. I actually never came 1st after that, but I knew I can do it. I knew one thing, I may have been not so lucky to get an earlier start, but I am fortunate that I know the value of hardwork. I am not the smartest of kids, but I have no reason for not to say that I am not one of the most hardworking.&lt;/p&gt;
-
-&lt;p&gt;Those days were really great, I was in a junior college (not an integrated) and had regular college from 7 to 10 with two days I had to go to ITI (Industrial Training Institute) from 11 am to 5 pm. I still remember the Engg drawing prof there who literally made to make a sheet 3 times just because sometime ‘S’ wasnt return properly or sometime ‘G’ wasn’t.  And I wasnt the guy living near college and class. It took me an hour from home to class which included travelling by local train. So instead I used to come to college at around 7.30 (always a late comer except on first and last day) and staying in Thane throughout till night 9.30 pm until class doesnt gets over and all my doubts are solved.&lt;/p&gt;
-
-&lt;p&gt;After college at least once in a month used to go to play cricket in a nearby ground, else I would go to classes and study there. My father used to come and drop the tiffin at the classes, nothing can beat the home food. And with power naps in between and some brain storming sessions with different professors on topics ranging from rotation to sometimes general theory of relativity, I really had a good time. 11th Standard was majorly about me working hard but not smart working. I was a topper at my center but lacked far behind compared to all india. In the summers of 11th by some series of events, I had a chance to visit GMRT(Giant Metrewave Radio Telescope), Pune and I had to present a project on the theory of expanding universe which I prepared under the guidance of Kedar Soni, my school director. There I met people working to find gravitational waves since last 5 years, that guy was 26 and looked pale and had to see same graph of pulsars everyday hoping to find some change some day. This changed me. I knew you had to be patient to get results, you can&amp;rsquo;t be Einstein in a day. I knew to be the best, I had to work more efficiently and more smartly from now on. I have to use all bits of timing I have. I became a nerd, and proud to be one. I used to study for most of time, but that also included sessions with profs pinging them with doubts and getting them cleared at all costs and at anytime of the day. Also it included the rocket designing session on space cad (a software I had been taught in my school) and some more astronomy. And in night when I reached home, I began playing Counter Strike, I dont know how two hours used to get away, it used to be 2 in night when Mom used to come and suddenly monitor used to go off. I was so addicted that I used to play on net and I was once ranked 867 among 30000 users in PGN network. That maybe bad for some, for me I felt great.&lt;/p&gt;
-
-&lt;p&gt;These two years taught me value of working not just hard but smarter, value of time and how important it is to ask even the silliest question that may come and not being afraid to do so and finally analyzing yourself regularly. These years for me were not about roaming malls, watching movies but I remained with books and enjoyed it in discovering my own potential and how far I can stretch it. I took it as a challenge to be better than myself everytime I sit for any exam. I knew it isnt easy but it wasnt impossible and there is no fun in having things that you get without defying your own limits.&lt;/p&gt;
-
-&lt;p&gt;Finally results came, not so impressive for me as I knew I could have done better but AIR 56 wasn’t so bad. And then I got into CSE, IIT Bombay by fortune and finally an IITian . It wasn’t the destination that mattered, but journey that does. Success is not about being there, it is about the path you choose to reach there. So thats my story, with lot of things cut out as I dont want to write a book just a blog. Comments and criticisms appreciated.&lt;/p&gt;
-</description>
+      <description>Yo Junta, this is Shubham Jain a student at IIT Bombay. Being an IITian, I always encounter someone who wants some advice, guidance on how to go for JEE, is he capable and all. So I thought why not just write down my experience and share with world. I know there are already many blogs on this and my blog isn’t any different apart from fact its my personal experience which for me is very different than others.</description>
     </item>
     
   </channel>
