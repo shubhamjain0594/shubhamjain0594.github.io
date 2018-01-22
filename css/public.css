@@ -5,3 +5,7 @@ body{
 .center-img img{
 	margin: 0 auto;
 }
+
+figcaption {
+	text-align: center;
+}
