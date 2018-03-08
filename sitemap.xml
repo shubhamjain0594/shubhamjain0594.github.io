@@ -3,7 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://shubhamjain0594.github.io/post/2017-year-review/</loc>
+    <loc>https://shubhamjain0594.github.io/post/tldr-what-google-learned-from-its-quest-to-build-perfect-team/</loc>
+    <lastmod>2018-03-08T11:20:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shubhamjain0594.github.io/post/year-review-2017/</loc>
     <lastmod>2018-01-21T20:28:23+05:30</lastmod>
   </url>
   
@@ -79,6 +84,12 @@
   </url>
   
   <url>
+    <loc>https://shubhamjain0594.github.io/tags/article/</loc>
+    <lastmod>2018-03-08T11:20:28+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://shubhamjain0594.github.io/tags/conference/</loc>
     <lastmod>2017-05-26T00:14:56+05:30</lastmod>
     <priority>0</priority>
@@ -92,7 +103,7 @@
   
   <url>
     <loc>https://shubhamjain0594.github.io/</loc>
-    <lastmod>2018-01-21T20:28:23+05:30</lastmod>
+    <lastmod>2018-03-08T11:20:28+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -122,7 +133,13 @@
   
   <url>
     <loc>https://shubhamjain0594.github.io/post/</loc>
-    <lastmod>2018-01-21T20:28:23+05:30</lastmod>
+    <lastmod>2018-03-08T11:20:28+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://shubhamjain0594.github.io/tags/productivity/</loc>
+    <lastmod>2018-03-08T11:20:28+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -135,6 +152,12 @@
   <url>
     <loc>https://shubhamjain0594.github.io/tags/</loc>
     <lastmod>2016-09-18T14:54:14+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://shubhamjain0594.github.io/tags/tldr/</loc>
+    <lastmod>2018-03-08T11:20:28+00:00</lastmod>
     <priority>0</priority>
   </url>
   
