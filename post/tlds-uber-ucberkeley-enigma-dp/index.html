@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="generator" content="Hugo 0.49" />
 
-  <title>Topics &middot; Dora&#39;s world</title>
+  <title>TL;DS - Differential Privacy at Scale: Uber and Berkeley Collaboration &middot; Dora&#39;s world</title>
 
   
   
@@ -36,8 +36,6 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
 
   
-  
-  <link rel="alternate" type="application/rss+xml" title="Dora&#39;s world" href="https://shubhamjain0594.github.io/topics/index.xml" />
   
 
   
@@ -124,10 +122,6 @@
   <div class="pure-menu social">
   <ul class="pure-menu-list">
 
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://shubhamjain0594.github.io/topics/index.xml"><i class="fa fa-rss fa-fw"></i>RSS</a>
-    </li>
     
 
     
@@ -255,13 +249,171 @@
 
 
 <div class="header">
-  <h1>Topics</h1>
+  <h1>TL;DS - Differential Privacy at Scale: Uber and Berkeley Collaboration</h1>
+  <h2></h2>
 </div>
 <div class="content">
-  <ul>
+
+  <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>06 Oct 2018, 19:28</time>
+  </div>
+
+  
+
+  
+
   
   
-  </ul>
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://shubhamjain0594.github.io/tags/tldr">tl;dr</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://shubhamjain0594.github.io/tags/differential-privacy">differential privacy</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://shubhamjain0594.github.io/tags/systems">systems</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  
+
+<p>These are my notes from watching the video <a href="https://www.usenix.org/conference/enigma2018/presentation/ensign">Differential Privacy at Scale: Uber and Berkeley Collaboration</a> presented at <a href="https://www.usenix.org/conference/enigma2018/program">Enigma 2018</a>.</p>
+
+<h3 id="attack-surface">Attack Surface:</h3>
+
+<p>SQL Database with trips</p>
+
+<h3 id="attacks">Attacks:</h3>
+
+<ul>
+<li>Internal: Inside the company analysts retrieving the data using SQL</li>
+<li>External: External query makers</li>
+</ul>
+
+<h3 id="solution">Solution</h3>
+
+<p>Chorus + DP</p>
+
+<h3 id="why-anonymization-not-a-solution">Why Anonymization not a solution?</h3>
+
+<ul>
+<li>It has limited utility</li>
+<li>Subject to re-identification attacks</li>
+</ul>
+
+<h3 id="challenges-for-practical-general-purpose-dp">Challenges for Practical General-purpose DP</h3>
+
+<ul>
+<li>Usability for non-experts</li>
+<li>Broad support for analytics queries</li>
+<li>Easy integration with existing infra (data environments)</li>
+</ul>
+
+<h3 id="what-does-broad-support-mean">What does broad support mean?</h3>
+
+<ul>
+<li>System that can deploy multiple mechanisms</li>
+</ul>
+
+<h3 id="what-is-chorus">What is Chorus?</h3>
+
+<ul>
+<li>Automatically enforces DP for SQL queries</li>
+<li>Modular to support various mechanisms (supports 93% queries in workload)</li>
+<li>Works with standard SQL DBs</li>
+<li>Deployed at Uber</li>
+</ul>
+
+<h3 id="how-it-works">How it works?</h3>
+
+<ul>
+<li>Takes a SQL query and modifies it to an intrinsic private query (IPQ)</li>
+<li>IPQ has embedded DP mechanisms</li>
+</ul>
+
+<h3 id="mechanisms">Mechanisms</h3>
+
+<ul>
+<li><a href="https://arxiv.org/abs/1706.09479">Elastic Sensitivity</a>
+
+<ul>
+<li>Scale of noise is defined by elastic sensitivity, privacy budget</li>
+<li>This is determined using dataflow analysis of query</li>
+</ul></li>
+<li>Sample &amp; Aggregate
+
+<ul>
+<li>Calculates sensitivity of the query as the query executes</li>
+<li>Done by partitioning data and aggregating results in differentially private way</li>
+</ul></li>
+<li>WPINQ</li>
+<li>Restricted Sensitivity</li>
+</ul>
+
+<h4 id="note">Note</h4>
+
+<p>These together support 94% queries in the workload</p>
+
+<h3 id="terms-to-read">Terms to Read</h3>
+
+<ul>
+<li>Winsorized mean</li>
+<li>Laplace Mechanism</li>
+</ul>
+
+<h3 id="evaluation">Evaluation</h3>
+
+<ul>
+<li>18,774 SQL Queries</li>
+<li>Less than 1% error by elastic sensitivity</li>
+<li>Median performance overhead of 1.7% on database of 800 million records</li>
+</ul>
+
+<h3 id="research-paper">Research Paper</h3>
+
+<p><a href="https://arxiv.org/pdf/1809.07750.pdf">Chorus: Differential Privacy via Query Rewriting</a></p>
+
+
+  
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    
+    <a href="https://shubhamjain0594.github.io/post/kim-how-to-write-first-class-paper/"><i class="fa fa-chevron-left"></i></a>
+    
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="prev">
+      <a href="https://shubhamjain0594.github.io/post/kim-how-to-write-first-class-paper/">KiM - How to Write First Class Paper</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+  </div>
+</div>
+
+
+
+  
+For any comments, suggestions and appreciation tweet to me at <a href="https://twitter.com/shubhamjain0594">@shubhamjain0594</a>
+
+
+
 </div>
 
 </div>
@@ -286,3 +438,4 @@
 
 </body>
 </html>
+
