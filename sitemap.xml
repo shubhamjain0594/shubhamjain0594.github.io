@@ -3,13 +3,78 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://shubhamjain0594.github.io/</loc>
+    <lastmod>2019-07-19T17:52:50+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://shubhamjain0594.github.io/post/</loc>
+    <lastmod>2019-07-19T17:52:50+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://shubhamjain0594.github.io/post/tlds-arvind-fairness-definitions/</loc>
+    <lastmod>2019-07-19T17:52:50+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shubhamjain0594.github.io/tags/</loc>
+    <lastmod>2019-07-19T17:52:50+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://shubhamjain0594.github.io/tags/fairness/</loc>
+    <lastmod>2019-07-19T17:52:50+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://shubhamjain0594.github.io/tags/tldr/</loc>
+    <lastmod>2019-07-19T17:52:50+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://shubhamjain0594.github.io/post/tlds-uber-ucberkeley-enigma-dp/</loc>
     <lastmod>2018-10-06T19:28:31+01:00</lastmod>
   </url>
   
   <url>
+    <loc>https://shubhamjain0594.github.io/tags/differential-privacy/</loc>
+    <lastmod>2018-10-06T19:28:31+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://shubhamjain0594.github.io/tags/systems/</loc>
+    <lastmod>2018-10-06T19:28:31+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://shubhamjain0594.github.io/post/kim-how-to-write-first-class-paper/</loc>
     <lastmod>2018-03-17T11:20:27+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shubhamjain0594.github.io/tags/article/</loc>
+    <lastmod>2018-03-17T11:20:27+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://shubhamjain0594.github.io/tags/kim/</loc>
+    <lastmod>2018-03-17T11:20:27+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://shubhamjain0594.github.io/tags/productivity/</loc>
+    <lastmod>2018-03-17T11:20:27+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -23,13 +88,32 @@
   </url>
   
   <url>
-    <loc>https://shubhamjain0594.github.io/work/</loc>
-    <lastmod>2017-11-15T12:00:00+05:30</lastmod>
+    <loc>https://shubhamjain0594.github.io/tags/experiences/</loc>
+    <lastmod>2018-01-21T20:28:23+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://shubhamjain0594.github.io/tags/life/</loc>
+    <lastmod>2018-01-21T20:28:23+05:30</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://shubhamjain0594.github.io/post/glimpses-of-rework-deep-learning-2017/</loc>
     <lastmod>2017-05-26T00:14:56+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shubhamjain0594.github.io/tags/conference/</loc>
+    <lastmod>2017-05-26T00:14:56+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://shubhamjain0594.github.io/tags/deep-learning/</loc>
+    <lastmod>2017-05-26T00:14:56+05:30</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -43,8 +127,20 @@
   </url>
   
   <url>
+    <loc>https://shubhamjain0594.github.io/tags/survey/</loc>
+    <lastmod>2016-12-10T19:10:29+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://shubhamjain0594.github.io/post/deep-learning-ai-videos/</loc>
     <lastmod>2016-11-23T17:38:15+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shubhamjain0594.github.io/tags/videos/</loc>
+    <lastmod>2016-11-23T17:38:15+05:30</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -58,13 +154,26 @@
   </url>
   
   <url>
+    <loc>https://shubhamjain0594.github.io/tags/journey/</loc>
+    <lastmod>2016-11-12T18:13:08+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://shubhamjain0594.github.io/tags/video/</loc>
+    <lastmod>2016-11-12T18:13:08+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://shubhamjain0594.github.io/post/cool-nn-dl-applications/</loc>
     <lastmod>2016-09-18T14:54:14+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://shubhamjain0594.github.io/contact/</loc>
-    <lastmod>2016-09-12T20:19:44+05:30</lastmod>
+    <loc>https://shubhamjain0594.github.io/tags/applications/</loc>
+    <lastmod>2016-09-18T14:54:14+05:30</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -88,126 +197,18 @@
   </url>
   
   <url>
-    <loc>https://shubhamjain0594.github.io/post/from-an-unknown-to-someone/</loc>
-    <lastmod>2014-05-15T15:40:12+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://shubhamjain0594.github.io/tags/applications/</loc>
-    <lastmod>2016-09-18T14:54:14+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://shubhamjain0594.github.io/tags/article/</loc>
-    <lastmod>2018-03-17T11:20:27+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://shubhamjain0594.github.io/tags/conference/</loc>
-    <lastmod>2017-05-26T00:14:56+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://shubhamjain0594.github.io/tags/deep-learning/</loc>
-    <lastmod>2017-05-26T00:14:56+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://shubhamjain0594.github.io/tags/differential-privacy/</loc>
-    <lastmod>2018-10-06T19:28:31+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://shubhamjain0594.github.io/</loc>
-    <lastmod>2018-10-06T19:28:31+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://shubhamjain0594.github.io/tags/experiences/</loc>
-    <lastmod>2018-01-21T20:28:23+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://shubhamjain0594.github.io/tags/journey/</loc>
-    <lastmod>2016-11-12T18:13:08+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://shubhamjain0594.github.io/tags/kim/</loc>
-    <lastmod>2018-03-17T11:20:27+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://shubhamjain0594.github.io/tags/life/</loc>
-    <lastmod>2018-01-21T20:28:23+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://shubhamjain0594.github.io/tags/philosophy/</loc>
     <lastmod>2015-05-14T15:48:11+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://shubhamjain0594.github.io/post/</loc>
-    <lastmod>2018-10-06T19:28:31+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://shubhamjain0594.github.io/tags/productivity/</loc>
-    <lastmod>2018-03-17T11:20:27+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://shubhamjain0594.github.io/tags/survey/</loc>
-    <lastmod>2016-12-10T19:10:29+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://shubhamjain0594.github.io/tags/systems/</loc>
-    <lastmod>2018-10-06T19:28:31+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://shubhamjain0594.github.io/tags/</loc>
-    <lastmod>2016-09-18T14:54:14+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://shubhamjain0594.github.io/tags/tldr/</loc>
-    <lastmod>2018-10-06T19:28:31+01:00</lastmod>
-    <priority>0</priority>
+    <loc>https://shubhamjain0594.github.io/post/from-an-unknown-to-someone/</loc>
+    <lastmod>2014-05-15T15:40:12+05:30</lastmod>
   </url>
   
   <url>
     <loc>https://shubhamjain0594.github.io/topics/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://shubhamjain0594.github.io/tags/video/</loc>
-    <lastmod>2016-11-12T18:13:08+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://shubhamjain0594.github.io/tags/videos/</loc>
-    <lastmod>2016-11-23T17:38:15+05:30</lastmod>
     <priority>0</priority>
   </url>
   

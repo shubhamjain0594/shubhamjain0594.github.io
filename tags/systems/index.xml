@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Systems on Dora&#39;s world</title>
+    <title>systems on Dora&#39;s world</title>
     <link>https://shubhamjain0594.github.io/tags/systems/</link>
-    <description>Recent content in Systems on Dora&#39;s world</description>
+    <description>Recent content in systems on Dora&#39;s world</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2016. All rights reserved.</copyright>
     <lastBuildDate>Sat, 06 Oct 2018 19:28:31 +0100</lastBuildDate>
@@ -18,7 +18,7 @@
       
       <guid>https://shubhamjain0594.github.io/post/tlds-uber-ucberkeley-enigma-dp/</guid>
       <description>These are my notes from watching the video Differential Privacy at Scale: Uber and Berkeley Collaboration presented at Enigma 2018.
-Attack Surface: SQL Database with trips
+Attack Surface: SQL Database with trips.
 Attacks:  Internal: Inside the company analysts retrieving the data using SQL External: External query makers  Solution Chorus + DP
 Why Anonymization not a solution?  It has limited utility Subject to re-identification attacks  Challenges for Practical General-purpose DP  Usability for non-experts Broad support for analytics queries Easy integration with existing infra (data environments)  What does broad support mean?</description>
     </item>
