@@ -5,7 +5,7 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
-  <meta name="generator" content="Hugo 0.55.6" />
+  <meta name="generator" content="Hugo 0.83.1" />
 
   <title>TL;DS - Differential Privacy at Scale: Uber and Berkeley Collaboration &middot; Dora&#39;s world</title>
 
@@ -39,19 +39,10 @@
   
 
   
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/androidstudio.min.css">
-  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-  
-  <script>hljs.initHighlightingOnLoad();</script>
-  
 
   <link rel="shortcut icon" href="https://shubhamjain0594.github.io/img/favicon.ico" type="image/x-icon" />
 
   
-    <link rel="stylesheet" href="https://shubhamjain0594.github.io/css/public.css">
-  
-  
-    <script src="https://shubhamjain0594.github.io/js/my.js"></script>
   
 
 </head>
@@ -68,33 +59,31 @@
 <div id="menu">
 
   
-  <a class="pure-menu-heading brand" href="https://shubhamjain0594.github.io/">S.J.</a>
-
 
   <div class="pure-menu">
     <ul class="pure-menu-list">
       
       
         <li class="pure-menu-item">
-          <a class="pure-menu-link" href="https://shubhamjain0594.github.io/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
+          <a class="pure-menu-link" href="https://shubhamjain0594.github.io/">Home</a>
       
         </li>
       
       
         <li class="pure-menu-item">
-          <a class="pure-menu-link" href="https://shubhamjain0594.github.io/about/"><i class='fa fa-user fa-fw'></i>About</a>
+          <a class="pure-menu-link" href="https://shubhamjain0594.github.io/posts">All posts</a>
       
         </li>
       
       
         <li class="pure-menu-item">
-          <a class="pure-menu-link" href="https://shubhamjain0594.github.io/travel/"><i class='fa fa-plane fa-fw'></i>My Travels</a>
+          <a class="pure-menu-link" href="https://shubhamjain0594.github.io/tags">Tags</a>
       
         </li>
       
       
         <li class="pure-menu-item">
-          <a class="pure-menu-link" href="https://shubhamjain0594.github.io/img/cv.pdf"><i class='fa fa-file fa-fw'></i>CV</a>
+          <a class="pure-menu-link" href="https://shubhamjain0594.github.io/about">About</a>
       
         </li>
       
@@ -109,10 +98,6 @@
     
 
     
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://twitter.com/shubhamjain0594" target="_blank"><i class="fa fa-twitter-square fa-fw"></i>Twitter</a>
-    </li>
-    
 
     
 
@@ -145,10 +130,6 @@
     
 
     
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://linkedin.com/in/shubham-jain-b1356962" target="_blank"><i class="fa fa-linkedin-square fa-fw"></i>LinkedIn</a>
-    </li>
-    
 
     
 
@@ -161,19 +142,11 @@
     
 
     
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://github.com/shubhamjain0594" target="_blank"><i class="fa fa-github-square fa-fw"></i>GitHub</a>
-    </li>
-    
 
     
 
     
 
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://stackoverflow.com/users/shubhamjain094" target="_blank"><i class="fa fa-stack-overflow fa-fw"></i>Stack Overflow</a>
-    </li>
     
 
     
@@ -200,7 +173,7 @@
 
   <div>
   <div class="small-print">
-    <small>&copy; 2016. All rights reserved.</small>
+    <small>&copy; 2021. All rights reserved.</small>
   </div>
   <div class="small-print">
     <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
@@ -249,102 +222,74 @@
 
 </div>
 
-  
-
-<p>These are my notes from watching the video <a href="https://www.usenix.org/conference/enigma2018/presentation/ensign">Differential Privacy at Scale: Uber and Berkeley Collaboration</a> presented at <a href="https://www.usenix.org/conference/enigma2018/program">Enigma 2018</a>.</p>
-
+  <p>These are my notes from watching the video <a href="https://www.usenix.org/conference/enigma2018/presentation/ensign">Differential Privacy at Scale: Uber and Berkeley Collaboration</a> presented at <a href="https://www.usenix.org/conference/enigma2018/program">Enigma 2018</a>.</p>
 <h3 id="attack-surface">Attack Surface:</h3>
-
 <p>SQL Database with trips.</p>
-
 <h3 id="attacks">Attacks:</h3>
-
 <ul>
 <li>Internal: Inside the company analysts retrieving the data using SQL</li>
 <li>External: External query makers</li>
 </ul>
-
 <h3 id="solution">Solution</h3>
-
 <p>Chorus + DP</p>
-
 <h3 id="why-anonymization-not-a-solution">Why Anonymization not a solution?</h3>
-
 <ul>
 <li>It has limited utility</li>
 <li>Subject to re-identification attacks</li>
 </ul>
-
 <h3 id="challenges-for-practical-general-purpose-dp">Challenges for Practical General-purpose DP</h3>
-
 <ul>
 <li>Usability for non-experts</li>
 <li>Broad support for analytics queries</li>
 <li>Easy integration with existing infra (data environments)</li>
 </ul>
-
 <h3 id="what-does-broad-support-mean">What does broad support mean?</h3>
-
 <ul>
 <li>System that can deploy multiple mechanisms</li>
 </ul>
-
 <h3 id="what-is-chorus">What is Chorus?</h3>
-
 <ul>
 <li>Automatically enforces DP for SQL queries</li>
 <li>Modular to support various mechanisms (supports 93% queries in workload)</li>
 <li>Works with standard SQL DBs</li>
 <li>Deployed at Uber</li>
 </ul>
-
 <h3 id="how-it-works">How it works?</h3>
-
 <ul>
 <li>Takes a SQL query and modifies it to an intrinsic private query (IPQ)</li>
 <li>IPQ has embedded DP mechanisms</li>
 </ul>
-
 <h3 id="mechanisms">Mechanisms</h3>
-
 <ul>
 <li><a href="https://arxiv.org/abs/1706.09479">Elastic Sensitivity</a>
-
 <ul>
 <li>Scale of noise is defined by elastic sensitivity, privacy budget</li>
 <li>This is determined using dataflow analysis of query</li>
-</ul></li>
+</ul>
+</li>
 <li>Sample &amp; Aggregate
-
 <ul>
 <li>Calculates sensitivity of the query as the query executes</li>
 <li>Done by partitioning data and aggregating results in differentially private way</li>
-</ul></li>
+</ul>
+</li>
 <li>WPINQ</li>
 <li>Restricted Sensitivity</li>
 </ul>
-
 <h4 id="note">Note</h4>
-
 <p>These together support 94% queries in the workload</p>
-
 <h3 id="terms-to-read">Terms to Read</h3>
-
 <ul>
 <li>Winsorized mean</li>
 <li>Laplace Mechanism</li>
 </ul>
-
 <h3 id="evaluation">Evaluation</h3>
-
 <ul>
 <li>18,774 SQL Queries</li>
 <li>Less than 1% error by elastic sensitivity</li>
 <li>Median performance overhead of 1.7% on database of 800 million records</li>
 </ul>
-
 <h3 id="research-paper">Research Paper</h3>
-
 <p><a href="https://arxiv.org/pdf/1809.07750.pdf">Chorus: Differential Privacy via Query Rewriting</a></p>
 
 
@@ -382,9 +327,6 @@
 
 
   
-For any comments, suggestions and appreciation tweet to me at <a href="https://twitter.com/shubhamjain0594">@shubhamjain0594</a>
-
-
 
 </div>
 

@@ -5,7 +5,7 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
-  <meta name="generator" content="Hugo 0.55.6" />
+  <meta name="generator" content="Hugo 0.83.1" />
 
   <title>TL;DS - 21 fairness definition and their politics by Arvind Narayanan &middot; Dora&#39;s world</title>
 
@@ -39,19 +39,10 @@
   
 
   
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/androidstudio.min.css">
-  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-  
-  <script>hljs.initHighlightingOnLoad();</script>
-  
 
   <link rel="shortcut icon" href="https://shubhamjain0594.github.io/img/favicon.ico" type="image/x-icon" />
 
   
-    <link rel="stylesheet" href="https://shubhamjain0594.github.io/css/public.css">
-  
-  
-    <script src="https://shubhamjain0594.github.io/js/my.js"></script>
   
 
 </head>
@@ -68,33 +59,31 @@
 <div id="menu">
 
   
-  <a class="pure-menu-heading brand" href="https://shubhamjain0594.github.io/">S.J.</a>
-
 
   <div class="pure-menu">
     <ul class="pure-menu-list">
       
       
         <li class="pure-menu-item">
-          <a class="pure-menu-link" href="https://shubhamjain0594.github.io/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
+          <a class="pure-menu-link" href="https://shubhamjain0594.github.io/">Home</a>
       
         </li>
       
       
         <li class="pure-menu-item">
-          <a class="pure-menu-link" href="https://shubhamjain0594.github.io/about/"><i class='fa fa-user fa-fw'></i>About</a>
+          <a class="pure-menu-link" href="https://shubhamjain0594.github.io/posts">All posts</a>
       
         </li>
       
       
         <li class="pure-menu-item">
-          <a class="pure-menu-link" href="https://shubhamjain0594.github.io/travel/"><i class='fa fa-plane fa-fw'></i>My Travels</a>
+          <a class="pure-menu-link" href="https://shubhamjain0594.github.io/tags">Tags</a>
       
         </li>
       
       
         <li class="pure-menu-item">
-          <a class="pure-menu-link" href="https://shubhamjain0594.github.io/img/cv.pdf"><i class='fa fa-file fa-fw'></i>CV</a>
+          <a class="pure-menu-link" href="https://shubhamjain0594.github.io/about">About</a>
       
         </li>
       
@@ -109,10 +98,6 @@
     
 
     
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://twitter.com/shubhamjain0594" target="_blank"><i class="fa fa-twitter-square fa-fw"></i>Twitter</a>
-    </li>
-    
 
     
 
@@ -145,10 +130,6 @@
     
 
     
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://linkedin.com/in/shubham-jain-b1356962" target="_blank"><i class="fa fa-linkedin-square fa-fw"></i>LinkedIn</a>
-    </li>
-    
 
     
 
@@ -161,19 +142,11 @@
     
 
     
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://github.com/shubhamjain0594" target="_blank"><i class="fa fa-github-square fa-fw"></i>GitHub</a>
-    </li>
-    
 
     
 
     
 
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://stackoverflow.com/users/shubhamjain094" target="_blank"><i class="fa fa-stack-overflow fa-fw"></i>Stack Overflow</a>
-    </li>
     
 
     
@@ -200,7 +173,7 @@
 
   <div>
   <div class="small-print">
-    <small>&copy; 2016. All rights reserved.</small>
+    <small>&copy; 2021. All rights reserved.</small>
   </div>
   <div class="small-print">
     <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
@@ -247,35 +220,29 @@
 
 </div>
 
-  
-
-<p>These are the notes from the <a href="https://www.youtube.com/watch?v=jIXIuYdnyyk">Tutorial: 21 fairness definition and their politics</a> given at ACM FAT* (Fairness, Accountability and Transparency) Conference in 2018 by <a href="http://randomwalker.info/">Arvind Narayanan</a> who is associate professor of computer science at Princeton University.</p>
-
+  <p>These are the notes from the <a href="https://www.youtube.com/watch?v=jIXIuYdnyyk">Tutorial: 21 fairness definition and their politics</a> given at ACM FAT* (Fairness, Accountability and Transparency) Conference in 2018 by <a href="http://randomwalker.info/">Arvind Narayanan</a> who is associate professor of computer science at Princeton University.</p>
 <ul>
 <li>Predictive accuracy: Frequent assumption is decision maker&rsquo;s goal is to maximize accuracy subject to fairness constraint</li>
 </ul>
-
 <h2 id="statistical-bias-vs-societal-bias">Statistical bias vs Societal bias</h2>
-
 <ul>
 <li>Statistical bias: Difference between an estimator&rsquo;s expected value and the true value. It is a surprisingly an adequate fairness criterion among technologists/computer scientists. Argument is that &ldquo;I have built a model that summarizes the data correctly, if the data is biased it is not the algorithm&rsquo;s fault.&rdquo; - Faults with Statistical Bias and the argument is that it doesn&rsquo;t account for errors or distribution of errors. Consider two distributions:</li>
+</ul>
+<ol>
 <li>All the values are same as the expectation E</li>
 <li>Another distribution has expectation E</li>
+</ol>
+<ul>
 <li>Both have same statistical bias.</li>
 <li>Another fault is that data biases are inevitable in real world, you must design algorithm to account for them.</li>
 <li>We need to reframe the problem and move away from mathematical correctness and thus the real challenge is how we make algorithmic systems support human values</li>
 </ul>
-
 <h2 id="various-definitions">Various definitions</h2>
-
 <h3 id="group-fairness">Group Fairness</h3>
-
 <ul>
 <li>Do outcomes systematically differ between demographic groups (or other population groups). Became a heated topic after pro-publicas analysis of COMPAS</li>
 </ul>
-
 <h4 id="impossibility-theorem">Impossibility Theorem</h4>
-
 <ul>
 <li>If an instrument satisifies predictive parity, but the prevalence differs between the groups, the instrument cannot achieve equal false positive and false negative rates across the groups.</li>
 <li>Problem we consider (Setting up environment for the talk) is of binary classification
@@ -293,208 +260,122 @@
 <li>False positive | negative rate gives Error rate balance</li>
 <li>Accuracy gives Accuracy equity</li>
 </ul>
-
 <p>We can choose any three but we cant have all the three same for different groups with different prevalence rates. <a href="https://www.liebertpub.com/doi/pdf/10.1089/big.2016.0047">Chouldechova&rsquo;s impossibility theorem</a> states that we can choose any three and reach the same impossibility result.</p>
-
 <p>Thus, it is suggested we use two to measure fairness. Chouldechova suggests to use FPR and FNR. But even that might not be possible. Because the impossibility theorem does has very minimum assumptions and does not even consider that you are treating individuals equally.</p>
-
 <p>Different metrics matter to different stakeholders, there is no &ldquo;right&rdquo; direction.</p>
-
 <p>For hiring or any other metric in real-life challenge is how do we measure true positives. What standards do we use?</p>
-
 <h3 id="individual-fairness">Individual Fairness</h3>
-
 <p>Generally impossible to pick a single threshold (basic version of individual fairness)  for all groups that equalize both FPR and FNR, assuming scores are calibrated.</p>
-
 <p><em>What do people prefer? Should everyone be treated same is defined by same thresholds or by same statistics after using different thresholds.</em></p>
-
 <p>Interesting Link - <a href="https://5harad.com/">Sharad Goel</a></p>
-
 <h3 id="fairness-and-utility">Fairness and Utility</h3>
-
 <p><a href="https://5harad.com/papers/fairness.pdf">Algorithmic Decision Making and the Cost of Fairness</a></p>
-
 <h2 id="provocations">Provocations</h2>
-
 <h3 id="tradeoffs-in-selecting-a-metric">Tradeoffs in selecting a metric</h3>
-
-<p>To satisfy even a single fairness criterion (say equal FPR), we have to sacrifice a little in terms of utility (public safety and/or number of defendants released)</p></p>
-
+<p>To satisfy even a single fairness criterion (say equal FPR), we have to sacrifice a little in terms of utility (public safety and/or number of defendants released)<!-- raw HTML omitted --></p>
 <ul>
 <li>Between different measures of group fairness</li>
 <li>Between group fairness and individual fairness</li>
 <li>Between fairness and utility</li>
 </ul>
-
 <p>Lot of work happening in technical community around this is happening without the availability of a moral framework. The approach has been to design a loss function and utility function and optimize them. This seems a bit incoherent, like counting apples and fairness, and concluding that the answer is 7.3 [a random number].</p>
-
 <p><a href="https://arxiv.org/abs/1712.03586">Fairness in Machine Learning: Lessons from Political Philosophy</a></p>
-
 <p><a href="https://www.cs.ox.ac.uk/people/reuben.binns/">Department of Computer Science: Reuben Binns</a></p>
-
 <p>Much of this applies to human decision making as well. Tensions between different things different stakeholders might want.</p>
-
 <p>Non-obvious ways in which this might affect us - police search of a vehicle can be seen as a prediction of the presence of contraband in that vehicle. Thus, here as well we can see how this varies for different demographic groups and here as well impossibility theorem applies.</p>
-
 <h3 id="tensions-between-disparate-treatment-and-disparate-impact">Tensions between disparate treatment and disparate impact</h3>
-
 <p>Read <a href="https://en.wikipedia.org/wiki/Ricci_v._DeStefano">Ricci v. DeStefano - Wikipedia</a></p>
-
 <p>Tension between disparate treatment and disparate impact. Different groups have to be treated differently to maintain fairness. Humans deal with it on case-by-case basis. But this is not scalable for algorithmic decision making.</p>
-
 <h3 id="new-complexities">New complexities</h3>
-
 <p>System that uses protected attributes for training but not for prediction.
 <a href="https://arxiv.org/abs/1711.07076">[1711.07076] Does mitigating ML&rsquo;s impact disparity require treatment disparity?</a></p>
-
 <h3 id="ineffectiveness-of-blindness">Ineffectiveness of Blindness</h3>
-
 <p><a href="https://arxiv.org/abs/1610.02413">[1610.02413] Equality of Opportunity in Supervised Learning</a>. Quantifies the ineffectiveness of blindness, in ML algorithms. Shows blindness in ML is ineffective. Reasons:</p>
-
 <ul>
 <li>ML bias is &ldquo;just&rdquo; a side effect of maximizing accuracy</li>
 <li>ML is much better at picking up proxies on data</li>
 </ul>
-
 <h3 id="unacknowledged-affirmative-action">Unacknowledged affirmative action</h3>
-
 <p><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2477899">Big Data&rsquo;s Disparate Impact by Solon Barocas, Andrew D. Selbst :: SSRN</a></p>
-
 <p>Barocas said <a href="https://www.youtube.com/watch?v=S_AkPi6-r3Y">&ldquo;What is the Problem to Which Fair Machine Learning is the Solution? | Solon Barocas | AI Now 2017&rdquo;</a></p>
-
 <p>Pervasive issue: Prevalence is different amongst groups.</p>
-
-<p>Why is prevalence different? Two common reasons
-- Measurement bias. E.g. estimating crime using rearrests rather than recidivism. Thus we employ correction using algorithms. This can be seen as a fairness intervention.
-- Historical Prejudice. E.g. poverty/crime/unemployment cycle. Correcting for this can be seen as an affirmative action.</p>
-
+<p>Why is prevalence different? Two common reasons</p>
+<ul>
+<li>Measurement bias. E.g. estimating crime using rearrests rather than recidivism. Thus we employ correction using algorithms. This can be seen as a fairness intervention.</li>
+<li>Historical Prejudice. E.g. poverty/crime/unemployment cycle. Correcting for this can be seen as an affirmative action.</li>
+</ul>
 <p>When we see a dataset, it might be extremely difficult to find how much the difference in prevalence is because of measurement bias and how much is it because of historical prejudice.</p>
-
 <p><a href="https://media.neurips.cc/Conferences/NIPS2018/Slides/kroll-kohli-pitfalls.pdf">Common Pitfalls for Studying the Human Side of Machine Learning</a></p>
-
 <p><a href="https://fairmlbook.org/pdf/fairmlbook.pdf">FairML Book</a></p>
-
 <h3 id="the-big-demographic-parity-debate">The big demographic parity debate</h3>
-
 <p>Third reason for different prevalence is that there might be intrinsic differences in different groups of people.</p>
-
 <p>Demographic parity assumes no intrinsic differences between the groups.</p>
-
 <p>Thus, an alternative approach is - we separate the data problem and algorithmic problem. Solving  data problem means mitigating measurement bias. And solving algorithmic problem means minimizing bias w.r.t input data.</p>
-
 <p>Counterpoint to this alternative approach is - there is no way to solve the data problem. Authors of <a href="https://arxiv.org/abs/1703.04957">An algorithm for removing sensitive information: application to race-independent recidivism prediction</a> say that in criminal justice context, there is noted dearth of information with which to correct systematic measurement error in arrest data and there is evidence for this. Thus, if we cant possibly solve the data problem, we should assume as a hypothesis that there are no intrinsic differences between the demographics and thus use demographic parity.</p>
-
 <h2 id="other-definitions">Other definitions</h2>
-
 <h3 id="individual-fairness-1">Individual fairness</h3>
-
 <p>Similar individuals (based on a metric that defines how similar two given individuals are in the context of a decision-making task) should be treated similarly. The idea came from - <a href="https://arxiv.org/abs/1104.3913">Fairness through Awareness by Dwork et. al.</a>, more details can be found in this video - <a href="https://www.youtube.com/watch?v=g-z84_nRQhw">Emerging theory of algorithmic fairness</a></p>
-
 <h4 id="provocations-as-a-result-of-this-definition">Provocations as a result of this definition</h4>
-
 <h5 id="can-a-randomized-classifier-be-fair">Can a randomized classifier be fair?</h5>
-
-<p><img src="https://shubhamjain0594.github.io/img/arvind-fairness/img1.png" alt="Image" /></p>
-
+<p><img src="https://shubhamjain0594.github.io/img/arvind-fairness/img1.png" alt="Image"></p>
 <p>A deterministic classifier necessarily gives very different results to very similar individuals, thus only randomized classifiers can be fair in this sense.</p>
-
-<h5 id="should-we-trust-decision-maker-s-intentions">Should we trust decision-maker&rsquo;s intentions?</h5>
-
+<h5 id="should-we-trust-decision-makers-intentions">Should we trust decision-maker&rsquo;s intentions?</h5>
 <p>View 1: decision-makers are callous if not malicious; compliance with the fairness definition is the only thing preventing discrimination or misbehavior.</p>
-
 <p>View 2: decision-maker fundamentally has god intentions, and the fairness mechanism helps the decision-maker avoid any unintentional discrimination.</p>
-
-<h5 id="how-to-foster-democratic-debate-on-fairness-metrics">How to foster democratic debate on fairness (metrics) ?</h5>
-
+<h5 id="how-to-foster-democratic-debate-on-fairness-metrics-">How to foster democratic debate on fairness (metrics) ?</h5>
 <p>The paper says that &ldquo;the similarity metric is .. public and open to discussion and continual refinement.&rdquo;</p>
-
 <p>But today, we are nowhere close to this and incentives favor secrecy compared to openness.</p>
-
 <h3 id="process-fairness">Process Fairness</h3>
-
 <p>How fair is the process? (In contrast with how fair are outputs as seen earlier). Fairness value of a predictive feature: percentage of the survey respondents who consider it fair to use (with various stipulations).</p>
-
 <p>Very little work in this direction by computer scientists. One of it <a href="https://people.mpi-sws.org/~gummadi/papers/process_fairness.pdf">The Case for Process Fairness in Learning: Feature Selection for Fair Decision Making</a>. Paper explores tradeoff between accuracy, process fairness and output fairness.</p>
-
 <h4 id="provocations-1">Provocations</h4>
-
 <ul>
 <li>Can process fairness be modeled as an optimization problem or is the vocabulary of ML too limited?</li>
 <li>Conversely, does the inscrutability of machine learning limit the usefulness of human intuition as a guide to process fairness?</li>
 </ul>
-
 <h3 id="diversity">Diversity</h3>
-
 <p>Diversity and its relation to fairness. A really nice work describing this - <a href="https://www.liebertpub.com/doi/full/10.1089/big.2016.0054">Diversity in Big Data: A Review</a>. An important consideration for ranking, selection, matching, recommendation. Various definitions are available, such as the average distance between selected items.</p>
-
 <p>The key in this field is the distance function to define diversity. Under-studied problem.</p>
-
 <h2 id="fairness-for-problems-such-as-google-translate-or-a-face-filter-learning-algorithm">Fairness for problems such as Google Translate or a Face filter learning algorithm</h2>
-
 <p>These definitions correspond to a different suite of problems - Representational harms. The way Kate Crawford puts in her talk - <a href="https://www.youtube.com/watch?v=fMym_BKWQzk">The Trouble with Bias</a>.</p>
-
 <p>There are two kinds of problems:</p>
-
 <ol>
 <li>Allocative harms. System withholds opportunity (e.g. hiring, criminal justice, etc.). Leads to economic harms. Discrete transaction, immediate effects.</li>
 <li>Representational harms. System reinforces subordination of a group (stereotyping, cultural denigration, etc.). Leads to social harms. Has diffuse, long-term effects.</li>
 </ol>
-
 <h3 id="stereotype-mirroring-and-exaggeration">Stereotype mirroring and exaggeration</h3>
-
 <p><a href="https://dl.acm.org/citation.cfm?id=2702520">Unequal Representation and Gender Stereotypes in Image Search Results for Occupations</a></p>
-
 <ul>
 <li>Mirroring: strength of stereotype exhibited by system reflects real-world data.</li>
 <li>Exaggeration - strength of stereotype exhibited by system is amplified compared to real-world data.</li>
 </ul>
-
 <h4 id="provocation">Provocation</h4>
-
 <p><strong>To what extent should ML models reflect societal stereotypes.</strong></p>
-
 <p>Default view of the tech world is of the view that mirroring is <em>correct</em> and <em>unbiased</em>.</p>
-
 <h3 id="dataset-bias">Dataset Bias</h3>
-
 <p><a href="https://ieeexplore.ieee.org/document/5995347/">Unbiased look at dataset bias</a></p>
-
 <p>Theoretically, datasets are representative snapshots of underlying visual world. But it is easily proven false as images from different datasets are discriminable. Can we quantify this?</p>
-
 <p>Cross-dataset generalization: How well does a model built on a given dataset generalize to a different dataset. Equally applicable to test (say) demographic representativeness of datasets. e.g. Train a face recognition model on one dataset and test on others.</p>
-
 <h3 id="bias-in-representation-learning">Bias in Representation Learning</h3>
-
 <p>Consider words and images represented as vectors. Multiple papers have shown that these representations are biased.</p>
-
 <h4 id="provocation-1">Provocation</h4>
-
 <p><strong>Should dataset curators who release large datasets be required to do a bias assessment of the data?</strong></p>
-
 <ul>
 <li>Analysis of representativeness and bias</li>
 <li>Intended and unintended bias</li>
 </ul>
-
 <p><strong>Should researchers who release pre-trained models/representations have similar obligations?</strong></p>
-
 <ul>
 <li>Should released models be &ldquo;debiased&rdquo;?</li>
 </ul>
-
 <h3 id="bias-amplification">Bias Amplification</h3>
-
 <p>Difference in the association between two labels in the training vs evaluation set.
 <a href="https://arxiv.org/abs/1707.09457">Men Also Like Shopping: Reducing Gender Bias Amplification using Corpus-level Constraints</a></p>
-
 <h2 id="summary">Summary</h2>
-
 <h3 id="definitions-covered">Definitions covered</h3>
-
 <ul>
 <li>Statistical Bias</li>
 <li>Group Fairness
-
 <ul>
 <li>Demographic Parity</li>
 <li>Equal Pos. Pred. Value</li>
@@ -502,37 +383,34 @@
 <li>Equal FPR</li>
 <li>Equal FNR</li>
 <li>Accuracy equity</li>
-</ul></li>
+</ul>
+</li>
 <li>Blindness</li>
 <li>Individual fairness
-
 <ul>
 <li>Equal thresholds</li>
 <li>Similarity metric</li>
-</ul></li>
+</ul>
+</li>
 <li>Process fairness (feature rating)</li>
 <li>Diversity (various definitions)</li>
 <li>Representational harms
-
 <ul>
 <li>Stereotype mirroring/exaggeration</li>
 <li>Cross-dataset generalization</li>
 <li>Bias in representation learning</li>
 <li>Bias amplification</li>
-</ul></li>
 </ul>
-
+</li>
+</ul>
 <h3 id="more-definitions-not-covered">More definitions (not covered)</h3>
-
 <ul>
 <li><a href="https://arxiv.org/abs/1706.02744">[1706.02744] Avoiding Discrimination through Causal Reasoning</a></li>
 <li><a href="https://arxiv.org/abs/1605.07139">[1605.07139] Fairness in Learning: Classic and Contextual Bandits</a></li>
 <li><a href="https://arxiv.org/abs/1601.05764">[1601.05764] A Confidence-Based Approach for Balancing Fairness and Accuracy</a></li>
 <li><a href="https://dl.acm.org/citation.cfm?id=3098095">Algorithmic Decision Making and the Cost of Fairness</a></li>
 </ul>
-
 <h3 id="why-so-many-definitions-why-is-that-a-good-thing">Why so many definitions? [Why is that a good thing?]</h3>
-
 <ul>
 <li>Different contexts/applications</li>
 <li>Different stakeholders</li>
@@ -540,10 +418,8 @@
 <li>Any overarching definitions will be inevitably be vacuous</li>
 <li>Allocative vs representational harms</li>
 </ul>
-
 <p><em>Goal is to build algorithmic systems that further human values, which can&rsquo;t be reduced to a formula.</em></p>
-
-<p><img src="https://shubhamjain0594.github.io/img/arvind-fairness/img2.png" alt="Image" /></p>
+<p><img src="https://shubhamjain0594.github.io/img/arvind-fairness/img2.png" alt="Image"></p>
 
 
   
@@ -574,9 +450,6 @@
 
 
   
-For any comments, suggestions and appreciation tweet to me at <a href="https://twitter.com/shubhamjain0594">@shubhamjain0594</a>
-
-
 
 </div>
 

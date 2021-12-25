@@ -1,15 +1,30 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dora&#39;s world</title>
     <link>https://shubhamjain0594.github.io/</link>
     <description>Recent content on Dora&#39;s world</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>&amp;copy; 2016. All rights reserved.</copyright>
-    <lastBuildDate>Fri, 19 Jul 2019 17:52:50 +0100</lastBuildDate>
+    <copyright>&amp;copy; 2021. All rights reserved.</copyright>
+    <lastBuildDate>Tue, 01 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://shubhamjain0594.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Adversarial Detection Avoidance Attacks</title>
+      <link>https://shubhamjain0594.github.io/project/phash/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://shubhamjain0594.github.io/project/phash/</guid>
+      <description>Publications  Adversarial Detection Avoidance Attacks: Evaluating the robustness of perceptual hashing-based client-side scanning by Shubham Jain*, Ana-Maria Cretu*, and Yves-Alexandre de Montjoye. USENIX Security 2022. Available here.
+ </description>
+    </item>
     
-	<atom:link href="https://shubhamjain0594.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
+    <item>
+      <title>OPAL (OPen ALgorithms)</title>
+      <link>https://shubhamjain0594.github.io/project/opal/</link>
+      <pubDate>Thu, 05 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://shubhamjain0594.github.io/project/opal/</guid>
+      <description>OPAL project presents a practical and open-sourced query-based platform for privacy-preserving large scale location data analytics. The project website provides more details on the project. At Imperial, I worked with Axel Oehmichen, Andrea Gadotti and Yves-Alexandre to build the system. The open-sourced code can be found here. The paper describing and evaluating the platform has been published at IEEE BigData 2019. The platform was deployed in Colombia and Senegal with the help of partners in those countries.</description>
+    </item>
     
     <item>
       <title>TL;DS - 21 fairness definition and their politics by Arvind Narayanan</title>
@@ -19,6 +34,15 @@
       <guid>https://shubhamjain0594.github.io/post/tlds-arvind-fairness-definitions/</guid>
       <description>These are the notes from the Tutorial: 21 fairness definition and their politics given at ACM FAT* (Fairness, Accountability and Transparency) Conference in 2018 by Arvind Narayanan who is associate professor of computer science at Princeton University.
  Predictive accuracy: Frequent assumption is decision maker&amp;rsquo;s goal is to maximize accuracy subject to fairness constraint  Statistical bias vs Societal bias  Statistical bias: Difference between an estimator&amp;rsquo;s expected value and the true value.</description>
+    </item>
+    
+    <item>
+      <title>UNVEIL</title>
+      <link>https://shubhamjain0594.github.io/project/unveil/</link>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://shubhamjain0594.github.io/project/unveil/</guid>
+      <description>In the past few years, numerous privacy vulnerabilities have been discovered in the WiFi standards and their implementations for mobile devices. These vulnerabilities allow an attacker to collect large amounts of data on the device user, which could be used to infer sensitive information such as religion, gender, and sexual orientation. Solutions for these vulnerabilities are often hard to design and typically require many years to be widely adopted, leaving many devices at risk.</description>
     </item>
     
     <item>
@@ -53,7 +77,7 @@ Why Anonymization not a solution?  It has limited utility Subject to re-identifi
 What Google Learned From Its Quest to Build the Perfect Team
 TL;DR
 Researchers from CMU, MIT and Union College identified two characteristics required for creating a good team
- On the good teams, members spoke in roughly the same proportion, a phenomenon the researchers referred to as &amp;ldquo;equality in distribution of conversational turn-taking&amp;rdquo;. On some teams, everyone spoke during each task; on others, leadership shifted among teammates from assignment to assignment.</description>
+  On the good teams, members spoke in roughly the same proportion, a phenomenon the researchers referred to as &amp;ldquo;equality in distribution of conversational turn-taking&amp;rdquo;. On some teams, everyone spoke during each task; on others, leadership shifted among teammates from assignment to assignment.</description>
     </item>
     
     <item>
@@ -104,7 +128,7 @@ Nuts and Bolts of Building Applications using Deep Learning - Andrew Ng Slides V
       <pubDate>Wed, 23 Nov 2016 17:38:15 +0530</pubDate>
       
       <guid>https://shubhamjain0594.github.io/post/deep-learning-ai-videos/</guid>
-      <description>I like to hear things in my background while I am working. Music seems pleasure but sometimes also a distraction. At such points I play some good random videos in background. These help me in gaining new knowledge but at the same time does not distract me from work. I have compiled a small list of such videos in deep learning that I have heard so far and loved them.</description>
+      <description>I like to hear things in my background while I am working. Music seems pleasure but sometimes also a distraction. At such points I play some good random videos in background. These help me in gaining new knowledge but at the same time does not distract me from work. I have compiled a small list of such videos in deep learning that I have heard so far and loved them. Will go on adding more.</description>
     </item>
     
     <item>
@@ -163,7 +187,7 @@ This blog is to record and share my learnings, some good blog posts I come acros
       <guid>https://shubhamjain0594.github.io/travel/</guid>
       <description>Listing down all the trips I have made so far.
 EuroTrip #1 [6][7][8] Duration 9D, 8N
-Travel Map  Itinerary  Day 1 - Reach Rome in early morning, Check-in and go around to visit Basilica of the Santa Maria, Colosseum, Altar of the Fatherland, Trevi Fountain. If time permits, you can visit St. Peter&amp;rsquo;s Square (Vatican City) in evening. Most travel is by foot, take train/bus for Vatican City.</description>
+Travel Map Itinerary  Day 1 - Reach Rome in early morning, Check-in and go around to visit Basilica of the Santa Maria, Colosseum, Altar of the Fatherland, Trevi Fountain. If time permits, you can visit St. Peter&amp;rsquo;s Square (Vatican City) in evening. Most travel is by foot, take train/bus for Vatican City. Day 2 - Take flight from Rome to Dubrovnik, Check-in, go around the City, Check out beaches at Babin Kuk.</description>
     </item>
     
     <item>

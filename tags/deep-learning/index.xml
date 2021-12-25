@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>deep-learning on Dora&#39;s world</title>
     <link>https://shubhamjain0594.github.io/tags/deep-learning/</link>
     <description>Recent content in deep-learning on Dora&#39;s world</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>&amp;copy; 2016. All rights reserved.</copyright>
-    <lastBuildDate>Fri, 26 May 2017 00:14:56 +0530</lastBuildDate>
-    
-	<atom:link href="https://shubhamjain0594.github.io/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2021. All rights reserved.</copyright>
+    <lastBuildDate>Fri, 26 May 2017 00:14:56 +0530</lastBuildDate><atom:link href="https://shubhamjain0594.github.io/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Glimpse of Re-Work Deep Learning Summit - Singapore, 2017</title>
       <link>https://shubhamjain0594.github.io/post/glimpses-of-rework-deep-learning-2017/</link>
@@ -39,7 +35,7 @@ Nuts and Bolts of Building Applications using Deep Learning - Andrew Ng Slides V
       <pubDate>Wed, 23 Nov 2016 17:38:15 +0530</pubDate>
       
       <guid>https://shubhamjain0594.github.io/post/deep-learning-ai-videos/</guid>
-      <description>I like to hear things in my background while I am working. Music seems pleasure but sometimes also a distraction. At such points I play some good random videos in background. These help me in gaining new knowledge but at the same time does not distract me from work. I have compiled a small list of such videos in deep learning that I have heard so far and loved them.</description>
+      <description>I like to hear things in my background while I am working. Music seems pleasure but sometimes also a distraction. At such points I play some good random videos in background. These help me in gaining new knowledge but at the same time does not distract me from work. I have compiled a small list of such videos in deep learning that I have heard so far and loved them. Will go on adding more.</description>
     </item>
     
     <item>

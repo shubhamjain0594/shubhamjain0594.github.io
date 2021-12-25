@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Dora&#39;s world</title>
     <link>https://shubhamjain0594.github.io/tags/</link>
     <description>Recent content in Tags on Dora&#39;s world</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>&amp;copy; 2016. All rights reserved.</copyright>
-    <lastBuildDate>Fri, 19 Jul 2019 17:52:50 +0100</lastBuildDate>
-    
-	<atom:link href="https://shubhamjain0594.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2021. All rights reserved.</copyright>
+    <lastBuildDate>Fri, 19 Jul 2019 17:52:50 +0100</lastBuildDate><atom:link href="https://shubhamjain0594.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>fairness</title>
       <link>https://shubhamjain0594.github.io/tags/fairness/</link>
@@ -120,11 +116,11 @@
     </item>
     
     <item>
-      <title>videos</title>
-      <link>https://shubhamjain0594.github.io/tags/videos/</link>
+      <title>video</title>
+      <link>https://shubhamjain0594.github.io/tags/video/</link>
       <pubDate>Wed, 23 Nov 2016 17:38:15 +0530</pubDate>
       
-      <guid>https://shubhamjain0594.github.io/tags/videos/</guid>
+      <guid>https://shubhamjain0594.github.io/tags/video/</guid>
       <description></description>
     </item>
     
@@ -134,15 +130,6 @@
       <pubDate>Sat, 12 Nov 2016 18:13:08 +0530</pubDate>
       
       <guid>https://shubhamjain0594.github.io/tags/journey/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>video</title>
-      <link>https://shubhamjain0594.github.io/tags/video/</link>
-      <pubDate>Sat, 12 Nov 2016 18:13:08 +0530</pubDate>
-      
-      <guid>https://shubhamjain0594.github.io/tags/video/</guid>
       <description></description>
     </item>
     

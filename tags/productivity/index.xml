@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>productivity on Dora&#39;s world</title>
     <link>https://shubhamjain0594.github.io/tags/productivity/</link>
     <description>Recent content in productivity on Dora&#39;s world</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>&amp;copy; 2016. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 17 Mar 2018 11:20:27 +0000</lastBuildDate>
-    
-	<atom:link href="https://shubhamjain0594.github.io/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2021. All rights reserved.</copyright>
+    <lastBuildDate>Sat, 17 Mar 2018 11:20:27 +0000</lastBuildDate><atom:link href="https://shubhamjain0594.github.io/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>KiM - How to Write First Class Paper</title>
       <link>https://shubhamjain0594.github.io/post/kim-how-to-write-first-class-paper/</link>
@@ -31,7 +27,7 @@
 What Google Learned From Its Quest to Build the Perfect Team
 TL;DR
 Researchers from CMU, MIT and Union College identified two characteristics required for creating a good team
- On the good teams, members spoke in roughly the same proportion, a phenomenon the researchers referred to as &amp;ldquo;equality in distribution of conversational turn-taking&amp;rdquo;. On some teams, everyone spoke during each task; on others, leadership shifted among teammates from assignment to assignment.</description>
+  On the good teams, members spoke in roughly the same proportion, a phenomenon the researchers referred to as &amp;ldquo;equality in distribution of conversational turn-taking&amp;rdquo;. On some teams, everyone spoke during each task; on others, leadership shifted among teammates from assignment to assignment.</description>
     </item>
     
   </channel>

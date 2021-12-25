@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>privacy on Dora&#39;s world</title>
+    <link>https://shubhamjain0594.github.io/fields/privacy/</link>
+    <description>Recent content in privacy on Dora&#39;s world</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2021. All rights reserved.</copyright>
+    <lastBuildDate>Tue, 01 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://shubhamjain0594.github.io/fields/privacy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Adversarial Detection Avoidance Attacks</title>
+      <link>https://shubhamjain0594.github.io/project/phash/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://shubhamjain0594.github.io/project/phash/</guid>
+      <description>Publications  Adversarial Detection Avoidance Attacks: Evaluating the robustness of perceptual hashing-based client-side scanning by Shubham Jain*, Ana-Maria Cretu*, and Yves-Alexandre de Montjoye. USENIX Security 2022. Available here.
+ </description>
+    </item>
+    
+    <item>
+      <title>OPAL (OPen ALgorithms)</title>
+      <link>https://shubhamjain0594.github.io/project/opal/</link>
+      <pubDate>Thu, 05 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://shubhamjain0594.github.io/project/opal/</guid>
+      <description>OPAL project presents a practical and open-sourced query-based platform for privacy-preserving large scale location data analytics. The project website provides more details on the project. At Imperial, I worked with Axel Oehmichen, Andrea Gadotti and Yves-Alexandre to build the system. The open-sourced code can be found here. The paper describing and evaluating the platform has been published at IEEE BigData 2019. The platform was deployed in Colombia and Senegal with the help of partners in those countries.</description>
+    </item>
+    
+    <item>
+      <title>UNVEIL</title>
+      <link>https://shubhamjain0594.github.io/project/unveil/</link>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://shubhamjain0594.github.io/project/unveil/</guid>
+      <description>In the past few years, numerous privacy vulnerabilities have been discovered in the WiFi standards and their implementations for mobile devices. These vulnerabilities allow an attacker to collect large amounts of data on the device user, which could be used to infer sensitive information such as religion, gender, and sexual orientation. Solutions for these vulnerabilities are often hard to design and typically require many years to be widely adopted, leaving many devices at risk.</description>
+    </item>
+    
+  </channel>
+</rss>

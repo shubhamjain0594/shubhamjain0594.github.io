@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Dora&#39;s world</title>
+    <title>Blog - Dora&#39;s World on Dora&#39;s world</title>
     <link>https://shubhamjain0594.github.io/post/</link>
-    <description>Recent content in Posts on Dora&#39;s world</description>
+    <description>Recent content in Blog - Dora&#39;s World on Dora&#39;s world</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>&amp;copy; 2016. All rights reserved.</copyright>
-    <lastBuildDate>Fri, 19 Jul 2019 17:52:50 +0100</lastBuildDate>
-    
-	<atom:link href="https://shubhamjain0594.github.io/post/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2021. All rights reserved.</copyright>
+    <lastBuildDate>Fri, 19 Jul 2019 17:52:50 +0100</lastBuildDate><atom:link href="https://shubhamjain0594.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>TL;DS - 21 fairness definition and their politics by Arvind Narayanan</title>
       <link>https://shubhamjain0594.github.io/post/tlds-arvind-fairness-definitions/</link>
@@ -53,7 +49,7 @@ Why Anonymization not a solution?  It has limited utility Subject to re-identifi
 What Google Learned From Its Quest to Build the Perfect Team
 TL;DR
 Researchers from CMU, MIT and Union College identified two characteristics required for creating a good team
- On the good teams, members spoke in roughly the same proportion, a phenomenon the researchers referred to as &amp;ldquo;equality in distribution of conversational turn-taking&amp;rdquo;. On some teams, everyone spoke during each task; on others, leadership shifted among teammates from assignment to assignment.</description>
+  On the good teams, members spoke in roughly the same proportion, a phenomenon the researchers referred to as &amp;ldquo;equality in distribution of conversational turn-taking&amp;rdquo;. On some teams, everyone spoke during each task; on others, leadership shifted among teammates from assignment to assignment.</description>
     </item>
     
     <item>
@@ -104,7 +100,7 @@ Nuts and Bolts of Building Applications using Deep Learning - Andrew Ng Slides V
       <pubDate>Wed, 23 Nov 2016 17:38:15 +0530</pubDate>
       
       <guid>https://shubhamjain0594.github.io/post/deep-learning-ai-videos/</guid>
-      <description>I like to hear things in my background while I am working. Music seems pleasure but sometimes also a distraction. At such points I play some good random videos in background. These help me in gaining new knowledge but at the same time does not distract me from work. I have compiled a small list of such videos in deep learning that I have heard so far and loved them.</description>
+      <description>I like to hear things in my background while I am working. Music seems pleasure but sometimes also a distraction. At such points I play some good random videos in background. These help me in gaining new knowledge but at the same time does not distract me from work. I have compiled a small list of such videos in deep learning that I have heard so far and loved them. Will go on adding more.</description>
     </item>
     
     <item>
