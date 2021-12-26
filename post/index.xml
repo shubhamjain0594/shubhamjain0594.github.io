@@ -1,162 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Blog - Dora&#39;s World on Dora&#39;s world</title>
-    <link>https://shubhamjain0594.github.io/post/</link>
-    <description>Recent content in Blog - Dora&#39;s World on Dora&#39;s world</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <copyright>&amp;copy; 2021. All rights reserved.</copyright>
-    <lastBuildDate>Fri, 19 Jul 2019 17:52:50 +0100</lastBuildDate><atom:link href="https://shubhamjain0594.github.io/post/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>TL;DS - 21 fairness definition and their politics by Arvind Narayanan</title>
-      <link>https://shubhamjain0594.github.io/post/tlds-arvind-fairness-definitions/</link>
-      <pubDate>Fri, 19 Jul 2019 17:52:50 +0100</pubDate>
-      
-      <guid>https://shubhamjain0594.github.io/post/tlds-arvind-fairness-definitions/</guid>
-      <description>These are the notes from the Tutorial: 21 fairness definition and their politics given at ACM FAT* (Fairness, Accountability and Transparency) Conference in 2018 by Arvind Narayanan who is associate professor of computer science at Princeton University.
- Predictive accuracy: Frequent assumption is decision maker&amp;rsquo;s goal is to maximize accuracy subject to fairness constraint  Statistical bias vs Societal bias  Statistical bias: Difference between an estimator&amp;rsquo;s expected value and the true value.</description>
-    </item>
-    
-    <item>
-      <title>TL;DS - Differential Privacy at Scale: Uber and Berkeley Collaboration</title>
-      <link>https://shubhamjain0594.github.io/post/tlds-uber-ucberkeley-enigma-dp/</link>
-      <pubDate>Sat, 06 Oct 2018 19:28:31 +0100</pubDate>
-      
-      <guid>https://shubhamjain0594.github.io/post/tlds-uber-ucberkeley-enigma-dp/</guid>
-      <description>These are my notes from watching the video Differential Privacy at Scale: Uber and Berkeley Collaboration presented at Enigma 2018.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog - Dora's World on Dora's world</title><link>https://shubhamjain0594.github.io/post/</link><description>Recent content in Blog - Dora's World on Dora's world</description><generator>Hugo -- gohugo.io</generator><copyright>&amp;copy; 2021. All rights reserved.</copyright><lastBuildDate>Fri, 19 Jul 2019 17:52:50 +0100</lastBuildDate><atom:link href="https://shubhamjain0594.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>TL;DS - 21 fairness definition and their politics by Arvind Narayanan</title><link>https://shubhamjain0594.github.io/post/tlds-arvind-fairness-definitions/</link><pubDate>Fri, 19 Jul 2019 17:52:50 +0100</pubDate><guid>https://shubhamjain0594.github.io/post/tlds-arvind-fairness-definitions/</guid><description>These are the notes from the Tutorial: 21 fairness definition and their politics given at ACM FAT* (Fairness, Accountability and Transparency) Conference in 2018 by Arvind Narayanan who is associate professor of computer science at Princeton University.
+Predictive accuracy: Frequent assumption is decision maker&amp;rsquo;s goal is to maximize accuracy subject to fairness constraint Statistical bias vs Societal bias Statistical bias: Difference between an estimator&amp;rsquo;s expected value and the true value.</description></item><item><title>TL;DS - Differential Privacy at Scale: Uber and Berkeley Collaboration</title><link>https://shubhamjain0594.github.io/post/tlds-uber-ucberkeley-enigma-dp/</link><pubDate>Sat, 06 Oct 2018 19:28:31 +0100</pubDate><guid>https://shubhamjain0594.github.io/post/tlds-uber-ucberkeley-enigma-dp/</guid><description>These are my notes from watching the video Differential Privacy at Scale: Uber and Berkeley Collaboration presented at Enigma 2018.
 Attack Surface: SQL Database with trips.
-Attacks:  Internal: Inside the company analysts retrieving the data using SQL External: External query makers  Solution Chorus + DP
-Why Anonymization not a solution?  It has limited utility Subject to re-identification attacks  Challenges for Practical General-purpose DP  Usability for non-experts Broad support for analytics queries Easy integration with existing infra (data environments)  What does broad support mean?</description>
-    </item>
-    
-    <item>
-      <title>KiM - How to Write First Class Paper</title>
-      <link>https://shubhamjain0594.github.io/post/kim-how-to-write-first-class-paper/</link>
-      <pubDate>Sat, 17 Mar 2018 11:20:27 +0000</pubDate>
-      
-      <guid>https://shubhamjain0594.github.io/post/kim-how-to-write-first-class-paper/</guid>
-      <description>This are some points to keep in mind (KiM), from the article on How to write a first-class paper published as nature article.
- Keep your message clear  The most important information should be in the main text. To avoid distraction, writers should put additional data in the supplementary material. Writers should put their results into a global context to demonstrate what makes those results significant or original. In the conclusion, include a one- or two-sentence statement on the research you plan to do in the future and on what else needs to be explored.</description>
-    </item>
-    
-    <item>
-      <title>TL;DR - What Google Learned From Its Quest to Build Perfect Team</title>
-      <link>https://shubhamjain0594.github.io/post/tldr-what-google-learned-from-its-quest-to-build-perfect-team/</link>
-      <pubDate>Thu, 08 Mar 2018 11:20:28 +0000</pubDate>
-      
-      <guid>https://shubhamjain0594.github.io/post/tldr-what-google-learned-from-its-quest-to-build-perfect-team/</guid>
-      <description>Article
+Attacks: Internal: Inside the company analysts retrieving the data using SQL External: External query makers Solution Chorus + DP
+Why Anonymization not a solution? It has limited utility Subject to re-identification attacks Challenges for Practical General-purpose DP Usability for non-experts Broad support for analytics queries Easy integration with existing infra (data environments) What does broad support mean?</description></item><item><title>KiM - How to Write First Class Paper</title><link>https://shubhamjain0594.github.io/post/kim-how-to-write-first-class-paper/</link><pubDate>Sat, 17 Mar 2018 11:20:27 +0000</pubDate><guid>https://shubhamjain0594.github.io/post/kim-how-to-write-first-class-paper/</guid><description>This are some points to keep in mind (KiM), from the article on How to write a first-class paper published as nature article.
+Keep your message clear The most important information should be in the main text. To avoid distraction, writers should put additional data in the supplementary material. Writers should put their results into a global context to demonstrate what makes those results significant or original. In the conclusion, include a one- or two-sentence statement on the research you plan to do in the future and on what else needs to be explored.</description></item><item><title>TL;DR - What Google Learned From Its Quest to Build Perfect Team</title><link>https://shubhamjain0594.github.io/post/tldr-what-google-learned-from-its-quest-to-build-perfect-team/</link><pubDate>Thu, 08 Mar 2018 11:20:28 +0000</pubDate><guid>https://shubhamjain0594.github.io/post/tldr-what-google-learned-from-its-quest-to-build-perfect-team/</guid><description>Article
 What Google Learned From Its Quest to Build the Perfect Team
 TL;DR
 Researchers from CMU, MIT and Union College identified two characteristics required for creating a good team
-  On the good teams, members spoke in roughly the same proportion, a phenomenon the researchers referred to as &amp;ldquo;equality in distribution of conversational turn-taking&amp;rdquo;. On some teams, everyone spoke during each task; on others, leadership shifted among teammates from assignment to assignment.</description>
-    </item>
-    
-    <item>
-      <title>2017 - Year Review</title>
-      <link>https://shubhamjain0594.github.io/post/year-review-2017/</link>
-      <pubDate>Sun, 21 Jan 2018 20:28:23 +0530</pubDate>
-      
-      <guid>https://shubhamjain0594.github.io/post/year-review-2017/</guid>
-      <description>I spent my last day of the year 2017, sitting on the main road of the Gangtok city, calling and talking with people who made my year one the most memorable ones. I will remember 2017 as the year when I published my first research paper, received invitation to speak at my first international conference, created a 2000+ strong AI community in Mumbai, my first road trip and leaving my first job.</description>
-    </item>
-    
-    <item>
-      <title>A Glimpse of Re-Work Deep Learning Summit - Singapore, 2017</title>
-      <link>https://shubhamjain0594.github.io/post/glimpses-of-rework-deep-learning-2017/</link>
-      <pubDate>Fri, 26 May 2017 00:14:56 +0530</pubDate>
-      
-      <guid>https://shubhamjain0594.github.io/post/glimpses-of-rework-deep-learning-2017/</guid>
-      <description>Last week of April 2017, I was attending Re-work Deep Learning Summit in Singapore. I was representing Qure.ai and speaking about some of the work we have been doing in this field. The conference had speakers from Google Deepmind, Baidu Silicon Valley AI Lab, Facebook; startups such as Kata.ai, SmartCow.ai; investor firms such as Zeroth.ai, etc. In this post, I will introduce to you about all the impressive ideas I learned about in the conference.</description>
-    </item>
-    
-    <item>
-      <title>Memories and Learnings from my 1st year in IIT</title>
-      <link>https://shubhamjain0594.github.io/post/memories-and-learnings-from-first-year/</link>
-      <pubDate>Sun, 07 May 2017 13:40:33 +0530</pubDate>
-      
-      <guid>https://shubhamjain0594.github.io/post/memories-and-learnings-from-first-year/</guid>
-      <description>This is a letter, I wrote in my senior year to one of the juniors describing my first year and what I learned from it.
+On the good teams, members spoke in roughly the same proportion, a phenomenon the researchers referred to as &amp;ldquo;equality in distribution of conversational turn-taking&amp;rdquo;. On some teams, everyone spoke during each task; on others, leadership shifted among teammates from assignment to assignment.</description></item><item><title>2017 - Year Review</title><link>https://shubhamjain0594.github.io/post/year-review-2017/</link><pubDate>Sun, 21 Jan 2018 20:28:23 +0530</pubDate><guid>https://shubhamjain0594.github.io/post/year-review-2017/</guid><description>I spent my last day of the year 2017, sitting on the main road of the Gangtok city, calling and talking with people who made my year one the most memorable ones. I will remember 2017 as the year when I published my first research paper, received invitation to speak at my first international conference, created a 2000+ strong AI community in Mumbai, my first road trip and leaving my first job.</description></item><item><title>A Glimpse of Re-Work Deep Learning Summit - Singapore, 2017</title><link>https://shubhamjain0594.github.io/post/glimpses-of-rework-deep-learning-2017/</link><pubDate>Fri, 26 May 2017 00:14:56 +0530</pubDate><guid>https://shubhamjain0594.github.io/post/glimpses-of-rework-deep-learning-2017/</guid><description>Last week of April 2017, I was attending Re-work Deep Learning Summit in Singapore. I was representing Qure.ai and speaking about some of the work we have been doing in this field. The conference had speakers from Google Deepmind, Baidu Silicon Valley AI Lab, Facebook; startups such as Kata.ai, SmartCow.ai; investor firms such as Zeroth.ai, etc. In this post, I will introduce to you about all the impressive ideas I learned about in the conference.</description></item><item><title>Memories and Learnings from my 1st year in IIT</title><link>https://shubhamjain0594.github.io/post/memories-and-learnings-from-first-year/</link><pubDate>Sun, 07 May 2017 13:40:33 +0530</pubDate><guid>https://shubhamjain0594.github.io/post/memories-and-learnings-from-first-year/</guid><description>This is a letter, I wrote in my senior year to one of the juniors describing my first year and what I learned from it.
 These are my views. I want you to comment and us to discuss, it would enrich both of us. You know most of the things about my freshie year. So I won’t go into things which you already know. Fill it with your memory.
-When I came into IIT, I was a completely ignorant child with just one thing in mind that IITians God hote hai.</description>
-    </item>
-    
-    <item>
-      <title>Tutorials in NIPS 2016</title>
-      <link>https://shubhamjain0594.github.io/post/nips-2016/</link>
-      <pubDate>Sat, 10 Dec 2016 19:10:29 +0530</pubDate>
-      
-      <guid>https://shubhamjain0594.github.io/post/nips-2016/</guid>
-      <description>This is a collection of all material I was able to find for various tutorials of NIPS 2016 for people who were not able to attend it and are really excited to know whats going on and can&amp;rsquo;t wait for official videos and slides.
+When I came into IIT, I was a completely ignorant child with just one thing in mind that IITians God hote hai.</description></item><item><title>Tutorials in NIPS 2016</title><link>https://shubhamjain0594.github.io/post/nips-2016/</link><pubDate>Sat, 10 Dec 2016 19:10:29 +0530</pubDate><guid>https://shubhamjain0594.github.io/post/nips-2016/</guid><description>This is a collection of all material I was able to find for various tutorials of NIPS 2016 for people who were not able to attend it and are really excited to know whats going on and can&amp;rsquo;t wait for official videos and slides.
 Crowdsourcing: Beyond Label Generation Link
 Variational Inference: Foundations and Modern Methods Slides
 Deep Reinforcement Learning Through Policy Optimization Slides
-Nuts and Bolts of Building Applications using Deep Learning - Andrew Ng Slides Video from talk by Andrew Ng on same talk but somewhere else is here</description>
-    </item>
-    
-    <item>
-      <title>Deep Learning and AI videos</title>
-      <link>https://shubhamjain0594.github.io/post/deep-learning-ai-videos/</link>
-      <pubDate>Wed, 23 Nov 2016 17:38:15 +0530</pubDate>
-      
-      <guid>https://shubhamjain0594.github.io/post/deep-learning-ai-videos/</guid>
-      <description>I like to hear things in my background while I am working. Music seems pleasure but sometimes also a distraction. At such points I play some good random videos in background. These help me in gaining new knowledge but at the same time does not distract me from work. I have compiled a small list of such videos in deep learning that I have heard so far and loved them. Will go on adding more.</description>
-    </item>
-    
-    <item>
-      <title>The End of Deconvolutions</title>
-      <link>https://shubhamjain0594.github.io/post/the-end-of-deconv/</link>
-      <pubDate>Sun, 13 Nov 2016 17:28:22 +0530</pubDate>
-      
-      <guid>https://shubhamjain0594.github.io/post/the-end-of-deconv/</guid>
-      <description>Deconvolutions were introduced in 2014 in &amp;ldquo;Fully Convolutional Networks for Semantic Segmentation&amp;rdquo; and has been extensively used in Semantic Segmentation and Generative Adversarial Networks. But its saturated now and the problems involved with it including checkerboard effects play a huge role in the error it produces. This blog post goes down the journey of deconvolutions and problems associated with it. It also suggests some solutions and how it can be replaced by better alternatives such as subpixel-cnn.</description>
-    </item>
-    
-    <item>
-      <title>Hugo Larochelle TEDx</title>
-      <link>https://shubhamjain0594.github.io/post/hugo-larochelle-ted/</link>
-      <pubDate>Sat, 12 Nov 2016 18:13:08 +0530</pubDate>
-      
-      <guid>https://shubhamjain0594.github.io/post/hugo-larochelle-ted/</guid>
-      <description>This TED talk takes you through the journey of Deep Learning in last ten years and its amazing to see how it has evolved from a time when neural nets were not trusted and there were just a few countable people working, to today when there are so many people that you can find 4 research groups working on a similar idea at the end of the day. Pretty insightful and interesting and in a way it shows how a new technology comes into play and we should keep looking for small kicks, they maybe the thing of the future.</description>
-    </item>
-    
-    <item>
-      <title>Cool NN and DL applications</title>
-      <link>https://shubhamjain0594.github.io/post/cool-nn-dl-applications/</link>
-      <pubDate>Sun, 18 Sep 2016 14:54:14 +0530</pubDate>
-      
-      <guid>https://shubhamjain0594.github.io/post/cool-nn-dl-applications/</guid>
-      <description>Deep learning and Neural Networks have some really cool applications (ideas), and here are a few I have come across and are really tangential to mainstream applications.
-Defeating Image Obfuscation with Deep Learning This paper from Cornell and University of Texas at Austin uses DL to reconstruct the images which are pixelated, blurred or encrypted using privacy-preserving photo (P3) algorithm. These techniques are many times used to hide the identities in some sensitive videos and photos in various media.</description>
-    </item>
-    
-    <item>
-      <title>Good deep learning posts</title>
-      <link>https://shubhamjain0594.github.io/post/good-deep-learning-blog-posts/</link>
-      <pubDate>Mon, 12 Sep 2016 18:50:05 +0530</pubDate>
-      
-      <guid>https://shubhamjain0594.github.io/post/good-deep-learning-blog-posts/</guid>
-      <description>I am an avid reader and spend a lot of time commuting between home and work. I use this time to read blogs, news and papers. In this article I present some cool blog posts that I found and a very short summary. I will add more links as time permits. I have divided blog posts based on the audience it caters to, beginners and intermediate. I believe experts would dive directly into reading papers and won&amp;rsquo;t spend much time reading blogs.</description>
-    </item>
-    
-    <item>
-      <title>Growing up - A journey of life</title>
-      <link>https://shubhamjain0594.github.io/post/growing-up-a-journey-of-life/</link>
-      <pubDate>Thu, 14 May 2015 15:48:11 +0530</pubDate>
-      
-      <guid>https://shubhamjain0594.github.io/post/growing-up-a-journey-of-life/</guid>
-      <description>Last 2 years have been the turning points of my life. I rewind back this time and here I am, a happy-go-lucky guy, laughing all time, playing around and no seriousness at any moment of time. Most of us are like this at this time I suppose. I am 20 now, sitting in Korea, here for an internship with Samsung electronics, and in this period, I have lost things very valuable to me but gained a lot of experience at the same time.</description>
-    </item>
-    
-    <item>
-      <title>From an unknown to someone</title>
-      <link>https://shubhamjain0594.github.io/post/from-an-unknown-to-someone/</link>
-      <pubDate>Thu, 15 May 2014 15:40:12 +0530</pubDate>
-      
-      <guid>https://shubhamjain0594.github.io/post/from-an-unknown-to-someone/</guid>
-      <description>Yo Junta, this is Shubham Jain a student at IIT Bombay. Being an IITian, I always encounter someone who wants some advice, guidance on how to go for JEE, is he capable and all. So I thought why not just write down my experience and share with world. I know there are already many blogs on this and my blog isn’t any different apart from fact its my personal experience which for me is very different than others.</description>
-    </item>
-    
-  </channel>
-</rss>
+Nuts and Bolts of Building Applications using Deep Learning - Andrew Ng Slides Video from talk by Andrew Ng on same talk but somewhere else is here</description></item><item><title>Deep Learning and AI videos</title><link>https://shubhamjain0594.github.io/post/deep-learning-ai-videos/</link><pubDate>Wed, 23 Nov 2016 17:38:15 +0530</pubDate><guid>https://shubhamjain0594.github.io/post/deep-learning-ai-videos/</guid><description>I like to hear things in my background while I am working. Music seems pleasure but sometimes also a distraction. At such points I play some good random videos in background. These help me in gaining new knowledge but at the same time does not distract me from work. I have compiled a small list of such videos in deep learning that I have heard so far and loved them. Will go on adding more.</description></item><item><title>The End of Deconvolutions</title><link>https://shubhamjain0594.github.io/post/the-end-of-deconv/</link><pubDate>Sun, 13 Nov 2016 17:28:22 +0530</pubDate><guid>https://shubhamjain0594.github.io/post/the-end-of-deconv/</guid><description>Deconvolutions were introduced in 2014 in &amp;ldquo;Fully Convolutional Networks for Semantic Segmentation&amp;rdquo; and has been extensively used in Semantic Segmentation and Generative Adversarial Networks. But its saturated now and the problems involved with it including checkerboard effects play a huge role in the error it produces. This blog post goes down the journey of deconvolutions and problems associated with it. It also suggests some solutions and how it can be replaced by better alternatives such as subpixel-cnn.</description></item><item><title>Hugo Larochelle TEDx</title><link>https://shubhamjain0594.github.io/post/hugo-larochelle-ted/</link><pubDate>Sat, 12 Nov 2016 18:13:08 +0530</pubDate><guid>https://shubhamjain0594.github.io/post/hugo-larochelle-ted/</guid><description>This TED talk takes you through the journey of Deep Learning in last ten years and its amazing to see how it has evolved from a time when neural nets were not trusted and there were just a few countable people working, to today when there are so many people that you can find 4 research groups working on a similar idea at the end of the day. Pretty insightful and interesting and in a way it shows how a new technology comes into play and we should keep looking for small kicks, they maybe the thing of the future.</description></item><item><title>Cool NN and DL applications</title><link>https://shubhamjain0594.github.io/post/cool-nn-dl-applications/</link><pubDate>Sun, 18 Sep 2016 14:54:14 +0530</pubDate><guid>https://shubhamjain0594.github.io/post/cool-nn-dl-applications/</guid><description>Deep learning and Neural Networks have some really cool applications (ideas), and here are a few I have come across and are really tangential to mainstream applications.
+Defeating Image Obfuscation with Deep Learning This paper from Cornell and University of Texas at Austin uses DL to reconstruct the images which are pixelated, blurred or encrypted using privacy-preserving photo (P3) algorithm. These techniques are many times used to hide the identities in some sensitive videos and photos in various media.</description></item><item><title>Good deep learning posts</title><link>https://shubhamjain0594.github.io/post/good-deep-learning-blog-posts/</link><pubDate>Mon, 12 Sep 2016 18:50:05 +0530</pubDate><guid>https://shubhamjain0594.github.io/post/good-deep-learning-blog-posts/</guid><description>I am an avid reader and spend a lot of time commuting between home and work. I use this time to read blogs, news and papers. In this article I present some cool blog posts that I found and a very short summary. I will add more links as time permits. I have divided blog posts based on the audience it caters to, beginners and intermediate. I believe experts would dive directly into reading papers and won&amp;rsquo;t spend much time reading blogs.</description></item><item><title>Growing up - A journey of life</title><link>https://shubhamjain0594.github.io/post/growing-up-a-journey-of-life/</link><pubDate>Thu, 14 May 2015 15:48:11 +0530</pubDate><guid>https://shubhamjain0594.github.io/post/growing-up-a-journey-of-life/</guid><description>Last 2 years have been the turning points of my life. I rewind back this time and here I am, a happy-go-lucky guy, laughing all time, playing around and no seriousness at any moment of time. Most of us are like this at this time I suppose. I am 20 now, sitting in Korea, here for an internship with Samsung electronics, and in this period, I have lost things very valuable to me but gained a lot of experience at the same time.</description></item><item><title>From an unknown to someone</title><link>https://shubhamjain0594.github.io/post/from-an-unknown-to-someone/</link><pubDate>Thu, 15 May 2014 15:40:12 +0530</pubDate><guid>https://shubhamjain0594.github.io/post/from-an-unknown-to-someone/</guid><description>Yo Junta, this is Shubham Jain a student at IIT Bombay. Being an IITian, I always encounter someone who wants some advice, guidance on how to go for JEE, is he capable and all. So I thought why not just write down my experience and share with world. I know there are already many blogs on this and my blog isn’t any different apart from fact its my personal experience which for me is very different than others.</description></item></channel></rss>

@@ -1,46 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>tl;dr on Dora&#39;s world</title>
-    <link>https://shubhamjain0594.github.io/tags/tldr/</link>
-    <description>Recent content in tl;dr on Dora&#39;s world</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <copyright>&amp;copy; 2021. All rights reserved.</copyright>
-    <lastBuildDate>Fri, 19 Jul 2019 17:52:50 +0100</lastBuildDate><atom:link href="https://shubhamjain0594.github.io/tags/tldr/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>TL;DS - 21 fairness definition and their politics by Arvind Narayanan</title>
-      <link>https://shubhamjain0594.github.io/post/tlds-arvind-fairness-definitions/</link>
-      <pubDate>Fri, 19 Jul 2019 17:52:50 +0100</pubDate>
-      
-      <guid>https://shubhamjain0594.github.io/post/tlds-arvind-fairness-definitions/</guid>
-      <description>These are the notes from the Tutorial: 21 fairness definition and their politics given at ACM FAT* (Fairness, Accountability and Transparency) Conference in 2018 by Arvind Narayanan who is associate professor of computer science at Princeton University.
- Predictive accuracy: Frequent assumption is decision maker&amp;rsquo;s goal is to maximize accuracy subject to fairness constraint  Statistical bias vs Societal bias  Statistical bias: Difference between an estimator&amp;rsquo;s expected value and the true value.</description>
-    </item>
-    
-    <item>
-      <title>TL;DS - Differential Privacy at Scale: Uber and Berkeley Collaboration</title>
-      <link>https://shubhamjain0594.github.io/post/tlds-uber-ucberkeley-enigma-dp/</link>
-      <pubDate>Sat, 06 Oct 2018 19:28:31 +0100</pubDate>
-      
-      <guid>https://shubhamjain0594.github.io/post/tlds-uber-ucberkeley-enigma-dp/</guid>
-      <description>These are my notes from watching the video Differential Privacy at Scale: Uber and Berkeley Collaboration presented at Enigma 2018.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>tl;dr on Dora's world</title><link>https://shubhamjain0594.github.io/tags/tldr/</link><description>Recent content in tl;dr on Dora's world</description><generator>Hugo -- gohugo.io</generator><copyright>&amp;copy; 2021. All rights reserved.</copyright><lastBuildDate>Fri, 19 Jul 2019 17:52:50 +0100</lastBuildDate><atom:link href="https://shubhamjain0594.github.io/tags/tldr/index.xml" rel="self" type="application/rss+xml"/><item><title>TL;DS - 21 fairness definition and their politics by Arvind Narayanan</title><link>https://shubhamjain0594.github.io/post/tlds-arvind-fairness-definitions/</link><pubDate>Fri, 19 Jul 2019 17:52:50 +0100</pubDate><guid>https://shubhamjain0594.github.io/post/tlds-arvind-fairness-definitions/</guid><description>These are the notes from the Tutorial: 21 fairness definition and their politics given at ACM FAT* (Fairness, Accountability and Transparency) Conference in 2018 by Arvind Narayanan who is associate professor of computer science at Princeton University.
+Predictive accuracy: Frequent assumption is decision maker&amp;rsquo;s goal is to maximize accuracy subject to fairness constraint Statistical bias vs Societal bias Statistical bias: Difference between an estimator&amp;rsquo;s expected value and the true value.</description></item><item><title>TL;DS - Differential Privacy at Scale: Uber and Berkeley Collaboration</title><link>https://shubhamjain0594.github.io/post/tlds-uber-ucberkeley-enigma-dp/</link><pubDate>Sat, 06 Oct 2018 19:28:31 +0100</pubDate><guid>https://shubhamjain0594.github.io/post/tlds-uber-ucberkeley-enigma-dp/</guid><description>These are my notes from watching the video Differential Privacy at Scale: Uber and Berkeley Collaboration presented at Enigma 2018.
 Attack Surface: SQL Database with trips.
-Attacks:  Internal: Inside the company analysts retrieving the data using SQL External: External query makers  Solution Chorus + DP
-Why Anonymization not a solution?  It has limited utility Subject to re-identification attacks  Challenges for Practical General-purpose DP  Usability for non-experts Broad support for analytics queries Easy integration with existing infra (data environments)  What does broad support mean?</description>
-    </item>
-    
-    <item>
-      <title>TL;DR - What Google Learned From Its Quest to Build Perfect Team</title>
-      <link>https://shubhamjain0594.github.io/post/tldr-what-google-learned-from-its-quest-to-build-perfect-team/</link>
-      <pubDate>Thu, 08 Mar 2018 11:20:28 +0000</pubDate>
-      
-      <guid>https://shubhamjain0594.github.io/post/tldr-what-google-learned-from-its-quest-to-build-perfect-team/</guid>
-      <description>Article
+Attacks: Internal: Inside the company analysts retrieving the data using SQL External: External query makers Solution Chorus + DP
+Why Anonymization not a solution? It has limited utility Subject to re-identification attacks Challenges for Practical General-purpose DP Usability for non-experts Broad support for analytics queries Easy integration with existing infra (data environments) What does broad support mean?</description></item><item><title>TL;DR - What Google Learned From Its Quest to Build Perfect Team</title><link>https://shubhamjain0594.github.io/post/tldr-what-google-learned-from-its-quest-to-build-perfect-team/</link><pubDate>Thu, 08 Mar 2018 11:20:28 +0000</pubDate><guid>https://shubhamjain0594.github.io/post/tldr-what-google-learned-from-its-quest-to-build-perfect-team/</guid><description>Article
 What Google Learned From Its Quest to Build the Perfect Team
 TL;DR
 Researchers from CMU, MIT and Union College identified two characteristics required for creating a good team
-  On the good teams, members spoke in roughly the same proportion, a phenomenon the researchers referred to as &amp;ldquo;equality in distribution of conversational turn-taking&amp;rdquo;. On some teams, everyone spoke during each task; on others, leadership shifted among teammates from assignment to assignment.</description>
-    </item>
-    
-  </channel>
-</rss>
+On the good teams, members spoke in roughly the same proportion, a phenomenon the researchers referred to as &amp;ldquo;equality in distribution of conversational turn-taking&amp;rdquo;. On some teams, everyone spoke during each task; on others, leadership shifted among teammates from assignment to assignment.</description></item></channel></rss>

@@ -1,24 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>survey on Dora&#39;s world</title>
-    <link>https://shubhamjain0594.github.io/tags/survey/</link>
-    <description>Recent content in survey on Dora&#39;s world</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <copyright>&amp;copy; 2021. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 10 Dec 2016 19:10:29 +0530</lastBuildDate><atom:link href="https://shubhamjain0594.github.io/tags/survey/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Tutorials in NIPS 2016</title>
-      <link>https://shubhamjain0594.github.io/post/nips-2016/</link>
-      <pubDate>Sat, 10 Dec 2016 19:10:29 +0530</pubDate>
-      
-      <guid>https://shubhamjain0594.github.io/post/nips-2016/</guid>
-      <description>This is a collection of all material I was able to find for various tutorials of NIPS 2016 for people who were not able to attend it and are really excited to know whats going on and can&amp;rsquo;t wait for official videos and slides.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>survey on Dora's world</title><link>https://shubhamjain0594.github.io/tags/survey/</link><description>Recent content in survey on Dora's world</description><generator>Hugo -- gohugo.io</generator><copyright>&amp;copy; 2021. All rights reserved.</copyright><lastBuildDate>Sat, 10 Dec 2016 19:10:29 +0530</lastBuildDate><atom:link href="https://shubhamjain0594.github.io/tags/survey/index.xml" rel="self" type="application/rss+xml"/><item><title>Tutorials in NIPS 2016</title><link>https://shubhamjain0594.github.io/post/nips-2016/</link><pubDate>Sat, 10 Dec 2016 19:10:29 +0530</pubDate><guid>https://shubhamjain0594.github.io/post/nips-2016/</guid><description>This is a collection of all material I was able to find for various tutorials of NIPS 2016 for people who were not able to attend it and are really excited to know whats going on and can&amp;rsquo;t wait for official videos and slides.
 Crowdsourcing: Beyond Label Generation Link
 Variational Inference: Foundations and Modern Methods Slides
 Deep Reinforcement Learning Through Policy Optimization Slides
-Nuts and Bolts of Building Applications using Deep Learning - Andrew Ng Slides Video from talk by Andrew Ng on same talk but somewhere else is here</description>
-    </item>
-    
-  </channel>
-</rss>
+Nuts and Bolts of Building Applications using Deep Learning - Andrew Ng Slides Video from talk by Andrew Ng on same talk but somewhere else is here</description></item></channel></rss>
