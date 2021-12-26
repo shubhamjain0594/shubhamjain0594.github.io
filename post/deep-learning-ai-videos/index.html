@@ -43,52 +43,282 @@
 <body class="max-width mx-auto px3 ltr">
   <div class="content index py4">
 
-    <header id="header">
-  <a href="https://shubhamjain0594.github.io/">
-  
-    <div id="logo" style="background-image: url(https://shubhamjain0594.github.io/images/logo.png)"></div>
-  
-  <div id="title">
-    <h1>Dora&#39;s world</h1>
-  </div>
-  </a>
-  <div id="nav">
-    <ul>
-      <li class="icon">
-        <a href="#" aria-label="Menu"><i class="fas fa-bars fa-2x" aria-hidden="true"></i></a>
-      </li>
-      
+  <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;" aria-label="Top of Page"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
         <li><a href="https://shubhamjain0594.github.io/">Home</a></li>
-      
-        <li><a href="https://shubhamjain0594.github.io/posts">All posts</a></li>
-      
+         
+        <li><a href="https://shubhamjain0594.github.io/post">All posts</a></li>
+         
         <li><a href="https://shubhamjain0594.github.io/tags">Tags</a></li>
-      
+         
         <li><a href="https://shubhamjain0594.github.io/about">About</a></li>
+        
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        <li>
+          <a class="icon" href=" https://shubhamjain0594.github.io/post/the-end-of-deconv/" aria-label="Previous">
+            <i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i>
+          </a>
+        </li>
+        
+        
+        <li>
+          <a class="icon" href="https://shubhamjain0594.github.io/post/nips-2016/" aria-label="Next">
+            <i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i>
+          </a>
+        </li>
+        
+        <li>
+          <a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" aria-label="Top of Page">
+            <i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i>
+          </a>
+        </li>
+        <li>
+          <a class="icon" href="#" aria-label="Share">
+            <i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i>
+          </a>
+        </li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
       
-    </ul>
-  </div>
-</header>
-
-
-
-    
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
-  <div class="content" itemprop="articleBody">
+      <ul>
   
-    <p>I like to hear things in my background while I am working. Music seems pleasure but sometimes also a distraction. At such points I play some good random videos in background. These help me in gaining new knowledge but at the same time does not distract me from work. I have compiled a small list of such videos in deep learning that I have heard so far and loved them. Will go on adding more.</p>
+  
+    
+  
+  
+  <li>
+    <a class="icon" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fdeep-learning-ai-videos%2f" aria-label="Facebook">
+      <i class="fab fa-facebook " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://twitter.com/share?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fdeep-learning-ai-videos%2f&text=Deep%20Learning%20and%20AI%20videos" aria-label="Twitter">
+      <i class="fab fa-twitter " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fdeep-learning-ai-videos%2f&title=Deep%20Learning%20and%20AI%20videos" aria-label="Linkedin">
+      <i class="fab fa-linkedin " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fdeep-learning-ai-videos%2f&is_video=false&description=Deep%20Learning%20and%20AI%20videos" aria-label="Pinterest">
+      <i class="fab fa-pinterest " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="mailto:?subject=Deep%20Learning%20and%20AI%20videos&body=Check out this article: https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fdeep-learning-ai-videos%2f" aria-label="Email">
+      <i class="fas fa-envelope " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://getpocket.com/save?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fdeep-learning-ai-videos%2f&title=Deep%20Learning%20and%20AI%20videos" aria-label="Pocket">
+      <i class="fab fa-get-pocket " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://reddit.com/submit?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fdeep-learning-ai-videos%2f&title=Deep%20Learning%20and%20AI%20videos" aria-label="reddit">
+      <i class="fab fa-reddit " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fdeep-learning-ai-videos%2f&name=Deep%20Learning%20and%20AI%20videos&description=I%20like%20to%20hear%20things%20in%20my%20background%20while%20I%20am%20working.%20Music%20seems%20pleasure%20but%20sometimes%20also%20a%20distraction.%20At%20such%20points%20I%20play%20some%20good%20random%20videos%20in%20background.%20These%20help%20me%20in%20gaining%20new%20knowledge%20but%20at%20the%20same%20time%20does%20not%20distract%20me%20from%20work.%20I%20have%20compiled%20a%20small%20list%20of%20such%20videos%20in%20deep%20learning%20that%20I%20have%20heard%20so%20far%20and%20loved%20them.%20Will%20go%20on%20adding%20more." aria-label="Tumblr">
+      <i class="fab fa-tumblr " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fdeep-learning-ai-videos%2f&t=Deep%20Learning%20and%20AI%20videos" aria-label="Hacker News">
+      <i class="fab fa-hacker-news " aria-hidden="true"></i>
+    </a>
+  </li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#plenary-panel-is-deep-learning-the-new-42httpswwwyoutubecomwatchvfurfdqtdavc"><a href="https://www.youtube.com/watch?v=furfdqtdAvc">Plenary Panel: Is Deep Learning the New 42?</a></a></li>
+        <li><a href="#artificial-intelligence-and-the-future--demis-hassabis--rsa-replayhttpswwwyoutubecomwatchvi3leg6argm8"><a href="https://www.youtube.com/watch?v=i3lEG6aRGm8">Artificial Intelligence and the Future | Demis Hassabis | RSA Replay</a></a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+  </span>
+</div>
+
+
+  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <header>
+      <h1 class="posttitle" itemprop="name headline">
+        Deep Learning and AI videos
+      </h1>
+      <div class="meta">
+        
+        <div class="postdate">
+          
+          <time datetime="2016-11-23 17:38:15 &#43;0530 &#43;0530" itemprop="datePublished">2016-11-23</time>
+          
+        </div>
+        
+        
+        
+        
+        <div class="article-tag">
+            <i class="fas fa-tag"></i>
+            
+            
+            <a class="tag-link" href="https://shubhamjain0594.github.io/tags/deep-learning" rel="tag">deep-learning</a>
+            
+             ,  
+            <a class="tag-link" href="https://shubhamjain0594.github.io/tags/video" rel="tag">video</a>
+            
+        </div>
+        
+      </div>
+    </header>
+
+  
+    <div class="content" itemprop="articleBody">
+      <p>I like to hear things in my background while I am working. Music seems pleasure but sometimes also a distraction. At such points I play some good random videos in background. These help me in gaining new knowledge but at the same time does not distract me from work. I have compiled a small list of such videos in deep learning that I have heard so far and loved them. Will go on adding more.</p>
 <h3 id="plenary-panel-is-deep-learning-the-new-42httpswwwyoutubecomwatchvfurfdqtdavc"><a href="https://www.youtube.com/watch?v=furfdqtdAvc">Plenary Panel: Is Deep Learning the New 42?</a></h3>
 <p>This video is the best panel discussion in Deep learning I have come so far. The best points I loved about it were the discussion on <a href="https://arxiv.org/abs/1606.08813">reforms</a> introduced in European Union on algorithmic decision making and right to explanation. Another thing is when they talk about how biological, psychological and other studies have influenced Computer Science. And apparently conv nets which are leading structures in deep learning and vision are inspired by the study in 1970s. So the study of brains, vision, psychology, etc. will be the major influencers of future technology. The panel also puts light into what should a PhD student starting in DL now must do and what not, some really hot research topics that needs attention.</p>
 <h3 id="artificial-intelligence-and-the-future--demis-hassabis--rsa-replayhttpswwwyoutubecomwatchvi3leg6argm8"><a href="https://www.youtube.com/watch?v=i3lEG6aRGm8">Artificial Intelligence and the Future | Demis Hassabis | RSA Replay</a></h3>
 <p>Demis Hassabis takes on stage to explain AI and more specifically Artificial General Intelligence. 2016 has been the year of Alpha-Go and Hassabis explains what it is, and intuition into why does it work. I loved the part where he explains the special moves played by Alpha-Go that were out of the box, and more amazingly the author also points out the move by Lee Sedol (the opponent) in 4th game that made him the winner. A good watch if you want to know more about AGI and what future will look like.</p>
 
+    </div>
+  </article>
+
   
+  
+
+
+
+
+
+  <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="https://shubhamjain0594.github.io/">Home</a></li>
+         
+          <li><a href="https://shubhamjain0594.github.io/post">All posts</a></li>
+         
+          <li><a href="https://shubhamjain0594.github.io/tags">Tags</a></li>
+         
+          <li><a href="https://shubhamjain0594.github.io/about">About</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#plenary-panel-is-deep-learning-the-new-42httpswwwyoutubecomwatchvfurfdqtdavc"><a href="https://www.youtube.com/watch?v=furfdqtdAvc">Plenary Panel: Is Deep Learning the New 42?</a></a></li>
+        <li><a href="#artificial-intelligence-and-the-future--demis-hassabis--rsa-replayhttpswwwyoutubecomwatchvi3leg6argm8"><a href="https://www.youtube.com/watch?v=i3lEG6aRGm8">Artificial Intelligence and the Future | Demis Hassabis | RSA Replay</a></a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      
+      <ul>
+  
+  
+    
+  
+  
+  <li>
+    <a class="icon" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fdeep-learning-ai-videos%2f" aria-label="Facebook">
+      <i class="fab fa-facebook fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://twitter.com/share?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fdeep-learning-ai-videos%2f&text=Deep%20Learning%20and%20AI%20videos" aria-label="Twitter">
+      <i class="fab fa-twitter fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fdeep-learning-ai-videos%2f&title=Deep%20Learning%20and%20AI%20videos" aria-label="Linkedin">
+      <i class="fab fa-linkedin fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fdeep-learning-ai-videos%2f&is_video=false&description=Deep%20Learning%20and%20AI%20videos" aria-label="Pinterest">
+      <i class="fab fa-pinterest fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="mailto:?subject=Deep%20Learning%20and%20AI%20videos&body=Check out this article: https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fdeep-learning-ai-videos%2f" aria-label="Email">
+      <i class="fas fa-envelope fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://getpocket.com/save?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fdeep-learning-ai-videos%2f&title=Deep%20Learning%20and%20AI%20videos" aria-label="Pocket">
+      <i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://reddit.com/submit?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fdeep-learning-ai-videos%2f&title=Deep%20Learning%20and%20AI%20videos" aria-label="reddit">
+      <i class="fab fa-reddit fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fdeep-learning-ai-videos%2f&name=Deep%20Learning%20and%20AI%20videos&description=I%20like%20to%20hear%20things%20in%20my%20background%20while%20I%20am%20working.%20Music%20seems%20pleasure%20but%20sometimes%20also%20a%20distraction.%20At%20such%20points%20I%20play%20some%20good%20random%20videos%20in%20background.%20These%20help%20me%20in%20gaining%20new%20knowledge%20but%20at%20the%20same%20time%20does%20not%20distract%20me%20from%20work.%20I%20have%20compiled%20a%20small%20list%20of%20such%20videos%20in%20deep%20learning%20that%20I%20have%20heard%20so%20far%20and%20loved%20them.%20Will%20go%20on%20adding%20more." aria-label="Tumblr">
+      <i class="fab fa-tumblr fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fdeep-learning-ai-videos%2f&t=Deep%20Learning%20and%20AI%20videos" aria-label="Hacker News">
+      <i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+      
+        <a id="menu-toggle" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;" aria-label="Menu">
+          <i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc-toggle" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;" aria-label="TOC">
+          <i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share-toggle" class="icon" href="#" onclick="$('#share-footer').toggle();return false;" aria-label="Share">
+          <i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" aria-label="Top of Page">
+          <i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
   </div>
-</article>
+</div>
 
 
-    <footer id="footer">
+  <footer id="footer">
   <div class="footer-left">
     Copyright  &copy; 2021  &amp;copy; 2021. All rights reserved. 
   </div>
@@ -98,7 +328,7 @@
          
         <li><a href="https://shubhamjain0594.github.io/">Home</a></li>
          
-        <li><a href="https://shubhamjain0594.github.io/posts">All posts</a></li>
+        <li><a href="https://shubhamjain0594.github.io/post">All posts</a></li>
          
         <li><a href="https://shubhamjain0594.github.io/tags">Tags</a></li>
          
@@ -116,4 +346,7 @@
 <link rel="stylesheet" href=https://shubhamjain0594.github.io/lib/font-awesome/css/all.min.css>
 <script src=https://shubhamjain0594.github.io/lib/jquery/jquery.min.js></script>
 <script src=https://shubhamjain0594.github.io/js/main.js></script>
+
+
+
 </html>

@@ -47,41 +47,151 @@ When I came into IIT, I was a completely ignorant child with just one thing in m
 <body class="max-width mx-auto px3 ltr">
   <div class="content index py4">
 
-    <header id="header">
-  <a href="https://shubhamjain0594.github.io/">
-  
-    <div id="logo" style="background-image: url(https://shubhamjain0594.github.io/images/logo.png)"></div>
-  
-  <div id="title">
-    <h1>Dora&#39;s world</h1>
-  </div>
-  </a>
-  <div id="nav">
-    <ul>
-      <li class="icon">
-        <a href="#" aria-label="Menu"><i class="fas fa-bars fa-2x" aria-hidden="true"></i></a>
-      </li>
-      
+  <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;" aria-label="Top of Page"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
         <li><a href="https://shubhamjain0594.github.io/">Home</a></li>
-      
-        <li><a href="https://shubhamjain0594.github.io/posts">All posts</a></li>
-      
+         
+        <li><a href="https://shubhamjain0594.github.io/post">All posts</a></li>
+         
         <li><a href="https://shubhamjain0594.github.io/tags">Tags</a></li>
-      
+         
         <li><a href="https://shubhamjain0594.github.io/about">About</a></li>
+        
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        <li>
+          <a class="icon" href=" https://shubhamjain0594.github.io/post/nips-2016/" aria-label="Previous">
+            <i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i>
+          </a>
+        </li>
+        
+        
+        <li>
+          <a class="icon" href="https://shubhamjain0594.github.io/post/glimpses-of-rework-deep-learning-2017/" aria-label="Next">
+            <i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i>
+          </a>
+        </li>
+        
+        <li>
+          <a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" aria-label="Top of Page">
+            <i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i>
+          </a>
+        </li>
+        <li>
+          <a class="icon" href="#" aria-label="Share">
+            <i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i>
+          </a>
+        </li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
       
-    </ul>
-  </div>
-</header>
-
-
-
-    
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
-  <div class="content" itemprop="articleBody">
+      <ul>
   
-    <p>This is a letter, I wrote in my senior year to one of the juniors describing my first year and what I learned from it.</p>
+  
+    
+  
+  
+  <li>
+    <a class="icon" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fmemories-and-learnings-from-first-year%2f" aria-label="Facebook">
+      <i class="fab fa-facebook " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://twitter.com/share?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fmemories-and-learnings-from-first-year%2f&text=Memories%20and%20Learnings%20from%20my%201st%20year%20in%20IIT" aria-label="Twitter">
+      <i class="fab fa-twitter " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fmemories-and-learnings-from-first-year%2f&title=Memories%20and%20Learnings%20from%20my%201st%20year%20in%20IIT" aria-label="Linkedin">
+      <i class="fab fa-linkedin " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fmemories-and-learnings-from-first-year%2f&is_video=false&description=Memories%20and%20Learnings%20from%20my%201st%20year%20in%20IIT" aria-label="Pinterest">
+      <i class="fab fa-pinterest " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="mailto:?subject=Memories%20and%20Learnings%20from%20my%201st%20year%20in%20IIT&body=Check out this article: https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fmemories-and-learnings-from-first-year%2f" aria-label="Email">
+      <i class="fas fa-envelope " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://getpocket.com/save?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fmemories-and-learnings-from-first-year%2f&title=Memories%20and%20Learnings%20from%20my%201st%20year%20in%20IIT" aria-label="Pocket">
+      <i class="fab fa-get-pocket " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://reddit.com/submit?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fmemories-and-learnings-from-first-year%2f&title=Memories%20and%20Learnings%20from%20my%201st%20year%20in%20IIT" aria-label="reddit">
+      <i class="fab fa-reddit " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fmemories-and-learnings-from-first-year%2f&name=Memories%20and%20Learnings%20from%20my%201st%20year%20in%20IIT&description=This%20is%20a%20letter%2c%20I%20wrote%20in%20my%20senior%20year%20to%20one%20of%20the%20juniors%20describing%20my%20first%20year%20and%20what%20I%20learned%20from%20it.%0aThese%20are%20my%20views.%20I%20want%20you%20to%20comment%20and%20us%20to%20discuss%2c%20it%20would%20enrich%20both%20of%20us.%20You%20know%20most%20of%20the%20things%20about%20my%20freshie%20year.%20So%20I%20won%e2%80%99t%20go%20into%20things%20which%20you%20already%20know.%20Fill%20it%20with%20your%20memory.%0aWhen%20I%20came%20into%20IIT%2c%20I%20was%20a%20completely%20ignorant%20child%20with%20just%20one%20thing%20in%20mind%20that%20IITians%20God%20hote%20hai." aria-label="Tumblr">
+      <i class="fab fa-tumblr " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fmemories-and-learnings-from-first-year%2f&t=Memories%20and%20Learnings%20from%20my%201st%20year%20in%20IIT" aria-label="Hacker News">
+      <i class="fab fa-hacker-news " aria-hidden="true"></i>
+    </a>
+  </li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <nav id="TableOfContents"></nav>
+    </div>
+  </span>
+</div>
+
+
+  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <header>
+      <h1 class="posttitle" itemprop="name headline">
+        Memories and Learnings from my 1st year in IIT
+      </h1>
+      <div class="meta">
+        
+        <div class="postdate">
+          
+          <time datetime="2017-05-07 13:40:33 &#43;0530 &#43;0530" itemprop="datePublished">2017-05-07</time>
+          
+        </div>
+        
+        
+        
+        
+        <div class="article-tag">
+            <i class="fas fa-tag"></i>
+            
+            
+            <a class="tag-link" href="https://shubhamjain0594.github.io/tags/experiences" rel="tag">experiences</a>
+            
+        </div>
+        
+      </div>
+    </header>
+
+  
+    <div class="content" itemprop="articleBody">
+      <p>This is a letter, I wrote in my senior year to one of the juniors describing my first year and what I learned from it.</p>
 <p>These are my views. I want you to comment and us to discuss, it would enrich both of us. You know most of the things about my freshie year. So I won’t go into things which you already know. Fill it with your memory.</p>
 <p>When I came into IIT, I was a completely ignorant child with just one thing in mind that <code>IITians God hote hai</code>. I had never lived or played with an IITian in my lifetime. So when I came here, it felt great but at the same time, I felt the pressure that I would be competing with such smart guys. I feared my roomie, I googled him out came to know that he is a topper in various olympiads and a pure scholar. I felt like I am nothing in front of all. But I knew one thing that I need to explore and to come to par with everyone. I need to put some extra efforts from the beginning. When others start from 0 and you are at -1. You need to start adding 1 at a faster rate compared to others so that at some time you both are at same level. I was and I think I am still a hardworking guy.</p>
 <p>I never feared anyone, except my mom then. So in class, I went all guns blazing. I wasn’t the first bencher, but I used to sit in middle rows, giving answers confidently and sometimes they were correct too. I used to ask silliest doubts and I asked the prof to repeat and explain concept again if I didn’t get anything. Many used to make fun of me at times, calling me maggu and stuff but I knew that I am gaining a hell lot knowledge with this. When I asked doubts profs started knowing me. So that after class whenever I went to ask doubts they entertained my doubts and sometimes even went a little further in telling me how things we are learning are being used in their research. I came to know about the technology being used in latest Intel Chips from the prof., he was discussing with me for over 30 45 mins after the class about various things and sometimes they even give you guidance on what to do and what not to do, not academics but life.</p>
@@ -100,12 +210,111 @@ When I came into IIT, I was a completely ignorant child with just one thing in m
 <p>“Halki Fulki si hai Zindagi, Bojh toh sirf Khwaishon ka hai.”</p>
 </blockquote>
 
+    </div>
+  </article>
+
   
+  
+
+
+
+
+
+  <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="https://shubhamjain0594.github.io/">Home</a></li>
+         
+          <li><a href="https://shubhamjain0594.github.io/post">All posts</a></li>
+         
+          <li><a href="https://shubhamjain0594.github.io/tags">Tags</a></li>
+         
+          <li><a href="https://shubhamjain0594.github.io/about">About</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <nav id="TableOfContents"></nav>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      
+      <ul>
+  
+  
+    
+  
+  
+  <li>
+    <a class="icon" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fmemories-and-learnings-from-first-year%2f" aria-label="Facebook">
+      <i class="fab fa-facebook fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://twitter.com/share?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fmemories-and-learnings-from-first-year%2f&text=Memories%20and%20Learnings%20from%20my%201st%20year%20in%20IIT" aria-label="Twitter">
+      <i class="fab fa-twitter fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fmemories-and-learnings-from-first-year%2f&title=Memories%20and%20Learnings%20from%20my%201st%20year%20in%20IIT" aria-label="Linkedin">
+      <i class="fab fa-linkedin fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fmemories-and-learnings-from-first-year%2f&is_video=false&description=Memories%20and%20Learnings%20from%20my%201st%20year%20in%20IIT" aria-label="Pinterest">
+      <i class="fab fa-pinterest fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="mailto:?subject=Memories%20and%20Learnings%20from%20my%201st%20year%20in%20IIT&body=Check out this article: https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fmemories-and-learnings-from-first-year%2f" aria-label="Email">
+      <i class="fas fa-envelope fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://getpocket.com/save?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fmemories-and-learnings-from-first-year%2f&title=Memories%20and%20Learnings%20from%20my%201st%20year%20in%20IIT" aria-label="Pocket">
+      <i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://reddit.com/submit?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fmemories-and-learnings-from-first-year%2f&title=Memories%20and%20Learnings%20from%20my%201st%20year%20in%20IIT" aria-label="reddit">
+      <i class="fab fa-reddit fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fmemories-and-learnings-from-first-year%2f&name=Memories%20and%20Learnings%20from%20my%201st%20year%20in%20IIT&description=This%20is%20a%20letter%2c%20I%20wrote%20in%20my%20senior%20year%20to%20one%20of%20the%20juniors%20describing%20my%20first%20year%20and%20what%20I%20learned%20from%20it.%0aThese%20are%20my%20views.%20I%20want%20you%20to%20comment%20and%20us%20to%20discuss%2c%20it%20would%20enrich%20both%20of%20us.%20You%20know%20most%20of%20the%20things%20about%20my%20freshie%20year.%20So%20I%20won%e2%80%99t%20go%20into%20things%20which%20you%20already%20know.%20Fill%20it%20with%20your%20memory.%0aWhen%20I%20came%20into%20IIT%2c%20I%20was%20a%20completely%20ignorant%20child%20with%20just%20one%20thing%20in%20mind%20that%20IITians%20God%20hote%20hai." aria-label="Tumblr">
+      <i class="fab fa-tumblr fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fmemories-and-learnings-from-first-year%2f&t=Memories%20and%20Learnings%20from%20my%201st%20year%20in%20IIT" aria-label="Hacker News">
+      <i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+      
+        <a id="menu-toggle" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;" aria-label="Menu">
+          <i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc-toggle" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;" aria-label="TOC">
+          <i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share-toggle" class="icon" href="#" onclick="$('#share-footer').toggle();return false;" aria-label="Share">
+          <i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" aria-label="Top of Page">
+          <i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
   </div>
-</article>
+</div>
 
 
-    <footer id="footer">
+  <footer id="footer">
   <div class="footer-left">
     Copyright  &copy; 2021  &amp;copy; 2021. All rights reserved. 
   </div>
@@ -115,7 +324,7 @@ When I came into IIT, I was a completely ignorant child with just one thing in m
          
         <li><a href="https://shubhamjain0594.github.io/">Home</a></li>
          
-        <li><a href="https://shubhamjain0594.github.io/posts">All posts</a></li>
+        <li><a href="https://shubhamjain0594.github.io/post">All posts</a></li>
          
         <li><a href="https://shubhamjain0594.github.io/tags">Tags</a></li>
          
@@ -133,4 +342,7 @@ When I came into IIT, I was a completely ignorant child with just one thing in m
 <link rel="stylesheet" href=https://shubhamjain0594.github.io/lib/font-awesome/css/all.min.css>
 <script src=https://shubhamjain0594.github.io/lib/jquery/jquery.min.js></script>
 <script src=https://shubhamjain0594.github.io/js/main.js></script>
+
+
+
 </html>

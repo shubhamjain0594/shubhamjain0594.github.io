@@ -43,41 +43,154 @@
 <body class="max-width mx-auto px3 ltr">
   <div class="content index py4">
 
-    <header id="header">
-  <a href="https://shubhamjain0594.github.io/">
-  
-    <div id="logo" style="background-image: url(https://shubhamjain0594.github.io/images/logo.png)"></div>
-  
-  <div id="title">
-    <h1>Dora&#39;s world</h1>
-  </div>
-  </a>
-  <div id="nav">
-    <ul>
-      <li class="icon">
-        <a href="#" aria-label="Menu"><i class="fas fa-bars fa-2x" aria-hidden="true"></i></a>
-      </li>
-      
+  <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;" aria-label="Top of Page"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
         <li><a href="https://shubhamjain0594.github.io/">Home</a></li>
-      
-        <li><a href="https://shubhamjain0594.github.io/posts">All posts</a></li>
-      
+         
+        <li><a href="https://shubhamjain0594.github.io/post">All posts</a></li>
+         
         <li><a href="https://shubhamjain0594.github.io/tags">Tags</a></li>
-      
+         
         <li><a href="https://shubhamjain0594.github.io/about">About</a></li>
+        
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        <li>
+          <a class="icon" href=" https://shubhamjain0594.github.io/post/memories-and-learnings-from-first-year/" aria-label="Previous">
+            <i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i>
+          </a>
+        </li>
+        
+        
+        <li>
+          <a class="icon" href="https://shubhamjain0594.github.io/post/year-review-2017/" aria-label="Next">
+            <i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i>
+          </a>
+        </li>
+        
+        <li>
+          <a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" aria-label="Top of Page">
+            <i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i>
+          </a>
+        </li>
+        <li>
+          <a class="icon" href="#" aria-label="Share">
+            <i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i>
+          </a>
+        </li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
       
-    </ul>
-  </div>
-</header>
-
-
-
-    
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
-  <div class="content" itemprop="articleBody">
+      <ul>
   
-    <p>Last week of April 2017, I was attending <a href="https://re-work.co/events/deep-learning-summit-singapore-april-2017">Re-work Deep Learning Summit</a> in Singapore. I was representing Qure.ai and speaking about some of the work we have been doing in this field. The conference had speakers from <a href="https://deepmind.com">Google Deepmind</a>, <a href="http://research.baidu.com/silicon-valley-ai-lab/">Baidu Silicon Valley AI Lab</a>, <a href="http://facebook.com">Facebook</a>; startups such as <a href="http://www.kata.ai">Kata.ai</a>, <a href="http://www.smartcow.ai">SmartCow.ai</a>; investor firms such as <a href="https://www.zeroth.ai">Zeroth.ai</a>, etc. In this post, I will introduce to you about all the impressive ideas I learned about in the conference.</p>
+  
+    
+  
+  
+  <li>
+    <a class="icon" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fglimpses-of-rework-deep-learning-2017%2f" aria-label="Facebook">
+      <i class="fab fa-facebook " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://twitter.com/share?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fglimpses-of-rework-deep-learning-2017%2f&text=A%20Glimpse%20of%20Re-Work%20Deep%20Learning%20Summit%20-%20Singapore%2c%202017" aria-label="Twitter">
+      <i class="fab fa-twitter " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fglimpses-of-rework-deep-learning-2017%2f&title=A%20Glimpse%20of%20Re-Work%20Deep%20Learning%20Summit%20-%20Singapore%2c%202017" aria-label="Linkedin">
+      <i class="fab fa-linkedin " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fglimpses-of-rework-deep-learning-2017%2f&is_video=false&description=A%20Glimpse%20of%20Re-Work%20Deep%20Learning%20Summit%20-%20Singapore%2c%202017" aria-label="Pinterest">
+      <i class="fab fa-pinterest " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="mailto:?subject=A%20Glimpse%20of%20Re-Work%20Deep%20Learning%20Summit%20-%20Singapore%2c%202017&body=Check out this article: https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fglimpses-of-rework-deep-learning-2017%2f" aria-label="Email">
+      <i class="fas fa-envelope " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://getpocket.com/save?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fglimpses-of-rework-deep-learning-2017%2f&title=A%20Glimpse%20of%20Re-Work%20Deep%20Learning%20Summit%20-%20Singapore%2c%202017" aria-label="Pocket">
+      <i class="fab fa-get-pocket " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://reddit.com/submit?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fglimpses-of-rework-deep-learning-2017%2f&title=A%20Glimpse%20of%20Re-Work%20Deep%20Learning%20Summit%20-%20Singapore%2c%202017" aria-label="reddit">
+      <i class="fab fa-reddit " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fglimpses-of-rework-deep-learning-2017%2f&name=A%20Glimpse%20of%20Re-Work%20Deep%20Learning%20Summit%20-%20Singapore%2c%202017&description=Last%20week%20of%20April%202017%2c%20I%20was%20attending%20Re-work%20Deep%20Learning%20Summit%20in%20Singapore.%20I%20was%20representing%20Qure.ai%20and%20speaking%20about%20some%20of%20the%20work%20we%20have%20been%20doing%20in%20this%20field.%20The%20conference%20had%20speakers%20from%20Google%20Deepmind%2c%20Baidu%20Silicon%20Valley%20AI%20Lab%2c%20Facebook%3b%20startups%20such%20as%20Kata.ai%2c%20SmartCow.ai%3b%20investor%20firms%20such%20as%20Zeroth.ai%2c%20etc.%20In%20this%20post%2c%20I%20will%20introduce%20to%20you%20about%20all%20the%20impressive%20ideas%20I%20learned%20about%20in%20the%20conference." aria-label="Tumblr">
+      <i class="fab fa-tumblr " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fglimpses-of-rework-deep-learning-2017%2f&t=A%20Glimpse%20of%20Re-Work%20Deep%20Learning%20Summit%20-%20Singapore%2c%202017" aria-label="Hacker News">
+      <i class="fab fa-hacker-news " aria-hidden="true"></i>
+    </a>
+  </li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <nav id="TableOfContents"></nav>
+    </div>
+  </span>
+</div>
+
+
+  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <header>
+      <h1 class="posttitle" itemprop="name headline">
+        A Glimpse of Re-Work Deep Learning Summit - Singapore, 2017
+      </h1>
+      <div class="meta">
+        
+        <div class="postdate">
+          
+          <time datetime="2017-05-26 00:14:56 &#43;0530 &#43;0530" itemprop="datePublished">2017-05-26</time>
+          
+        </div>
+        
+        
+        
+        
+        <div class="article-tag">
+            <i class="fas fa-tag"></i>
+            
+            
+            <a class="tag-link" href="https://shubhamjain0594.github.io/tags/deep-learning" rel="tag">deep-learning</a>
+            
+             ,  
+            <a class="tag-link" href="https://shubhamjain0594.github.io/tags/conference" rel="tag">conference</a>
+            
+        </div>
+        
+      </div>
+    </header>
+
+  
+    <div class="content" itemprop="articleBody">
+      <p>Last week of April 2017, I was attending <a href="https://re-work.co/events/deep-learning-summit-singapore-april-2017">Re-work Deep Learning Summit</a> in Singapore. I was representing Qure.ai and speaking about some of the work we have been doing in this field. The conference had speakers from <a href="https://deepmind.com">Google Deepmind</a>, <a href="http://research.baidu.com/silicon-valley-ai-lab/">Baidu Silicon Valley AI Lab</a>, <a href="http://facebook.com">Facebook</a>; startups such as <a href="http://www.kata.ai">Kata.ai</a>, <a href="http://www.smartcow.ai">SmartCow.ai</a>; investor firms such as <a href="https://www.zeroth.ai">Zeroth.ai</a>, etc. In this post, I will introduce to you about all the impressive ideas I learned about in the conference.</p>
 <!-- raw HTML omitted -->
 <p>In a talk demonstrating use-case of <a href="https://intl.aliyun.com">PAI - Platform for AI</a> via AliMe, two ideas that caught me up where:</p>
 <ul>
@@ -120,12 +233,111 @@
 <p>It was a great experience, thanks to Re-work team for inviting me. You must checkout <a href="https://re-work.co/events/deep-learning-summit-montreal-canada-track1-2017">Re-Work DL Summit Montreal</a>. The lineup is super awesome.</p>
 <p>For any comments, suggestions or appreciations tweet <a href="https://twitter.com/shubhamjain0594">@shubhamjain0594</a>.</p>
 
+    </div>
+  </article>
+
   
+  
+
+
+
+
+
+  <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="https://shubhamjain0594.github.io/">Home</a></li>
+         
+          <li><a href="https://shubhamjain0594.github.io/post">All posts</a></li>
+         
+          <li><a href="https://shubhamjain0594.github.io/tags">Tags</a></li>
+         
+          <li><a href="https://shubhamjain0594.github.io/about">About</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <nav id="TableOfContents"></nav>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      
+      <ul>
+  
+  
+    
+  
+  
+  <li>
+    <a class="icon" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fglimpses-of-rework-deep-learning-2017%2f" aria-label="Facebook">
+      <i class="fab fa-facebook fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://twitter.com/share?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fglimpses-of-rework-deep-learning-2017%2f&text=A%20Glimpse%20of%20Re-Work%20Deep%20Learning%20Summit%20-%20Singapore%2c%202017" aria-label="Twitter">
+      <i class="fab fa-twitter fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fglimpses-of-rework-deep-learning-2017%2f&title=A%20Glimpse%20of%20Re-Work%20Deep%20Learning%20Summit%20-%20Singapore%2c%202017" aria-label="Linkedin">
+      <i class="fab fa-linkedin fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fglimpses-of-rework-deep-learning-2017%2f&is_video=false&description=A%20Glimpse%20of%20Re-Work%20Deep%20Learning%20Summit%20-%20Singapore%2c%202017" aria-label="Pinterest">
+      <i class="fab fa-pinterest fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="mailto:?subject=A%20Glimpse%20of%20Re-Work%20Deep%20Learning%20Summit%20-%20Singapore%2c%202017&body=Check out this article: https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fglimpses-of-rework-deep-learning-2017%2f" aria-label="Email">
+      <i class="fas fa-envelope fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://getpocket.com/save?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fglimpses-of-rework-deep-learning-2017%2f&title=A%20Glimpse%20of%20Re-Work%20Deep%20Learning%20Summit%20-%20Singapore%2c%202017" aria-label="Pocket">
+      <i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://reddit.com/submit?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fglimpses-of-rework-deep-learning-2017%2f&title=A%20Glimpse%20of%20Re-Work%20Deep%20Learning%20Summit%20-%20Singapore%2c%202017" aria-label="reddit">
+      <i class="fab fa-reddit fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fglimpses-of-rework-deep-learning-2017%2f&name=A%20Glimpse%20of%20Re-Work%20Deep%20Learning%20Summit%20-%20Singapore%2c%202017&description=Last%20week%20of%20April%202017%2c%20I%20was%20attending%20Re-work%20Deep%20Learning%20Summit%20in%20Singapore.%20I%20was%20representing%20Qure.ai%20and%20speaking%20about%20some%20of%20the%20work%20we%20have%20been%20doing%20in%20this%20field.%20The%20conference%20had%20speakers%20from%20Google%20Deepmind%2c%20Baidu%20Silicon%20Valley%20AI%20Lab%2c%20Facebook%3b%20startups%20such%20as%20Kata.ai%2c%20SmartCow.ai%3b%20investor%20firms%20such%20as%20Zeroth.ai%2c%20etc.%20In%20this%20post%2c%20I%20will%20introduce%20to%20you%20about%20all%20the%20impressive%20ideas%20I%20learned%20about%20in%20the%20conference." aria-label="Tumblr">
+      <i class="fab fa-tumblr fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fglimpses-of-rework-deep-learning-2017%2f&t=A%20Glimpse%20of%20Re-Work%20Deep%20Learning%20Summit%20-%20Singapore%2c%202017" aria-label="Hacker News">
+      <i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+      
+        <a id="menu-toggle" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;" aria-label="Menu">
+          <i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc-toggle" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;" aria-label="TOC">
+          <i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share-toggle" class="icon" href="#" onclick="$('#share-footer').toggle();return false;" aria-label="Share">
+          <i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" aria-label="Top of Page">
+          <i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
   </div>
-</article>
+</div>
 
 
-    <footer id="footer">
+  <footer id="footer">
   <div class="footer-left">
     Copyright  &copy; 2021  &amp;copy; 2021. All rights reserved. 
   </div>
@@ -135,7 +347,7 @@
          
         <li><a href="https://shubhamjain0594.github.io/">Home</a></li>
          
-        <li><a href="https://shubhamjain0594.github.io/posts">All posts</a></li>
+        <li><a href="https://shubhamjain0594.github.io/post">All posts</a></li>
          
         <li><a href="https://shubhamjain0594.github.io/tags">Tags</a></li>
          
@@ -153,4 +365,7 @@
 <link rel="stylesheet" href=https://shubhamjain0594.github.io/lib/font-awesome/css/all.min.css>
 <script src=https://shubhamjain0594.github.io/lib/jquery/jquery.min.js></script>
 <script src=https://shubhamjain0594.github.io/js/main.js></script>
+
+
+
 </html>

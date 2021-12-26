@@ -45,41 +45,157 @@
 <body class="max-width mx-auto px3 ltr">
   <div class="content index py4">
 
-    <header id="header">
-  <a href="https://shubhamjain0594.github.io/">
-  
-    <div id="logo" style="background-image: url(https://shubhamjain0594.github.io/images/logo.png)"></div>
-  
-  <div id="title">
-    <h1>Dora&#39;s world</h1>
-  </div>
-  </a>
-  <div id="nav">
-    <ul>
-      <li class="icon">
-        <a href="#" aria-label="Menu"><i class="fas fa-bars fa-2x" aria-hidden="true"></i></a>
-      </li>
-      
+  <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;" aria-label="Top of Page"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
         <li><a href="https://shubhamjain0594.github.io/">Home</a></li>
-      
-        <li><a href="https://shubhamjain0594.github.io/posts">All posts</a></li>
-      
+         
+        <li><a href="https://shubhamjain0594.github.io/post">All posts</a></li>
+         
         <li><a href="https://shubhamjain0594.github.io/tags">Tags</a></li>
-      
+         
         <li><a href="https://shubhamjain0594.github.io/about">About</a></li>
+        
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        <li>
+          <a class="icon" href=" https://shubhamjain0594.github.io/post/tldr-what-google-learned-from-its-quest-to-build-perfect-team/" aria-label="Previous">
+            <i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i>
+          </a>
+        </li>
+        
+        
+        <li>
+          <a class="icon" href="https://shubhamjain0594.github.io/post/tlds-uber-ucberkeley-enigma-dp/" aria-label="Next">
+            <i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i>
+          </a>
+        </li>
+        
+        <li>
+          <a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" aria-label="Top of Page">
+            <i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i>
+          </a>
+        </li>
+        <li>
+          <a class="icon" href="#" aria-label="Share">
+            <i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i>
+          </a>
+        </li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
       
-    </ul>
-  </div>
-</header>
-
-
-
-    
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
-  <div class="content" itemprop="articleBody">
+      <ul>
   
-    <p>This are some points to keep in mind (KiM), from the article on <a href="https://www.nature.com/articles/d41586-018-02404-4">How to write a first-class paper</a> published as nature article.</p>
+  
+    
+  
+  
+  <li>
+    <a class="icon" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fkim-how-to-write-first-class-paper%2f" aria-label="Facebook">
+      <i class="fab fa-facebook " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://twitter.com/share?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fkim-how-to-write-first-class-paper%2f&text=KiM%20-%20How%20to%20Write%20First%20Class%20Paper" aria-label="Twitter">
+      <i class="fab fa-twitter " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fkim-how-to-write-first-class-paper%2f&title=KiM%20-%20How%20to%20Write%20First%20Class%20Paper" aria-label="Linkedin">
+      <i class="fab fa-linkedin " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fkim-how-to-write-first-class-paper%2f&is_video=false&description=KiM%20-%20How%20to%20Write%20First%20Class%20Paper" aria-label="Pinterest">
+      <i class="fab fa-pinterest " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="mailto:?subject=KiM%20-%20How%20to%20Write%20First%20Class%20Paper&body=Check out this article: https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fkim-how-to-write-first-class-paper%2f" aria-label="Email">
+      <i class="fas fa-envelope " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://getpocket.com/save?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fkim-how-to-write-first-class-paper%2f&title=KiM%20-%20How%20to%20Write%20First%20Class%20Paper" aria-label="Pocket">
+      <i class="fab fa-get-pocket " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://reddit.com/submit?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fkim-how-to-write-first-class-paper%2f&title=KiM%20-%20How%20to%20Write%20First%20Class%20Paper" aria-label="reddit">
+      <i class="fab fa-reddit " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fkim-how-to-write-first-class-paper%2f&name=KiM%20-%20How%20to%20Write%20First%20Class%20Paper&description=This%20are%20some%20points%20to%20keep%20in%20mind%20%28KiM%29%2c%20from%20the%20article%20on%20How%20to%20write%20a%20first-class%20paper%20published%20as%20nature%20article.%0a%20Keep%20your%20message%20clear%20%20The%20most%20important%20information%20should%20be%20in%20the%20main%20text.%20To%20avoid%20distraction%2c%20writers%20should%20put%20additional%20data%20in%20the%20supplementary%20material.%20Writers%20should%20put%20their%20results%20into%20a%20global%20context%20to%20demonstrate%20what%20makes%20those%20results%20significant%20or%20original.%20In%20the%20conclusion%2c%20include%20a%20one-%20or%20two-sentence%20statement%20on%20the%20research%20you%20plan%20to%20do%20in%20the%20future%20and%20on%20what%20else%20needs%20to%20be%20explored." aria-label="Tumblr">
+      <i class="fab fa-tumblr " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fkim-how-to-write-first-class-paper%2f&t=KiM%20-%20How%20to%20Write%20First%20Class%20Paper" aria-label="Hacker News">
+      <i class="fab fa-hacker-news " aria-hidden="true"></i>
+    </a>
+  </li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <nav id="TableOfContents"></nav>
+    </div>
+  </span>
+</div>
+
+
+  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <header>
+      <h1 class="posttitle" itemprop="name headline">
+        KiM - How to Write First Class Paper
+      </h1>
+      <div class="meta">
+        
+        <div class="postdate">
+          
+          <time datetime="2018-03-17 11:20:27 &#43;0000 UTC" itemprop="datePublished">2018-03-17</time>
+          
+        </div>
+        
+        
+        
+        
+        <div class="article-tag">
+            <i class="fas fa-tag"></i>
+            
+            
+            <a class="tag-link" href="https://shubhamjain0594.github.io/tags/kim" rel="tag">kim</a>
+            
+             ,  
+            <a class="tag-link" href="https://shubhamjain0594.github.io/tags/article" rel="tag">article</a>
+            
+             ,  
+            <a class="tag-link" href="https://shubhamjain0594.github.io/tags/productivity" rel="tag">productivity</a>
+            
+        </div>
+        
+      </div>
+    </header>
+
+  
+    <div class="content" itemprop="articleBody">
+      <p>This are some points to keep in mind (KiM), from the article on <a href="https://www.nature.com/articles/d41586-018-02404-4">How to write a first-class paper</a> published as nature article.</p>
 <ol>
 <li>Keep your message clear
 <ul>
@@ -123,12 +239,111 @@
 </li>
 </ol>
 
+    </div>
+  </article>
+
   
+  
+
+
+
+
+
+  <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="https://shubhamjain0594.github.io/">Home</a></li>
+         
+          <li><a href="https://shubhamjain0594.github.io/post">All posts</a></li>
+         
+          <li><a href="https://shubhamjain0594.github.io/tags">Tags</a></li>
+         
+          <li><a href="https://shubhamjain0594.github.io/about">About</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <nav id="TableOfContents"></nav>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      
+      <ul>
+  
+  
+    
+  
+  
+  <li>
+    <a class="icon" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fkim-how-to-write-first-class-paper%2f" aria-label="Facebook">
+      <i class="fab fa-facebook fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://twitter.com/share?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fkim-how-to-write-first-class-paper%2f&text=KiM%20-%20How%20to%20Write%20First%20Class%20Paper" aria-label="Twitter">
+      <i class="fab fa-twitter fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fkim-how-to-write-first-class-paper%2f&title=KiM%20-%20How%20to%20Write%20First%20Class%20Paper" aria-label="Linkedin">
+      <i class="fab fa-linkedin fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fkim-how-to-write-first-class-paper%2f&is_video=false&description=KiM%20-%20How%20to%20Write%20First%20Class%20Paper" aria-label="Pinterest">
+      <i class="fab fa-pinterest fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="mailto:?subject=KiM%20-%20How%20to%20Write%20First%20Class%20Paper&body=Check out this article: https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fkim-how-to-write-first-class-paper%2f" aria-label="Email">
+      <i class="fas fa-envelope fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://getpocket.com/save?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fkim-how-to-write-first-class-paper%2f&title=KiM%20-%20How%20to%20Write%20First%20Class%20Paper" aria-label="Pocket">
+      <i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://reddit.com/submit?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fkim-how-to-write-first-class-paper%2f&title=KiM%20-%20How%20to%20Write%20First%20Class%20Paper" aria-label="reddit">
+      <i class="fab fa-reddit fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fkim-how-to-write-first-class-paper%2f&name=KiM%20-%20How%20to%20Write%20First%20Class%20Paper&description=This%20are%20some%20points%20to%20keep%20in%20mind%20%28KiM%29%2c%20from%20the%20article%20on%20How%20to%20write%20a%20first-class%20paper%20published%20as%20nature%20article.%0a%20Keep%20your%20message%20clear%20%20The%20most%20important%20information%20should%20be%20in%20the%20main%20text.%20To%20avoid%20distraction%2c%20writers%20should%20put%20additional%20data%20in%20the%20supplementary%20material.%20Writers%20should%20put%20their%20results%20into%20a%20global%20context%20to%20demonstrate%20what%20makes%20those%20results%20significant%20or%20original.%20In%20the%20conclusion%2c%20include%20a%20one-%20or%20two-sentence%20statement%20on%20the%20research%20you%20plan%20to%20do%20in%20the%20future%20and%20on%20what%20else%20needs%20to%20be%20explored." aria-label="Tumblr">
+      <i class="fab fa-tumblr fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fkim-how-to-write-first-class-paper%2f&t=KiM%20-%20How%20to%20Write%20First%20Class%20Paper" aria-label="Hacker News">
+      <i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+      
+        <a id="menu-toggle" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;" aria-label="Menu">
+          <i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc-toggle" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;" aria-label="TOC">
+          <i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share-toggle" class="icon" href="#" onclick="$('#share-footer').toggle();return false;" aria-label="Share">
+          <i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" aria-label="Top of Page">
+          <i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
   </div>
-</article>
+</div>
 
 
-    <footer id="footer">
+  <footer id="footer">
   <div class="footer-left">
     Copyright  &copy; 2021  &amp;copy; 2021. All rights reserved. 
   </div>
@@ -138,7 +353,7 @@
          
         <li><a href="https://shubhamjain0594.github.io/">Home</a></li>
          
-        <li><a href="https://shubhamjain0594.github.io/posts">All posts</a></li>
+        <li><a href="https://shubhamjain0594.github.io/post">All posts</a></li>
          
         <li><a href="https://shubhamjain0594.github.io/tags">Tags</a></li>
          
@@ -156,4 +371,7 @@
 <link rel="stylesheet" href=https://shubhamjain0594.github.io/lib/font-awesome/css/all.min.css>
 <script src=https://shubhamjain0594.github.io/lib/jquery/jquery.min.js></script>
 <script src=https://shubhamjain0594.github.io/js/main.js></script>
+
+
+
 </html>

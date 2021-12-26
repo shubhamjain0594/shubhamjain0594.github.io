@@ -43,48 +43,257 @@
 <body class="max-width mx-auto px3 ltr">
   <div class="content index py4">
 
-    <header id="header">
-  <a href="https://shubhamjain0594.github.io/">
-  
-    <div id="logo" style="background-image: url(https://shubhamjain0594.github.io/images/logo.png)"></div>
-  
-  <div id="title">
-    <h1>Dora&#39;s world</h1>
-  </div>
-  </a>
-  <div id="nav">
-    <ul>
-      <li class="icon">
-        <a href="#" aria-label="Menu"><i class="fas fa-bars fa-2x" aria-hidden="true"></i></a>
-      </li>
-      
+  <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;" aria-label="Top of Page"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
         <li><a href="https://shubhamjain0594.github.io/">Home</a></li>
-      
-        <li><a href="https://shubhamjain0594.github.io/posts">All posts</a></li>
-      
+         
+        <li><a href="https://shubhamjain0594.github.io/post">All posts</a></li>
+         
         <li><a href="https://shubhamjain0594.github.io/tags">Tags</a></li>
-      
+         
         <li><a href="https://shubhamjain0594.github.io/about">About</a></li>
+        
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        <li>
+          <a class="icon" href=" https://shubhamjain0594.github.io/post/hugo-larochelle-ted/" aria-label="Previous">
+            <i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i>
+          </a>
+        </li>
+        
+        
+        <li>
+          <a class="icon" href="https://shubhamjain0594.github.io/post/deep-learning-ai-videos/" aria-label="Next">
+            <i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i>
+          </a>
+        </li>
+        
+        <li>
+          <a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" aria-label="Top of Page">
+            <i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i>
+          </a>
+        </li>
+        <li>
+          <a class="icon" href="#" aria-label="Share">
+            <i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i>
+          </a>
+        </li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
       
-    </ul>
-  </div>
-</header>
-
-
-
+      <ul>
+  
+  
     
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
-  <div class="content" itemprop="articleBody">
   
-    <p>Deconvolutions were introduced in 2014 in <a href="https://arxiv.org/abs/1411.4038">&ldquo;Fully Convolutional Networks for Semantic Segmentation&rdquo;</a> and has been extensively used in Semantic Segmentation and Generative Adversarial Networks. But its saturated now and the problems involved with it including checkerboard effects play a huge role in the error it produces. <a href="http://distill.pub/2016/deconv-checkerboard/">This</a> blog post goes down the journey of deconvolutions and problems associated with it. It also suggests some solutions and how it can be replaced by better alternatives such as <a href="https://arxiv.org/abs/1609.05158">subpixel-cnn</a>. If you are doing segmentation or working with generative networks, its time to move away from deconv.</p>
+  
+  <li>
+    <a class="icon" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fthe-end-of-deconv%2f" aria-label="Facebook">
+      <i class="fab fa-facebook " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://twitter.com/share?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fthe-end-of-deconv%2f&text=The%20End%20of%20Deconvolutions" aria-label="Twitter">
+      <i class="fab fa-twitter " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fthe-end-of-deconv%2f&title=The%20End%20of%20Deconvolutions" aria-label="Linkedin">
+      <i class="fab fa-linkedin " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fthe-end-of-deconv%2f&is_video=false&description=The%20End%20of%20Deconvolutions" aria-label="Pinterest">
+      <i class="fab fa-pinterest " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="mailto:?subject=The%20End%20of%20Deconvolutions&body=Check out this article: https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fthe-end-of-deconv%2f" aria-label="Email">
+      <i class="fas fa-envelope " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://getpocket.com/save?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fthe-end-of-deconv%2f&title=The%20End%20of%20Deconvolutions" aria-label="Pocket">
+      <i class="fab fa-get-pocket " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://reddit.com/submit?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fthe-end-of-deconv%2f&title=The%20End%20of%20Deconvolutions" aria-label="reddit">
+      <i class="fab fa-reddit " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fthe-end-of-deconv%2f&name=The%20End%20of%20Deconvolutions&description=Deconvolutions%20were%20introduced%20in%202014%20in%20%26ldquo%3bFully%20Convolutional%20Networks%20for%20Semantic%20Segmentation%26rdquo%3b%20and%20has%20been%20extensively%20used%20in%20Semantic%20Segmentation%20and%20Generative%20Adversarial%20Networks.%20But%20its%20saturated%20now%20and%20the%20problems%20involved%20with%20it%20including%20checkerboard%20effects%20play%20a%20huge%20role%20in%20the%20error%20it%20produces.%20This%20blog%20post%20goes%20down%20the%20journey%20of%20deconvolutions%20and%20problems%20associated%20with%20it.%20It%20also%20suggests%20some%20solutions%20and%20how%20it%20can%20be%20replaced%20by%20better%20alternatives%20such%20as%20subpixel-cnn." aria-label="Tumblr">
+      <i class="fab fa-tumblr " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fthe-end-of-deconv%2f&t=The%20End%20of%20Deconvolutions" aria-label="Hacker News">
+      <i class="fab fa-hacker-news " aria-hidden="true"></i>
+    </a>
+  </li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <nav id="TableOfContents"></nav>
+    </div>
+  </span>
+</div>
+
+
+  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <header>
+      <h1 class="posttitle" itemprop="name headline">
+        The End of Deconvolutions
+      </h1>
+      <div class="meta">
+        
+        <div class="postdate">
+          
+          <time datetime="2016-11-13 17:28:22 &#43;0530 &#43;0530" itemprop="datePublished">2016-11-13</time>
+          
+        </div>
+        
+        
+        
+        
+        <div class="article-tag">
+            <i class="fas fa-tag"></i>
+            
+            
+            <a class="tag-link" href="https://shubhamjain0594.github.io/tags/deep-learning" rel="tag">deep-learning</a>
+            
+        </div>
+        
+      </div>
+    </header>
 
   
+    <div class="content" itemprop="articleBody">
+      <p>Deconvolutions were introduced in 2014 in <a href="https://arxiv.org/abs/1411.4038">&ldquo;Fully Convolutional Networks for Semantic Segmentation&rdquo;</a> and has been extensively used in Semantic Segmentation and Generative Adversarial Networks. But its saturated now and the problems involved with it including checkerboard effects play a huge role in the error it produces. <a href="http://distill.pub/2016/deconv-checkerboard/">This</a> blog post goes down the journey of deconvolutions and problems associated with it. It also suggests some solutions and how it can be replaced by better alternatives such as <a href="https://arxiv.org/abs/1609.05158">subpixel-cnn</a>. If you are doing segmentation or working with generative networks, its time to move away from deconv.</p>
+
+    </div>
+  </article>
+
+  
+  
+
+
+
+
+
+  <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="https://shubhamjain0594.github.io/">Home</a></li>
+         
+          <li><a href="https://shubhamjain0594.github.io/post">All posts</a></li>
+         
+          <li><a href="https://shubhamjain0594.github.io/tags">Tags</a></li>
+         
+          <li><a href="https://shubhamjain0594.github.io/about">About</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <nav id="TableOfContents"></nav>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      
+      <ul>
+  
+  
+    
+  
+  
+  <li>
+    <a class="icon" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fthe-end-of-deconv%2f" aria-label="Facebook">
+      <i class="fab fa-facebook fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://twitter.com/share?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fthe-end-of-deconv%2f&text=The%20End%20of%20Deconvolutions" aria-label="Twitter">
+      <i class="fab fa-twitter fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fthe-end-of-deconv%2f&title=The%20End%20of%20Deconvolutions" aria-label="Linkedin">
+      <i class="fab fa-linkedin fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fthe-end-of-deconv%2f&is_video=false&description=The%20End%20of%20Deconvolutions" aria-label="Pinterest">
+      <i class="fab fa-pinterest fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="mailto:?subject=The%20End%20of%20Deconvolutions&body=Check out this article: https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fthe-end-of-deconv%2f" aria-label="Email">
+      <i class="fas fa-envelope fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://getpocket.com/save?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fthe-end-of-deconv%2f&title=The%20End%20of%20Deconvolutions" aria-label="Pocket">
+      <i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://reddit.com/submit?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fthe-end-of-deconv%2f&title=The%20End%20of%20Deconvolutions" aria-label="reddit">
+      <i class="fab fa-reddit fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fthe-end-of-deconv%2f&name=The%20End%20of%20Deconvolutions&description=Deconvolutions%20were%20introduced%20in%202014%20in%20%26ldquo%3bFully%20Convolutional%20Networks%20for%20Semantic%20Segmentation%26rdquo%3b%20and%20has%20been%20extensively%20used%20in%20Semantic%20Segmentation%20and%20Generative%20Adversarial%20Networks.%20But%20its%20saturated%20now%20and%20the%20problems%20involved%20with%20it%20including%20checkerboard%20effects%20play%20a%20huge%20role%20in%20the%20error%20it%20produces.%20This%20blog%20post%20goes%20down%20the%20journey%20of%20deconvolutions%20and%20problems%20associated%20with%20it.%20It%20also%20suggests%20some%20solutions%20and%20how%20it%20can%20be%20replaced%20by%20better%20alternatives%20such%20as%20subpixel-cnn." aria-label="Tumblr">
+      <i class="fab fa-tumblr fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fthe-end-of-deconv%2f&t=The%20End%20of%20Deconvolutions" aria-label="Hacker News">
+      <i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+      
+        <a id="menu-toggle" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;" aria-label="Menu">
+          <i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc-toggle" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;" aria-label="TOC">
+          <i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share-toggle" class="icon" href="#" onclick="$('#share-footer').toggle();return false;" aria-label="Share">
+          <i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" aria-label="Top of Page">
+          <i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
   </div>
-</article>
+</div>
 
 
-    <footer id="footer">
+  <footer id="footer">
   <div class="footer-left">
     Copyright  &copy; 2021  &amp;copy; 2021. All rights reserved. 
   </div>
@@ -94,7 +303,7 @@
          
         <li><a href="https://shubhamjain0594.github.io/">Home</a></li>
          
-        <li><a href="https://shubhamjain0594.github.io/posts">All posts</a></li>
+        <li><a href="https://shubhamjain0594.github.io/post">All posts</a></li>
          
         <li><a href="https://shubhamjain0594.github.io/tags">Tags</a></li>
          
@@ -112,4 +321,7 @@
 <link rel="stylesheet" href=https://shubhamjain0594.github.io/lib/font-awesome/css/all.min.css>
 <script src=https://shubhamjain0594.github.io/lib/jquery/jquery.min.js></script>
 <script src=https://shubhamjain0594.github.io/js/main.js></script>
+
+
+
 </html>

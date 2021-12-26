@@ -43,41 +43,145 @@
 <body class="max-width mx-auto px3 ltr">
   <div class="content index py4">
 
-    <header id="header">
-  <a href="https://shubhamjain0594.github.io/">
-  
-    <div id="logo" style="background-image: url(https://shubhamjain0594.github.io/images/logo.png)"></div>
-  
-  <div id="title">
-    <h1>Dora&#39;s world</h1>
-  </div>
-  </a>
-  <div id="nav">
-    <ul>
-      <li class="icon">
-        <a href="#" aria-label="Menu"><i class="fas fa-bars fa-2x" aria-hidden="true"></i></a>
-      </li>
-      
+  <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;" aria-label="Top of Page"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
         <li><a href="https://shubhamjain0594.github.io/">Home</a></li>
-      
-        <li><a href="https://shubhamjain0594.github.io/posts">All posts</a></li>
-      
+         
+        <li><a href="https://shubhamjain0594.github.io/post">All posts</a></li>
+         
         <li><a href="https://shubhamjain0594.github.io/tags">Tags</a></li>
-      
+         
         <li><a href="https://shubhamjain0594.github.io/about">About</a></li>
+        
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        
+        <li>
+          <a class="icon" href="https://shubhamjain0594.github.io/post/growing-up-a-journey-of-life/" aria-label="Next">
+            <i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i>
+          </a>
+        </li>
+        
+        <li>
+          <a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" aria-label="Top of Page">
+            <i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i>
+          </a>
+        </li>
+        <li>
+          <a class="icon" href="#" aria-label="Share">
+            <i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i>
+          </a>
+        </li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
       
-    </ul>
-  </div>
-</header>
-
-
-
-    
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
-  <div class="content" itemprop="articleBody">
+      <ul>
   
-    <p>Yo Junta, this is Shubham Jain a student at IIT Bombay. Being an IITian, I always encounter someone who wants some advice, guidance on how to go for JEE, is he capable and all. So I thought why not just write down my experience and share with world. I know there are already many blogs on this and my blog isn’t any different apart from fact its my personal experience which for me is very different than others.</p>
+  
+    
+  
+  
+  <li>
+    <a class="icon" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2ffrom-an-unknown-to-someone%2f" aria-label="Facebook">
+      <i class="fab fa-facebook " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://twitter.com/share?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2ffrom-an-unknown-to-someone%2f&text=From%20an%20unknown%20to%20someone" aria-label="Twitter">
+      <i class="fab fa-twitter " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2ffrom-an-unknown-to-someone%2f&title=From%20an%20unknown%20to%20someone" aria-label="Linkedin">
+      <i class="fab fa-linkedin " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2ffrom-an-unknown-to-someone%2f&is_video=false&description=From%20an%20unknown%20to%20someone" aria-label="Pinterest">
+      <i class="fab fa-pinterest " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="mailto:?subject=From%20an%20unknown%20to%20someone&body=Check out this article: https%3a%2f%2fshubhamjain0594.github.io%2fpost%2ffrom-an-unknown-to-someone%2f" aria-label="Email">
+      <i class="fas fa-envelope " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://getpocket.com/save?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2ffrom-an-unknown-to-someone%2f&title=From%20an%20unknown%20to%20someone" aria-label="Pocket">
+      <i class="fab fa-get-pocket " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://reddit.com/submit?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2ffrom-an-unknown-to-someone%2f&title=From%20an%20unknown%20to%20someone" aria-label="reddit">
+      <i class="fab fa-reddit " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2ffrom-an-unknown-to-someone%2f&name=From%20an%20unknown%20to%20someone&description=Yo%20Junta%2c%20this%20is%20Shubham%20Jain%20a%20student%20at%20IIT%20Bombay.%20Being%20an%20IITian%2c%20I%20always%20encounter%20someone%20who%20wants%20some%20advice%2c%20guidance%20on%20how%20to%20go%20for%20JEE%2c%20is%20he%20capable%20and%20all.%20So%20I%20thought%20why%20not%20just%20write%20down%20my%20experience%20and%20share%20with%20world.%20I%20know%20there%20are%20already%20many%20blogs%20on%20this%20and%20my%20blog%20isn%e2%80%99t%20any%20different%20apart%20from%20fact%20its%20my%20personal%20experience%20which%20for%20me%20is%20very%20different%20than%20others." aria-label="Tumblr">
+      <i class="fab fa-tumblr " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2ffrom-an-unknown-to-someone%2f&t=From%20an%20unknown%20to%20someone" aria-label="Hacker News">
+      <i class="fab fa-hacker-news " aria-hidden="true"></i>
+    </a>
+  </li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <nav id="TableOfContents"></nav>
+    </div>
+  </span>
+</div>
+
+
+  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <header>
+      <h1 class="posttitle" itemprop="name headline">
+        From an unknown to someone
+      </h1>
+      <div class="meta">
+        
+        <div class="postdate">
+          
+          <time datetime="2014-05-15 15:40:12 &#43;0530 &#43;0530" itemprop="datePublished">2014-05-15</time>
+          
+        </div>
+        
+        
+        
+        
+        <div class="article-tag">
+            <i class="fas fa-tag"></i>
+            
+            
+            <a class="tag-link" href="https://shubhamjain0594.github.io/tags/experiences" rel="tag">experiences</a>
+            
+        </div>
+        
+      </div>
+    </header>
+
+  
+    <div class="content" itemprop="articleBody">
+      <p>Yo Junta, this is Shubham Jain a student at IIT Bombay. Being an IITian, I always encounter someone who wants some advice, guidance on how to go for JEE, is he capable and all. So I thought why not just write down my experience and share with world. I know there are already many blogs on this and my blog isn’t any different apart from fact its my personal experience which for me is very different than others.</p>
 <p>So lets go back to an era of 2000’s when tuitions were rarity in my family. I had never been to any classes till my 6th class, but then a day arrived when my family encountered an essay written by me in marathi and realised that this guy needs some serious help here. That was first time I had been to some “Tuitions”. It was my first experience and unexpectedly I was loving it. It wasn’t a formal ones, a mam, mother of a student from same school used to take it. And results were great, my marathi improved, not in talking or actual usage though. After then, I had various experiences , for NTSE tuition, Scholarship classes, Sanskrit Classes and finally 10th Classes.</p>
 <p>In my school life, I was a bright student but also someone who used to do all other things too. In 7th I went to Kho-Kho district tournament, in 8th I changed to Badminton and 9th was about Handball. Apart from these when I saw my academics, they were pretty decent too with me getting 7th Std Scholarship and also NTSE. But then that was it. No more achievements. I felt my achievements were stupendous, until in 10th while giving exams for various classes I came to know that there exists students who have gone to olympiads and many other exams which are not as trivial as NTSE .</p>
 <p>So when I joined Resonance, Thane (it was initially just because they gave me maximum scholarship) I was very very worried. Whether I will be able to do it? I am competing with someone who is much brighter than me. I am so dumb. I felt that way. But I knew one things, my parents have dreams, I have dreams and quoting from Pursuit of Happiness :”If you have dreams, you have to protect it.” I knew from day 1, I have to fight hard from now on but at the same time I have to enjoy my fight. I chose my own path, this is the biggest positive for me. I am and had always been self-motivated.</p>
@@ -88,12 +192,111 @@
 <p>These two years taught me value of working not just hard but smarter, value of time and how important it is to ask even the silliest question that may come and not being afraid to do so and finally analyzing yourself regularly. These years for me were not about roaming malls, watching movies but I remained with books and enjoyed it in discovering my own potential and how far I can stretch it. I took it as a challenge to be better than myself everytime I sit for any exam. I knew it isnt easy but it wasnt impossible and there is no fun in having things that you get without defying your own limits.</p>
 <p>Finally results came, not so impressive for me as I knew I could have done better but AIR 56 wasn’t so bad. And then I got into CSE, IIT Bombay by fortune and finally an IITian . It wasn’t the destination that mattered, but journey that does. Success is not about being there, it is about the path you choose to reach there. So thats my story, with lot of things cut out as I dont want to write a book just a blog. Comments and criticisms appreciated.</p>
 
+    </div>
+  </article>
+
   
+  
+
+
+
+
+
+  <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="https://shubhamjain0594.github.io/">Home</a></li>
+         
+          <li><a href="https://shubhamjain0594.github.io/post">All posts</a></li>
+         
+          <li><a href="https://shubhamjain0594.github.io/tags">Tags</a></li>
+         
+          <li><a href="https://shubhamjain0594.github.io/about">About</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <nav id="TableOfContents"></nav>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      
+      <ul>
+  
+  
+    
+  
+  
+  <li>
+    <a class="icon" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2ffrom-an-unknown-to-someone%2f" aria-label="Facebook">
+      <i class="fab fa-facebook fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://twitter.com/share?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2ffrom-an-unknown-to-someone%2f&text=From%20an%20unknown%20to%20someone" aria-label="Twitter">
+      <i class="fab fa-twitter fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2ffrom-an-unknown-to-someone%2f&title=From%20an%20unknown%20to%20someone" aria-label="Linkedin">
+      <i class="fab fa-linkedin fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2ffrom-an-unknown-to-someone%2f&is_video=false&description=From%20an%20unknown%20to%20someone" aria-label="Pinterest">
+      <i class="fab fa-pinterest fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="mailto:?subject=From%20an%20unknown%20to%20someone&body=Check out this article: https%3a%2f%2fshubhamjain0594.github.io%2fpost%2ffrom-an-unknown-to-someone%2f" aria-label="Email">
+      <i class="fas fa-envelope fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://getpocket.com/save?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2ffrom-an-unknown-to-someone%2f&title=From%20an%20unknown%20to%20someone" aria-label="Pocket">
+      <i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://reddit.com/submit?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2ffrom-an-unknown-to-someone%2f&title=From%20an%20unknown%20to%20someone" aria-label="reddit">
+      <i class="fab fa-reddit fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2ffrom-an-unknown-to-someone%2f&name=From%20an%20unknown%20to%20someone&description=Yo%20Junta%2c%20this%20is%20Shubham%20Jain%20a%20student%20at%20IIT%20Bombay.%20Being%20an%20IITian%2c%20I%20always%20encounter%20someone%20who%20wants%20some%20advice%2c%20guidance%20on%20how%20to%20go%20for%20JEE%2c%20is%20he%20capable%20and%20all.%20So%20I%20thought%20why%20not%20just%20write%20down%20my%20experience%20and%20share%20with%20world.%20I%20know%20there%20are%20already%20many%20blogs%20on%20this%20and%20my%20blog%20isn%e2%80%99t%20any%20different%20apart%20from%20fact%20its%20my%20personal%20experience%20which%20for%20me%20is%20very%20different%20than%20others." aria-label="Tumblr">
+      <i class="fab fa-tumblr fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2ffrom-an-unknown-to-someone%2f&t=From%20an%20unknown%20to%20someone" aria-label="Hacker News">
+      <i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+      
+        <a id="menu-toggle" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;" aria-label="Menu">
+          <i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc-toggle" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;" aria-label="TOC">
+          <i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share-toggle" class="icon" href="#" onclick="$('#share-footer').toggle();return false;" aria-label="Share">
+          <i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" aria-label="Top of Page">
+          <i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
   </div>
-</article>
+</div>
 
 
-    <footer id="footer">
+  <footer id="footer">
   <div class="footer-left">
     Copyright  &copy; 2021  &amp;copy; 2021. All rights reserved. 
   </div>
@@ -103,7 +306,7 @@
          
         <li><a href="https://shubhamjain0594.github.io/">Home</a></li>
          
-        <li><a href="https://shubhamjain0594.github.io/posts">All posts</a></li>
+        <li><a href="https://shubhamjain0594.github.io/post">All posts</a></li>
          
         <li><a href="https://shubhamjain0594.github.io/tags">Tags</a></li>
          
@@ -121,4 +324,7 @@
 <link rel="stylesheet" href=https://shubhamjain0594.github.io/lib/font-awesome/css/all.min.css>
 <script src=https://shubhamjain0594.github.io/lib/jquery/jquery.min.js></script>
 <script src=https://shubhamjain0594.github.io/js/main.js></script>
+
+
+
 </html>
