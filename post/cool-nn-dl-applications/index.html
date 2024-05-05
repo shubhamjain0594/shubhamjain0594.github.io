@@ -1,15 +1,256 @@
-<!doctype html><html lang><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge"><title>Cool NN and DL applications | Dora's world</title><meta name=viewport content="width=device-width,initial-scale=1"><meta name=robots content="all,follow"><meta name=googlebot content="index,follow,snippet,archive"><meta property="og:title" content="Cool NN and DL applications"><meta property="og:description" content="Deep learning and Neural Networks have some really cool applications (ideas), and here are a few I have come across and are really tangential to mainstream applications.
-Defeating Image Obfuscation with Deep Learning This paper from Cornell and University of Texas at Austin uses DL to reconstruct the images which are pixelated, blurred or encrypted using privacy-preserving photo (P3) algorithm. These techniques are many times used to hide the identities in some sensitive videos and photos in various media."><meta property="og:type" content="article"><meta property="og:url" content="https://shubhamjain0594.github.io/post/cool-nn-dl-applications/"><meta property="article:section" content="post"><meta property="article:published_time" content="2016-09-18T14:54:14+05:30"><meta property="article:modified_time" content="2016-09-18T14:54:14+05:30"><meta name=twitter:card content="summary"><meta name=twitter:title content="Cool NN and DL applications"><meta name=twitter:description content="Deep learning and Neural Networks have some really cool applications (ideas), and here are a few I have come across and are really tangential to mainstream applications.
-Defeating Image Obfuscation with Deep Learning This paper from Cornell and University of Texas at Austin uses DL to reconstruct the images which are pixelated, blurred or encrypted using privacy-preserving photo (P3) algorithm. These techniques are many times used to hide the identities in some sensitive videos and photos in various media."><link rel=stylesheet href=https://shubhamjain0594.github.io/css/style-white.css><!--[if lt IE 9]><script src=https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js></script><script src=https://oss.maxcdn.com/respond/1.4.2/respond.min.js></script><![endif]--><link rel=icon type=image/png href=https://shubhamjain0594.github.io/images/favicon.ico></head><body class="max-width mx-auto px3 ltr"><div class="content index py4"><div id=header-post><a id=menu-icon href=#><i class="fas fa-bars fa-lg"></i></a>
+<!doctype html><html lang>
+<head>
+<meta charset=utf-8>
+<meta http-equiv=x-ua-compatible content="IE=edge">
+<title> Cool NN and DL applications | Dora's world</title>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=robots content="all,follow">
+<meta name=googlebot content="index,follow,snippet,archive">
+<meta property="og:title" content="Cool NN and DL applications">
+<meta property="og:description" content="Deep learning and Neural Networks have some really cool applications (ideas), and here are a few I have come across and are really tangential to mainstream applications.
+Defeating Image Obfuscation with Deep Learning This paper from Cornell and University of Texas at Austin uses DL to reconstruct the images which are pixelated, blurred or encrypted using privacy-preserving photo (P3) algorithm. These techniques are many times used to hide the identities in some sensitive videos and photos in various media.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://shubhamjain0594.github.io/post/cool-nn-dl-applications/"><meta property="article:section" content="post">
+<meta property="article:published_time" content="2016-09-18T14:54:14+05:30">
+<meta property="article:modified_time" content="2016-09-18T14:54:14+05:30">
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="Cool NN and DL applications">
+<meta name=twitter:description content="Deep learning and Neural Networks have some really cool applications (ideas), and here are a few I have come across and are really tangential to mainstream applications.
+Defeating Image Obfuscation with Deep Learning This paper from Cornell and University of Texas at Austin uses DL to reconstruct the images which are pixelated, blurred or encrypted using privacy-preserving photo (P3) algorithm. These techniques are many times used to hide the identities in some sensitive videos and photos in various media.">
+<link rel=stylesheet href=https://shubhamjain0594.github.io/css/style-white.css><!--[if lt IE 9]><script src=https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js></script>
+<script src=https://oss.maxcdn.com/respond/1.4.2/respond.min.js></script><![endif]-->
+<link rel=icon type=image/png href=https://shubhamjain0594.github.io/images/favicon.ico>
+</head>
+<body class="max-width mx-auto px3 ltr">
+<div class="content index py4">
+<div id=header-post>
+<a id=menu-icon href=#><i class="fas fa-bars fa-lg"></i></a>
 <a id=menu-icon-tablet href=#><i class="fas fa-bars fa-lg"></i></a>
 <a id=top-icon-tablet href=# onclick="$('html, body').animate({scrollTop:0},'fast')" style=display:none aria-label="Top of Page"><i class="fas fa-chevron-up fa-lg"></i></a>
-<span id=menu><span id=nav><ul><li><a href=https://shubhamjain0594.github.io/>Home</a></li><li><a href=https://shubhamjain0594.github.io/post>All posts</a></li><li><a href=https://shubhamjain0594.github.io/tags>Tags</a></li><li><a href=https://shubhamjain0594.github.io/about>About</a></li></ul></span><br><span id=actions><ul><li><a class=icon href=https://shubhamjain0594.github.io/post/good-deep-learning-blog-posts/ aria-label=Previous><i class="fas fa-chevron-left" aria-hidden=true onmouseover="$('#i-prev').toggle()" onmouseout="$('#i-prev').toggle()"></i></a></li><li><a class=icon href=https://shubhamjain0594.github.io/post/hugo-larochelle-ted/ aria-label=Next><i class="fas fa-chevron-right" aria-hidden=true onmouseover="$('#i-next').toggle()" onmouseout="$('#i-next').toggle()"></i></a></li><li><a class=icon href=# onclick="$('html, body').animate({scrollTop:0},'fast')" aria-label="Top of Page"><i class="fas fa-chevron-up" aria-hidden=true onmouseover="$('#i-top').toggle()" onmouseout="$('#i-top').toggle()"></i></a></li><li><a class=icon href=# aria-label=Share><i class="fas fa-share-alt" aria-hidden=true onmouseover="$('#i-share').toggle()" onmouseout="$('#i-share').toggle()" onclick="return $('#share').toggle(),!1"></i></a></li></ul><span id=i-prev class=info style=display:none>Previous post</span>
+<span id=menu>
+<span id=nav>
+<ul>
+<li><a href=https://shubhamjain0594.github.io/>Home</a></li>
+<li><a href=https://shubhamjain0594.github.io/post>All posts</a></li>
+<li><a href=https://shubhamjain0594.github.io/tags>Tags</a></li>
+<li><a href=https://shubhamjain0594.github.io/about>About</a></li>
+</ul>
+</span>
+<br>
+<span id=actions>
+<ul>
+<li>
+<a class=icon href=https://shubhamjain0594.github.io/post/good-deep-learning-blog-posts/ aria-label=Previous>
+<i class="fas fa-chevron-left" aria-hidden=true onmouseover="$('#i-prev').toggle()" onmouseout="$('#i-prev').toggle()"></i>
+</a>
+</li>
+<li>
+<a class=icon href=https://shubhamjain0594.github.io/post/hugo-larochelle-ted/ aria-label=Next>
+<i class="fas fa-chevron-right" aria-hidden=true onmouseover="$('#i-next').toggle()" onmouseout="$('#i-next').toggle()"></i>
+</a>
+</li>
+<li>
+<a class=icon href=# onclick="$('html, body').animate({scrollTop:0},'fast')" aria-label="Top of Page">
+<i class="fas fa-chevron-up" aria-hidden=true onmouseover="$('#i-top').toggle()" onmouseout="$('#i-top').toggle()"></i>
+</a>
+</li>
+<li>
+<a class=icon href=# aria-label=Share>
+<i class="fas fa-share-alt" aria-hidden=true onmouseover="$('#i-share').toggle()" onmouseout="$('#i-share').toggle()" onclick="return $('#share').toggle(),!1"></i>
+</a>
+</li>
+</ul>
+<span id=i-prev class=info style=display:none>Previous post</span>
 <span id=i-next class=info style=display:none>Next post</span>
 <span id=i-top class=info style=display:none>Back to top</span>
-<span id=i-share class=info style=display:none>Share post</span></span><br><div id=share style=display:none><ul><li><a class=icon href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fcool-nn-dl-applications%2f" aria-label=Facebook><i class="fab fa-facebook" aria-hidden=true></i></a></li><li><a class=icon href="https://twitter.com/share?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fcool-nn-dl-applications%2f&text=Cool%20NN%20and%20DL%20applications" aria-label=Twitter><i class="fab fa-twitter" aria-hidden=true></i></a></li><li><a class=icon href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fcool-nn-dl-applications%2f&title=Cool%20NN%20and%20DL%20applications" aria-label=Linkedin><i class="fab fa-linkedin" aria-hidden=true></i></a></li><li><a class=icon href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fcool-nn-dl-applications%2f&is_video=false&description=Cool%20NN%20and%20DL%20applications" aria-label=Pinterest><i class="fab fa-pinterest" aria-hidden=true></i></a></li><li><a class=icon href="mailto:?subject=Cool%20NN%20and%20DL%20applications&body=Check out this article: https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fcool-nn-dl-applications%2f" aria-label=Email><i class="fas fa-envelope" aria-hidden=true></i></a></li><li><a class=icon href="https://getpocket.com/save?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fcool-nn-dl-applications%2f&title=Cool%20NN%20and%20DL%20applications" aria-label=Pocket><i class="fab fa-get-pocket" aria-hidden=true></i></a></li><li><a class=icon href="http://reddit.com/submit?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fcool-nn-dl-applications%2f&title=Cool%20NN%20and%20DL%20applications" aria-label=reddit><i class="fab fa-reddit" aria-hidden=true></i></a></li><li><a class=icon href="http://www.tumblr.com/share/link?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fcool-nn-dl-applications%2f&name=Cool%20NN%20and%20DL%20applications&description=Deep%20learning%20and%20Neural%20Networks%20have%20some%20really%20cool%20applications%20%28ideas%29%2c%20and%20here%20are%20a%20few%20I%20have%20come%20across%20and%20are%20really%20tangential%20to%20mainstream%20applications.%0aDefeating%20Image%20Obfuscation%20with%20Deep%20Learning%20This%20paper%20from%20Cornell%20and%20University%20of%20Texas%20at%20Austin%20uses%20DL%20to%20reconstruct%20the%20images%20which%20are%20pixelated%2c%20blurred%20or%20encrypted%20using%20privacy-preserving%20photo%20%28P3%29%20algorithm.%20These%20techniques%20are%20many%20times%20used%20to%20hide%20the%20identities%20in%20some%20sensitive%20videos%20and%20photos%20in%20various%20media." aria-label=Tumblr><i class="fab fa-tumblr" aria-hidden=true></i></a></li><li><a class=icon href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fcool-nn-dl-applications%2f&t=Cool%20NN%20and%20DL%20applications" aria-label="Hacker News"><i class="fab fa-hacker-news" aria-hidden=true></i></a></li></ul></div><div id=toc><nav id=TableOfContents><ul><li><a href=#defeating-image-obfuscation-with-deep-learninghttpsarxivorgpdf160900408v2pdf><a href=https://arxiv.org/pdf/1609.00408v2.pdf>Defeating Image Obfuscation with Deep Learning</a></a></li><li><a href=#detecting-the-programming-language-of-source-code-snippets-using-machine-learning-and-neural-networkshttpdanielheresspacejekyllupdate20160718detecting-the-programming-language-of-source-code-snippets-using-machine-learning-and-neural-networkshtml><a href=(http://danielheres.space/jekyll/update/2016/07/18/detecting-the-programming-language-of-source-code-snippets-using-machine-learning-and-neural-networks.html)>Detecting the Programming Language of Source Code Snippets using Machine Learning and Neural Networks</a></a></li><li><a href=#deep-goldhttpshackernooncomdeep-gold-using-convolution-networks-to-find-minerals-aafdb37355dfbzdqahgbh><a href=https://hackernoon.com/deep-gold-using-convolution-networks-to-find-minerals-aafdb37355df#.bzdqahgbh>Deep Gold</a></a></li></ul></nav></div></span></div><article class=post itemscope itemtype=http://schema.org/BlogPosting><header><h1 class=posttitle itemprop="name headline">Cool NN and DL applications</h1><div class=meta><div class=postdate><time datetime="2016-09-18 14:54:14 +0530 +0530" itemprop=datePublished>2016-09-18</time></div><div class=article-tag><i class="fas fa-tag"></i>
+<span id=i-share class=info style=display:none>Share post</span>
+</span>
+<br>
+<div id=share style=display:none>
+<ul>
+<li>
+<a class=icon href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fcool-nn-dl-applications%2f" aria-label=Facebook>
+<i class="fab fa-facebook" aria-hidden=true></i>
+</a>
+</li>
+<li>
+<a class=icon href="https://twitter.com/share?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fcool-nn-dl-applications%2f&text=Cool%20NN%20and%20DL%20applications" aria-label=Twitter>
+<i class="fab fa-twitter" aria-hidden=true></i>
+</a>
+</li>
+<li>
+<a class=icon href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fcool-nn-dl-applications%2f&title=Cool%20NN%20and%20DL%20applications" aria-label=Linkedin>
+<i class="fab fa-linkedin" aria-hidden=true></i>
+</a>
+</li>
+<li>
+<a class=icon href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fcool-nn-dl-applications%2f&is_video=false&description=Cool%20NN%20and%20DL%20applications" aria-label=Pinterest>
+<i class="fab fa-pinterest" aria-hidden=true></i>
+</a>
+</li>
+<li>
+<a class=icon href="mailto:?subject=Cool%20NN%20and%20DL%20applications&body=Check out this article: https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fcool-nn-dl-applications%2f" aria-label=Email>
+<i class="fas fa-envelope" aria-hidden=true></i>
+</a>
+</li>
+<li>
+<a class=icon href="https://getpocket.com/save?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fcool-nn-dl-applications%2f&title=Cool%20NN%20and%20DL%20applications" aria-label=Pocket>
+<i class="fab fa-get-pocket" aria-hidden=true></i>
+</a>
+</li>
+<li>
+<a class=icon href="http://reddit.com/submit?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fcool-nn-dl-applications%2f&title=Cool%20NN%20and%20DL%20applications" aria-label=reddit>
+<i class="fab fa-reddit" aria-hidden=true></i>
+</a>
+</li>
+<li>
+<a class=icon href="http://www.tumblr.com/share/link?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fcool-nn-dl-applications%2f&name=Cool%20NN%20and%20DL%20applications&description=Deep%20learning%20and%20Neural%20Networks%20have%20some%20really%20cool%20applications%20%28ideas%29%2c%20and%20here%20are%20a%20few%20I%20have%20come%20across%20and%20are%20really%20tangential%20to%20mainstream%20applications.%0aDefeating%20Image%20Obfuscation%20with%20Deep%20Learning%20This%20paper%20from%20Cornell%20and%20University%20of%20Texas%20at%20Austin%20uses%20DL%20to%20reconstruct%20the%20images%20which%20are%20pixelated%2c%20blurred%20or%20encrypted%20using%20privacy-preserving%20photo%20%28P3%29%20algorithm.%20These%20techniques%20are%20many%20times%20used%20to%20hide%20the%20identities%20in%20some%20sensitive%20videos%20and%20photos%20in%20various%20media." aria-label=Tumblr>
+<i class="fab fa-tumblr" aria-hidden=true></i>
+</a>
+</li>
+<li>
+<a class=icon href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fcool-nn-dl-applications%2f&t=Cool%20NN%20and%20DL%20applications" aria-label="Hacker News">
+<i class="fab fa-hacker-news" aria-hidden=true></i>
+</a>
+</li>
+</ul>
+</div>
+<div id=toc>
+<nav id=TableOfContents>
+<ul>
+<li><a href=#defeating-image-obfuscation-with-deep-learninghttpsarxivorgpdf160900408v2pdf><a href=https://arxiv.org/pdf/1609.00408v2.pdf>Defeating Image Obfuscation with Deep Learning</a></a></li>
+<li><a href=#detecting-the-programming-language-of-source-code-snippets-using-machine-learning-and-neural-networkshttpdanielheresspacejekyllupdate20160718detecting-the-programming-language-of-source-code-snippets-using-machine-learning-and-neural-networkshtml><a href=(http://danielheres.space/jekyll/update/2016/07/18/detecting-the-programming-language-of-source-code-snippets-using-machine-learning-and-neural-networks.html)>Detecting the Programming Language of Source Code Snippets using Machine Learning and Neural Networks</a></a></li>
+<li><a href=#deep-goldhttpshackernooncomdeep-gold-using-convolution-networks-to-find-minerals-aafdb37355dfbzdqahgbh><a href=https://hackernoon.com/deep-gold-using-convolution-networks-to-find-minerals-aafdb37355df#.bzdqahgbh>Deep Gold</a></a></li>
+</ul>
+</nav>
+</div>
+</span>
+</div>
+<article class=post itemscope itemtype=http://schema.org/BlogPosting>
+<header>
+<h1 class=posttitle itemprop="name headline">
+Cool NN and DL applications
+</h1>
+<div class=meta>
+<div class=postdate>
+<time datetime="2016-09-18 14:54:14 +0530 +0530" itemprop=datePublished>2016-09-18</time>
+</div>
+<div class=article-tag>
+<i class="fas fa-tag"></i>
 <a class=tag-link href=https://shubhamjain0594.github.io/tags/deep-learning rel=tag>deep-learning</a>
 ,
-<a class=tag-link href=https://shubhamjain0594.github.io/tags/applications rel=tag>applications</a></div></div></header><div class=content itemprop=articleBody><p>Deep learning and Neural Networks have some really cool applications (ideas), and here are a few I have come across and are really tangential to mainstream applications.</p><h2 id=defeating-image-obfuscation-with-deep-learninghttpsarxivorgpdf160900408v2pdf><a href=https://arxiv.org/pdf/1609.00408v2.pdf>Defeating Image Obfuscation with Deep Learning</a></h2><p><a href=https://arxiv.org/pdf/1609.00408v2.pdf>This</a> paper from Cornell and University of Texas at Austin uses DL to reconstruct the images which are pixelated, blurred or encrypted using privacy-preserving photo (P3) algorithm. These techniques are many times used to hide the identities in some sensitive videos and photos in various media. These techniques are as well used in cryptography and hence current DL methods will push cryptographes to discover methods to ensure privacy of media can be maintained.</p><h2 id=detecting-the-programming-language-of-source-code-snippets-using-machine-learning-and-neural-networkshttpdanielheresspacejekyllupdate20160718detecting-the-programming-language-of-source-code-snippets-using-machine-learning-and-neural-networkshtml><a href=(http://danielheres.space/jekyll/update/2016/07/18/detecting-the-programming-language-of-source-code-snippets-using-machine-learning-and-neural-networks.html)>Detecting the Programming Language of Source Code Snippets using Machine Learning and Neural Networks</a></h2><p>I came across <a href=http://danielheres.space/jekyll/update/2016/07/18/detecting-the-programming-language-of-source-code-snippets-using-machine-learning-and-neural-networks.html>this</a> blog post while searching for something related to compilation. I found this idea very appreciative and that can be implemented by multiple code engines like <a href=codechef.com>codechef</a>, <a href=hackerrank.com>hackerrank</a>, etc. It is a well thought and built approach and does not even use deep neural nets for the purpose. They have also hosted a <a href=http://petiteprogrammer.com/>trial platform</a> where you can test their model.</p><h2 id=deep-goldhttpshackernooncomdeep-gold-using-convolution-networks-to-find-minerals-aafdb37355dfbzdqahgbh><a href=https://hackernoon.com/deep-gold-using-convolution-networks-to-find-minerals-aafdb37355df#.bzdqahgbh>Deep Gold</a></h2><p>Deep learning on images has been around for sometime right now and we have seen some really impressive results. Similarly for finding locations that may have minerals or oil, satellite images are used, they are judged by geologists, who give a conclusion. The author <a href=https://hackernoon.com/deep-gold-using-convolution-networks-to-find-minerals-aafdb37355df#.bzdqahgbh>here</a> has developed a convolutional net that when trained, tells you the possible locations of a goldmine field. Though the results are not really impressive, but it has shown what more we can expect from DL in next few years. DL to find Oil is coming soon.</p></div></article><div id=footer-post-container><div id=footer-post><div id=nav-footer style=display:none><ul><li><a href=https://shubhamjain0594.github.io/>Home</a></li><li><a href=https://shubhamjain0594.github.io/post>All posts</a></li><li><a href=https://shubhamjain0594.github.io/tags>Tags</a></li><li><a href=https://shubhamjain0594.github.io/about>About</a></li></ul></div><div id=toc-footer style=display:none><nav id=TableOfContents><ul><li><a href=#defeating-image-obfuscation-with-deep-learninghttpsarxivorgpdf160900408v2pdf><a href=https://arxiv.org/pdf/1609.00408v2.pdf>Defeating Image Obfuscation with Deep Learning</a></a></li><li><a href=#detecting-the-programming-language-of-source-code-snippets-using-machine-learning-and-neural-networkshttpdanielheresspacejekyllupdate20160718detecting-the-programming-language-of-source-code-snippets-using-machine-learning-and-neural-networkshtml><a href=(http://danielheres.space/jekyll/update/2016/07/18/detecting-the-programming-language-of-source-code-snippets-using-machine-learning-and-neural-networks.html)>Detecting the Programming Language of Source Code Snippets using Machine Learning and Neural Networks</a></a></li><li><a href=#deep-goldhttpshackernooncomdeep-gold-using-convolution-networks-to-find-minerals-aafdb37355dfbzdqahgbh><a href=https://hackernoon.com/deep-gold-using-convolution-networks-to-find-minerals-aafdb37355df#.bzdqahgbh>Deep Gold</a></a></li></ul></nav></div><div id=share-footer style=display:none><ul><li><a class=icon href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fcool-nn-dl-applications%2f" aria-label=Facebook><i class="fab fa-facebook fa-lg" aria-hidden=true></i></a></li><li><a class=icon href="https://twitter.com/share?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fcool-nn-dl-applications%2f&text=Cool%20NN%20and%20DL%20applications" aria-label=Twitter><i class="fab fa-twitter fa-lg" aria-hidden=true></i></a></li><li><a class=icon href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fcool-nn-dl-applications%2f&title=Cool%20NN%20and%20DL%20applications" aria-label=Linkedin><i class="fab fa-linkedin fa-lg" aria-hidden=true></i></a></li><li><a class=icon href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fcool-nn-dl-applications%2f&is_video=false&description=Cool%20NN%20and%20DL%20applications" aria-label=Pinterest><i class="fab fa-pinterest fa-lg" aria-hidden=true></i></a></li><li><a class=icon href="mailto:?subject=Cool%20NN%20and%20DL%20applications&body=Check out this article: https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fcool-nn-dl-applications%2f" aria-label=Email><i class="fas fa-envelope fa-lg" aria-hidden=true></i></a></li><li><a class=icon href="https://getpocket.com/save?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fcool-nn-dl-applications%2f&title=Cool%20NN%20and%20DL%20applications" aria-label=Pocket><i class="fab fa-get-pocket fa-lg" aria-hidden=true></i></a></li><li><a class=icon href="http://reddit.com/submit?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fcool-nn-dl-applications%2f&title=Cool%20NN%20and%20DL%20applications" aria-label=reddit><i class="fab fa-reddit fa-lg" aria-hidden=true></i></a></li><li><a class=icon href="http://www.tumblr.com/share/link?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fcool-nn-dl-applications%2f&name=Cool%20NN%20and%20DL%20applications&description=Deep%20learning%20and%20Neural%20Networks%20have%20some%20really%20cool%20applications%20%28ideas%29%2c%20and%20here%20are%20a%20few%20I%20have%20come%20across%20and%20are%20really%20tangential%20to%20mainstream%20applications.%0aDefeating%20Image%20Obfuscation%20with%20Deep%20Learning%20This%20paper%20from%20Cornell%20and%20University%20of%20Texas%20at%20Austin%20uses%20DL%20to%20reconstruct%20the%20images%20which%20are%20pixelated%2c%20blurred%20or%20encrypted%20using%20privacy-preserving%20photo%20%28P3%29%20algorithm.%20These%20techniques%20are%20many%20times%20used%20to%20hide%20the%20identities%20in%20some%20sensitive%20videos%20and%20photos%20in%20various%20media." aria-label=Tumblr><i class="fab fa-tumblr fa-lg" aria-hidden=true></i></a></li><li><a class=icon href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fcool-nn-dl-applications%2f&t=Cool%20NN%20and%20DL%20applications" aria-label="Hacker News"><i class="fab fa-hacker-news fa-lg" aria-hidden=true></i></a></li></ul></div><div id=actions-footer><a id=menu-toggle class=icon href=# onclick="return $('#nav-footer').toggle(),!1" aria-label=Menu><i class="fas fa-bars fa-lg" aria-hidden=true></i> Menu</a>
-<a id=toc-toggle class=icon href=# onclick="return $('#toc-footer').toggle(),!1" aria-label=TOC><i class="fas fa-list fa-lg" aria-hidden=true></i> TOC</a>
-<a id=share-toggle class=icon href=# onclick="return $('#share-footer').toggle(),!1" aria-label=Share><i class="fas fa-share-alt fa-lg" aria-hidden=true></i> share</a>
-<a id=top style=display:none class=icon href=# onclick="$('html, body').animate({scrollTop:0},'fast')" aria-label="Top of Page"><i class="fas fa-chevron-up fa-lg" aria-hidden=true></i> Top</a></div></div></div><footer id=footer><div class=footer-left>Copyright &copy; 2021 &amp;copy; 2021. All rights reserved.</div><div class=footer-right><nav><ul><li><a href=https://shubhamjain0594.github.io/>Home</a></li><li><a href=https://shubhamjain0594.github.io/post>All posts</a></li><li><a href=https://shubhamjain0594.github.io/tags>Tags</a></li><li><a href=https://shubhamjain0594.github.io/about>About</a></li></ul></nav></div></footer></div></body><link rel=stylesheet href=https://shubhamjain0594.github.io/lib/font-awesome/css/all.min.css><script src=https://shubhamjain0594.github.io/lib/jquery/jquery.min.js></script><script src=https://shubhamjain0594.github.io/js/main.js></script></html>
+<a class=tag-link href=https://shubhamjain0594.github.io/tags/applications rel=tag>applications</a>
+</div>
+</div>
+</header>
+<div class=content itemprop=articleBody>
+<p>Deep learning and Neural Networks have some really cool applications (ideas), and here are a few I have come across and are really tangential to mainstream applications.</p>
+<h2 id=defeating-image-obfuscation-with-deep-learninghttpsarxivorgpdf160900408v2pdf><a href=https://arxiv.org/pdf/1609.00408v2.pdf>Defeating Image Obfuscation with Deep Learning</a></h2>
+<p><a href=https://arxiv.org/pdf/1609.00408v2.pdf>This</a> paper from Cornell and University of Texas at Austin uses DL to reconstruct the images which are pixelated, blurred or encrypted using privacy-preserving photo (P3) algorithm. These techniques are many times used to hide the identities in some sensitive videos and photos in various media. These techniques are as well used in cryptography and hence current DL methods will push cryptographes to discover methods to ensure privacy of media can be maintained.</p>
+<h2 id=detecting-the-programming-language-of-source-code-snippets-using-machine-learning-and-neural-networkshttpdanielheresspacejekyllupdate20160718detecting-the-programming-language-of-source-code-snippets-using-machine-learning-and-neural-networkshtml><a href=(http://danielheres.space/jekyll/update/2016/07/18/detecting-the-programming-language-of-source-code-snippets-using-machine-learning-and-neural-networks.html)>Detecting the Programming Language of Source Code Snippets using Machine Learning and Neural Networks</a></h2>
+<p>I came across <a href=http://danielheres.space/jekyll/update/2016/07/18/detecting-the-programming-language-of-source-code-snippets-using-machine-learning-and-neural-networks.html>this</a> blog post while searching for something related to compilation. I found this idea very appreciative and that can be implemented by multiple code engines like <a href=codechef.com>codechef</a>, <a href=hackerrank.com>hackerrank</a>, etc. It is a well thought and built approach and does not even use deep neural nets for the purpose. They have also hosted a <a href=http://petiteprogrammer.com/>trial platform</a> where you can test their model.</p>
+<h2 id=deep-goldhttpshackernooncomdeep-gold-using-convolution-networks-to-find-minerals-aafdb37355dfbzdqahgbh><a href=https://hackernoon.com/deep-gold-using-convolution-networks-to-find-minerals-aafdb37355df#.bzdqahgbh>Deep Gold</a></h2>
+<p>Deep learning on images has been around for sometime right now and we have seen some really impressive results. Similarly for finding locations that may have minerals or oil, satellite images are used, they are judged by geologists, who give a conclusion. The author <a href=https://hackernoon.com/deep-gold-using-convolution-networks-to-find-minerals-aafdb37355df#.bzdqahgbh>here</a> has developed a convolutional net that when trained, tells you the possible locations of a goldmine field. Though the results are not really impressive, but it has shown what more we can expect from DL in next few years. DL to find Oil is coming soon.</p>
+</div>
+</article>
+<div id=footer-post-container>
+<div id=footer-post>
+<div id=nav-footer style=display:none>
+<ul>
+<li><a href=https://shubhamjain0594.github.io/>Home</a></li>
+<li><a href=https://shubhamjain0594.github.io/post>All posts</a></li>
+<li><a href=https://shubhamjain0594.github.io/tags>Tags</a></li>
+<li><a href=https://shubhamjain0594.github.io/about>About</a></li>
+</ul>
+</div>
+<div id=toc-footer style=display:none>
+<nav id=TableOfContents>
+<ul>
+<li><a href=#defeating-image-obfuscation-with-deep-learninghttpsarxivorgpdf160900408v2pdf><a href=https://arxiv.org/pdf/1609.00408v2.pdf>Defeating Image Obfuscation with Deep Learning</a></a></li>
+<li><a href=#detecting-the-programming-language-of-source-code-snippets-using-machine-learning-and-neural-networkshttpdanielheresspacejekyllupdate20160718detecting-the-programming-language-of-source-code-snippets-using-machine-learning-and-neural-networkshtml><a href=(http://danielheres.space/jekyll/update/2016/07/18/detecting-the-programming-language-of-source-code-snippets-using-machine-learning-and-neural-networks.html)>Detecting the Programming Language of Source Code Snippets using Machine Learning and Neural Networks</a></a></li>
+<li><a href=#deep-goldhttpshackernooncomdeep-gold-using-convolution-networks-to-find-minerals-aafdb37355dfbzdqahgbh><a href=https://hackernoon.com/deep-gold-using-convolution-networks-to-find-minerals-aafdb37355df#.bzdqahgbh>Deep Gold</a></a></li>
+</ul>
+</nav>
+</div>
+<div id=share-footer style=display:none>
+<ul>
+<li>
+<a class=icon href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fcool-nn-dl-applications%2f" aria-label=Facebook>
+<i class="fab fa-facebook fa-lg" aria-hidden=true></i>
+</a>
+</li>
+<li>
+<a class=icon href="https://twitter.com/share?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fcool-nn-dl-applications%2f&text=Cool%20NN%20and%20DL%20applications" aria-label=Twitter>
+<i class="fab fa-twitter fa-lg" aria-hidden=true></i>
+</a>
+</li>
+<li>
+<a class=icon href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fcool-nn-dl-applications%2f&title=Cool%20NN%20and%20DL%20applications" aria-label=Linkedin>
+<i class="fab fa-linkedin fa-lg" aria-hidden=true></i>
+</a>
+</li>
+<li>
+<a class=icon href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fcool-nn-dl-applications%2f&is_video=false&description=Cool%20NN%20and%20DL%20applications" aria-label=Pinterest>
+<i class="fab fa-pinterest fa-lg" aria-hidden=true></i>
+</a>
+</li>
+<li>
+<a class=icon href="mailto:?subject=Cool%20NN%20and%20DL%20applications&body=Check out this article: https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fcool-nn-dl-applications%2f" aria-label=Email>
+<i class="fas fa-envelope fa-lg" aria-hidden=true></i>
+</a>
+</li>
+<li>
+<a class=icon href="https://getpocket.com/save?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fcool-nn-dl-applications%2f&title=Cool%20NN%20and%20DL%20applications" aria-label=Pocket>
+<i class="fab fa-get-pocket fa-lg" aria-hidden=true></i>
+</a>
+</li>
+<li>
+<a class=icon href="http://reddit.com/submit?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fcool-nn-dl-applications%2f&title=Cool%20NN%20and%20DL%20applications" aria-label=reddit>
+<i class="fab fa-reddit fa-lg" aria-hidden=true></i>
+</a>
+</li>
+<li>
+<a class=icon href="http://www.tumblr.com/share/link?url=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fcool-nn-dl-applications%2f&name=Cool%20NN%20and%20DL%20applications&description=Deep%20learning%20and%20Neural%20Networks%20have%20some%20really%20cool%20applications%20%28ideas%29%2c%20and%20here%20are%20a%20few%20I%20have%20come%20across%20and%20are%20really%20tangential%20to%20mainstream%20applications.%0aDefeating%20Image%20Obfuscation%20with%20Deep%20Learning%20This%20paper%20from%20Cornell%20and%20University%20of%20Texas%20at%20Austin%20uses%20DL%20to%20reconstruct%20the%20images%20which%20are%20pixelated%2c%20blurred%20or%20encrypted%20using%20privacy-preserving%20photo%20%28P3%29%20algorithm.%20These%20techniques%20are%20many%20times%20used%20to%20hide%20the%20identities%20in%20some%20sensitive%20videos%20and%20photos%20in%20various%20media." aria-label=Tumblr>
+<i class="fab fa-tumblr fa-lg" aria-hidden=true></i>
+</a>
+</li>
+<li>
+<a class=icon href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fshubhamjain0594.github.io%2fpost%2fcool-nn-dl-applications%2f&t=Cool%20NN%20and%20DL%20applications" aria-label="Hacker News">
+<i class="fab fa-hacker-news fa-lg" aria-hidden=true></i>
+</a>
+</li>
+</ul>
+</div>
+<div id=actions-footer>
+<a id=menu-toggle class=icon href=# onclick="return $('#nav-footer').toggle(),!1" aria-label=Menu>
+<i class="fas fa-bars fa-lg" aria-hidden=true></i> Menu</a>
+<a id=toc-toggle class=icon href=# onclick="return $('#toc-footer').toggle(),!1" aria-label=TOC>
+<i class="fas fa-list fa-lg" aria-hidden=true></i> TOC</a>
+<a id=share-toggle class=icon href=# onclick="return $('#share-footer').toggle(),!1" aria-label=Share>
+<i class="fas fa-share-alt fa-lg" aria-hidden=true></i> share</a>
+<a id=top style=display:none class=icon href=# onclick="$('html, body').animate({scrollTop:0},'fast')" aria-label="Top of Page">
+<i class="fas fa-chevron-up fa-lg" aria-hidden=true></i> Top</a>
+</div>
+</div>
+</div>
+<footer id=footer>
+<div class=footer-left>
+Copyright &copy; 2024 &amp;copy; 2021. All rights reserved.
+</div>
+<div class=footer-right>
+<nav>
+<ul>
+<li><a href=https://shubhamjain0594.github.io/>Home</a></li>
+<li><a href=https://shubhamjain0594.github.io/post>All posts</a></li>
+<li><a href=https://shubhamjain0594.github.io/tags>Tags</a></li>
+<li><a href=https://shubhamjain0594.github.io/about>About</a></li>
+</ul>
+</nav>
+</div>
+</footer>
+</div>
+</body>
+<link rel=stylesheet href=https://shubhamjain0594.github.io/lib/font-awesome/css/all.min.css>
+<script src=https://shubhamjain0594.github.io/lib/jquery/jquery.min.js></script>
+<script src=https://shubhamjain0594.github.io/js/main.js></script>
+</html>
